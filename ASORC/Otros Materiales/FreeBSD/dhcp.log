@@ -1,0 +1,5 @@
+Dec  3 16:35:59 Pedro pkg: dhcpd-6.0.20170207_2 installed
+Dec  3 16:43:49 Pedro pkg: dhcpd-6.0.20170207_2 deinstalled
+Dec  3 16:43:50 Pedro pkg: isc-dhcp44-server-4.4.1_3 installed
+2018-12-03 16:43:49 [root:groupadd] dhcpd(136)
+2018-12-03 16:43:49 [root:useradd] dhcpd(136):dhcpd(136):ISC DHCP daemon:/nonexistent:/usr/sbin/nologin

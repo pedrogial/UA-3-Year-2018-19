@@ -1,0 +1,4 @@
+Temperatura=20
+Humedad=50
+Luminosidad=20
+Pantalla=hola

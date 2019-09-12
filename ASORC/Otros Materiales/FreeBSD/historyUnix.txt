@@ -1,0 +1,167 @@
+     1	9:14	pkg upgrade
+     2	9:19	pkg ssh
+     3	9:19	pkg install ssh
+     4	9:19	pkg search ssh
+     5	9:20	pkg install openssh
+     6	9:25	pkg install sshd
+     7	9:26	ls -a
+     8	9:26	cd .profile
+     9	9:26	cd ..
+    10	9:26	cd /etc/
+    11	9:26	LS -A
+    12	9:27	ls -a
+    13	9:27	nano rc.conf
+    14	9:28	service sshd start
+    15	9:28	service sshd status
+    16	9:57	pkg update
+    17	9:14	pkg upgrade
+    18	9:19	pkg ssh
+    19	9:19	pkg install ssh
+    20	9:19	pkg search ssh
+    21	9:20	pkg install openssh
+    22	9:25	pkg install sshd
+    23	9:26	ls -a
+    24	9:26	cd .profile
+    25	9:26	cd ..
+    26	9:26	cd /etc/
+    27	9:26	LS -A
+    28	9:27	ls -a
+    29	9:27	nano rc.conf
+    30	9:28	service sshd start
+    31	9:28	service sshd status
+    32	9:57	pkg update
+    33	10:05	pkg update
+    34	10:39	cd ..
+    35	10:39	ls -a
+    36	10:39	cd ..
+    37	10:39	ls -a
+    38	10:39	cd ..
+    39	10:39	cd ..
+    40	10:39	ls .a
+    41	10:39	ls -a
+    42	10:42	nano /root/.vnc/xstartup
+    43	10:43	vncserver -kill :1
+    44	10:43	vncserver
+    45	10:44	nano /root/.vnc/xstartup
+    46	10:45	vncserver -kill :1
+    47	10:45	vncserver
+    48	10:46	nano /root/.vnc/xstartup
+    49	10:47	vncserver -kill :1
+    50	10:47	vncserver
+    51	10:48	pkg install -y mate mate-desktop xorg xf89-video-fbdev slim
+    52	10:48	nano /etc/rc.conf
+    53	10:49	exec mate-session
+    54	10:50	pkg install -y mate mate-desktop
+    55	10:53	nano /etc/rc.conf
+    56	10:53	exec mate-session
+    57	10:59	mate-session
+    58	12:33	vncserver
+    59	12:34	nano /etc/
+    60	12:34	cd ..
+    61	12:36	nano root/.vnc/xstartup
+    62	12:37	startxfce4
+    63	12:40	nano /root/.vnc/xstartup
+    64	12:40	vncserver -kill :1
+    65	12:40	vncserver
+    66	12:41	nano /root/.vnc/xstartup
+    67	12:42	nano /root/.vnc/xstartup
+    68	17:26	exist
+    69	17:26	exit
+    70	16:37	ssh -L 8081:www.ua.es:80 pedro@192.168.56.105
+    71	16:37	ssh -L 8081:www.ua.es:80 Pedro@192.168.56.105
+    72	17:32	poweroff
+    73	19:00	ssh-keygen
+    74	19:02	cd ..
+    75	19:03	nano /etc/ssh/sshd_config
+    76	19:05	mv root/.ssh/id_rsa.pub root/.ssh/authorized_keys
+    77	19:08	nano root/.ssh/id_rsa.pub
+    78	19:08	ls -a root/.ssh/
+    79	19:09	ls -a root/.ssh/authorized_keys
+    80	19:09	nano root/.ssh/authorized_keys
+    81	19:10	ssh-keygen
+    82	19:10	ssh-keygen
+    83	19:10	nano root/.ssh/id_rsa.pub
+    84	19:15	su
+    85	19:16	ls -a
+    86	19:16	cd ..
+    87	19:16	cp -r root/.ssh/ home/Pedro/Desktop/
+    88	16:23	service nfsd restart
+    89	16:24	ping 8.8.8.8
+    90	16:24	cd ..
+    91	16:25	touch /etc/exports
+    92	16:25	chmod 777 /etc/exports
+    93	16:25	chmod 777 /ada2/nfs
+    94	16:25	ls -a
+    95	16:25	ls -a
+    96	16:25	cd ada2
+    97	16:25	la -
+    98	16:25	ls -a
+    99	16:26	mkdir /ada2/nfs
+   100	16:26	chmod 777 /ada2/nfs
+   101	16:26	nano /etc/exports
+   102	16:27	services nfsd restart
+   103	16:27	service nfsd restart
+   104	16:28	cd ..
+   105	16:28	cd ..
+   106	16:29	service nfsd start
+   107	16:30	ifconfig
+   108	16:35	pkg install dhcp
+   109	16:35	pkg install dhcpd
+   110	16:42	pkg install isc-dhcp43-server
+   111	16:43	pkg search dhcp
+   112	16:43	pkg install isc-dhcp44-server
+   113	16:44	nano /etc/rc.conf
+   114	16:45	nano /etc/rc.conf
+   115	16:45	nano /usr/local/etc/dhcpd.conf
+   116	16:50	service isc-dhcpd restart
+   117	16:50	nano /etc/rc.conf
+   118	16:51	service isc-dhcpd restart
+   119	17:03	pkg install xrdp
+   120	17:03	nano /etc/rc.conf
+   121	17:04	service xrdp start
+   122	17:04	service xrdp restart
+   123	17:08	exit
+   124	13:09	nano /etc/rc.conf
+   125	13:10	nano /usr/local/etc/smb4.conf
+   126	13:12	mount /dev/ada1 /ada1
+   127	13:12	mount /dev/ada2 /ada2
+   128	13:12	mount /dev/ada3 /ada3
+   129	13:13	cd ada3
+   130	13:13	cd ..
+   131	13:13	cd ada3
+   132	13:13	ls -a
+   133	13:13	cd ..
+   134	13:13	cd ada2/
+   135	13:13	ls -a
+   136	13:13	cd ..
+   137	13:13	cd ada1/
+   138	13:13	ls -a
+   139	13:14	nano /usr/local/etc/smb4.conf
+   140	13:14	service samba_server start
+   141	13:14	service samba_server restart
+   142	13:15	ifconfig
+   143	13:17	nano /usr/local/etc/smb4.conf
+   144	13:18	mount /dev/ada1 /ada1
+   145	13:18	mount /dev/ada3 /ada3
+   146	13:19	nano /usr/local/etc/smb4.conf
+   147	13:19	service samba_server restart
+   148	13:19	mkdir samba
+   149	13:21	service devfs restart
+   150	13:21	service cupsd restart
+   151	13:40	cd ..
+   152	13:40	ls -a
+   153	13:41	cd etc/
+   154	13:41	ls -a
+   155	13:41	cd ..
+   156	13:41	cd var/
+   157	13:41	ls -a
+   158	13:41	cd spool/
+   159	13:41	ls -a
+   160	13:48	exit
+   161	13:49	poweroff
+   162	23:07	cd /home/
+   163	23:07	ls -a
+   164	23:07	ls -l
+   165	23:07	ls -h
+   166	23:07	ls -help
+   167	23:39	history

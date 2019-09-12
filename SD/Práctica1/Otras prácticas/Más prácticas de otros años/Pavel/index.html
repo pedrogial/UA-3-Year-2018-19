@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prácticas SD</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-indigo.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+</head>
+<body style="background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);">
+<h2 style="text-align: center">Práctica Sockets y RMI (SD 2016-2017)</h2>
+<div class="mdl-card mdl-shadow--2dp" style="margin: 2rem auto">
+    <div class="mdl-card__title mdl-card--border mdl-color--primary mdl-card--expand" style="">
+        <h2 class="mdl-card__title-text">Sensores Parking</h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="nombre">
+            <label class="mdl-textfield__label" for="nombre">Nombre</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="recurso">
+            <label class="mdl-textfield__label" for="recurso">Recurso</label>
+        </div>
+    </div>
+    <div class="sd-card-options  mdl-card__actions mdl-card--border">
+        <button class="mdl-button mdl-js-button mdl-button--accent" onclick="sensorInfo()">
+            Info Sensor
+        </button>
+    </div>
+    <div class="mdl-card__menu">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" onclick="window.location='controladorSD'">
+            <i class="material-icons">help</i>
+        </button>
+    </div>
+</div>
+</body>
+<script>
+    function sensorInfo() {
+        var sensorName = document.getElementById("nombre").value;
+        var resource = document.getElementById("recurso").value;
+        if (sensorName != "" && resource != "") window.location.replace("controladorSD/" + resource + "?sensor=" + sensorName);
+    }
+</script>
+</html>

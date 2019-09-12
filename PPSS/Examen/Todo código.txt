@@ -1,0 +1,269 @@
+-assert:
+	assertEquals(resultadoEsperado, resultadoReal);
+
+-assertAll:
+	assertAll("GrupoTestC3",
+	()-> assertArrayEquals(arrayEsperado, coleccion.getColeccion()),
+	()-> assertEquals(numElemEsperado, coleccion.size())
+	);
+	//si no se usa assertAll, en caso de que el un assert falle no se ejecutan los restantes
+
+-@Each:
+	@BeforeEach/@AfterEach
+	void createOutputFile(){}
+
+	@BeforeAll/@AfterAll
+	static void initialState() {}
+
+-assertThrows:
+	Throwable exception = assertThrows(ExpectedException.class,
+										() -> sut(e1,e2);
+	assertEquals("a message", exception.getMessage());
+
+-@Tag:
+	@Test
+	@Tag("taxes")
+	@Tag("model")
+	void testingTaxCalculation() {}
+	
+-@ValueSource:
+	@ParameterizedTest
+	@ValueSource(strings = {"racecar", "radar", "able was I ere I saw elba"})
+	void palindromes(String candidate) {
+	assertTrue(c.isPalindrome(candidate));
+	}
+
+-@MethodSource:
+    @ParameterizedTest
+    @MethodSource("datos")
+    void calculaTasaMatricula(int edad, boolean familiaNumerosa, boolean repetidor, float esperado) {
+        Matricula a = new Matricula();
+        assertEquals(esperado, a.calculaTasaMatricula(edad, familiaNumerosa, repetidor));
+    }
+	
+    private static Stream<Arguments> datos(){
+        return Stream.of(
+                Arguments.of(19, false, true, 2000.00f),
+                Arguments.of(68, false, true, 250.00f),
+                Arguments.of(19, true, true, 250.00f),
+                Arguments.of(19, false, false, 500.00f),
+                Arguments.of(61, false, false, 400.00f)
+        );
+    }
+	
+-assert con mensaje de error:
+	assertEquals(expected, transp.canAccessTransporter(user),
+				() -> generateFailureMessage("transporter", expected, user, alertStatus));
+	
+	private String generateFailureMessage(String system, boolean expected, Person user, Alert alertStatus) {
+		String message = user.getFirstName() + " should";
+		if (!expected) {
+			message += " not";
+		}
+		message += " be able to access the " + system + " when alert status is " + alertStatus;
+		return message;
+	}
+	
+-Testable/Stub:
+	public class GestorPedidosTestable extends/implements GestorPedidos {
+		@Override
+		public IService getBuscador() {
+			return busca;
+		}
+	}
+	
+-Mock:
+	Dependencia1 dep1 = EasyMock.createMock(Dependencia1.class);
+	Dependencia2 dep2 = EasyMock.createStrictMock(Dependencia2.class);
+	Dependencia2 dep3 = EasyMock.createNiceMock(Dependencia2.class);
+	ToMock mock = partialMockBuilder(ToMock.class)
+				.addMockedMethod("mockedMethod").createMock();
+	EasyMock.expect(dep1.metodo1("xxx",7)).andReturn(9).times(3);
+	EasyMock.expect(dep1.metodo1("yy",4)).andThrow(new MyException("message"), 2);
+	EasyMock.expect(dep.servicio4(12)).andStubReturn(25);
+	EasyMock.expect(dep.servicio4(EasyMock.not(EasyMock.eq(12)))).andStubReturn(30);
+	EasyMock.replay(dep0,dep1,dep2,dep3);
+	dep0.mockedMethod();
+	EasyMock.verify(dep0,dep1,dep2);
+
+
+Tema 7
+//Se crea con IDatabaseTester
+private IDatabaseTester databaseTester;
+
+@BeforeEach
+public void setUp() throws Exception {
+    //Conectamos con la base de datos
+    databaseTester = new JdbcDatabaseTester("com.mysql.jdbc.Driver",
+        		"jdbc:mysql://localhost:3306/DBUNIT?useSSL=false", "root", "ppss");
+      
+    //Abrimos el archivo que queremos cargar en la base de datos
+    IDataSet dataSet = new FlatXmlDataFileLoader().load("/customer-init.xml");	 
+    
+    //Metemos los datos que queramos para luego
+    databaseTester.setDataSet(dataSet);
+    
+    //Metemos los datos que queriamos aqui, esto realiza CLEAN_INSERT
+    databaseTester.onSetup();
+    
+    //Realizamos el CRUD de la clase CustomerFactory
+    _customerFactory = CustomerFactory.getInstance();
+  }
+
+//Insertar
+    //Añadimos los datos del customer
+    Customer customer = _customerFactory.create(1,"John", "Smith");
+    customer.setStreet("1 Main Street");
+    customer.setCity("Anycity");
+    _customerFactory.insert(customer);
+
+    //Conectamos con la base de datos
+    IDatabaseConnection connection = databaseTester.getConnection();
+
+    //Cogemos todos los datos de la base de datos y lo metemos en un dataset
+    IDataSet databaseDataSet = connection.createDataSet();
+    
+    //De ese grupo de tablas, cogemos el que nos interesa
+    ITable actualTable = databaseDataSet.getTable("customer");
+    
+    //Cargamos los datos esperados
+    IDataSet expectedDataSet = new FlatXmlDataFileLoader().load("/customer-expected.xml");
+      
+    //Seleccionamos la tabla necesaria que queremos comparar de lo esperado
+    ITable expectedTable = expectedDataSet.getTable("customer");
+    
+    //Acemos la comparación de la tabla
+    Assertion.assertEquals(expectedTable, actualTable);
+
+//Borrar
+    //Seleccionar la cantidad de filas de una tabla
+    int rowCount = databaseDataSet.getTable("customer").getRowCount();
+
+//Retrieve
+    Assertions.assertEquals(actualcustomer.getId(), customer.getId());
+    Assertions.assertEquals(actualcustomer.getCity(), customer.getCity());
+
+
+Tema 8
+
+open -> ir a una url
+
+set window size -> tamaño de la ventana (reescalar)
+
+click -> clickar algo
+
+verify text -> verificar el texto que pone
+
+type -> escribir algo (como el usuario y la contraseña)
+
+linkText -> estas clickando una url y te dirige a ella
+
+store xpath count -> cuento cuantos elementos hay (el que necesite) 
+Ej: xpath=//form --- value(formulario) (Miro la cantidad de formularios que hay en esa página)
+
+ControlFlow
+if ------------------ ${formulario}==2
+	echo -------- usuario no válido
+	click ------- linkText=Register Now!
+....
+end
+
+
+store text -> mete en una variable lo que necesites (la variable se pone en value)
+execute script -> ejecuta una operación (ejemplo var res = String(${stockText2}).match(/\d+\.?\d*/g); return res; el resultado se pone en value)
+assert -> comparar dos cosas(stockEsperado --------- ${stockNumberUpdated})
+
+
+Tema 9
+public class LoginPage {
+    WebDriver driver;
+    @FindBy(name="uid") WebElement userID;
+    @FindBy(name="password") WebElement password;
+    @FindBy(name="btnLogin") WebElement login;
+    @FindBy(className="barone") WebElement loginTitle;
+
+
+    public LoginPage(WebDriver driver){
+        this.driver = driver;
+        this.driver.get("http://demo.guru99.com/V4");
+    }
+
+    public ManagerPage login(String user, String pass){
+        userID.sendKeys(user);
+        password.sendKeys(pass);
+        login.click();
+        return PageFactory.initElements(driver, ManagerPage.class);
+    }
+
+    public String getLoginTitle(){
+        return loginTitle.getText();
+    }
+}
+
+				/// TEST ///
+//Sacar el título
+	String loginPageTitle = poLogin.getLoginTitle();
+	assertTrue(loginPageTitle.toLowerCase().contains("guru99 bank"));
+
+
+//Alertas
+	Alert alert = driver.switchTo().alert();
+        String mensaje = poNewCustomerPage.alerta();
+        Assert.assertTrue(mensaje.equals("Do you really want to delete this Customer?"));
+        poNewCustomerPage.aceptar();
+
+        WebDriverWait wait = new WebDriverWait(driver, 300 /*timeout in seconds*/);
+        if(wait.until(ExpectedConditions.alertIsPresent())==null)
+            System.out.println("alert was not present");
+
+        else{
+	    //Alert alert = driver.switchTo().alert();
+            //String mensaje = alert.getText();
+            //String m = "User or Password is not valid";
+            //assertEquals(m, mensaje);
+            //alert.accept();
+            
+
+	    //Alert alert2 = driver.switchTo().alert();
+            String mensaje2 = poNewCustomerPage.alerta2();
+            Assert.assertTrue(mensaje2.equals("Customer deleted Successfully"));
+            poNewCustomerPage.aceptar2();
+            System.out.println("alert was present");
+        }
+
+
+        driver.close();
+
+
+Tema 11
+               <groupId>org.codehaus.mojo</groupId>
+                <artifactId>cobertura-maven-plugin</artifactId>
+                <version>2.7</version>
+                <configuration>
+                    <check>
+                        <branchRate>28</branchRate>
+                        <lineRate>40</lineRate>
+                        <haltOnFailure>true</haltOnFailure>
+                        <packageLineRate>30</packageLineRate>
+                        <packageBranchRate>40</packageBranchRate>
+                    </check>
+                    <instrumentation>
+                        <excludes>
+                            <exclude>ppss/matriculacion/dao/JDBCAsignaturaDAO.class</exclude>
+                            <exclude>ppss/matriculacion/dao/JDBCMatriculaDAO.class</exclude>
+                            <exclude>ppss/matriculacion/dao/FuenteDatosJDBC.class</exclude>
+                        </excludes>
+			<ignores>
+				<ignore>com.example.boringcode.*</ignore>                     
+			</ignores>   	
+                    </instrumentation>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>clean</goal>
+                            <!--
+                            <goal>check-integration-test</goal> -->
+                        </goals>
+                    </execution>
+                </executions>

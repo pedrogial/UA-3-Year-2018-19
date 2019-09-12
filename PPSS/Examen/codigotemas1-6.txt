@@ -1,0 +1,87 @@
+-assert:
+	assertEquals(resultadoEsperado, resultadoReal);
+
+-assertAll:
+	assertAll("GrupoTestC3",
+	()-> assertArrayEquals(arrayEsperado, coleccion.getColeccion()),
+	()-> assertEquals(numElemEsperado, coleccion.size())
+	);
+	//si no se usa assertAll, en caso de que el un assert falle no se ejecutan los restantes
+
+-@Each:
+	@BeforeEach/@AfterEach
+	void createOutputFile(){}
+
+	@BeforeAll/@AfterAll
+	static void initialState() {}
+
+-assertThrows:
+	Throwable exception = assertThrows(ExpectedException.class,
+										() -> sut(e1,e2);
+	assertEquals("a message", exception.getMessage());
+
+-@Tag:
+	@Test
+	@Tag("taxes")
+	@Tag("model")
+	void testingTaxCalculation() {}
+	
+-@ValueSource:
+	@ParameterizedTest
+	@ValueSource(strings = {"racecar", "radar", "able was I ere I saw elba"})
+	void palindromes(String candidate) {
+	assertTrue(c.isPalindrome(candidate));
+	}
+
+-@MethodSource:
+    @ParameterizedTest
+    @MethodSource("datos")
+    void calculaTasaMatricula(int edad, boolean familiaNumerosa, boolean repetidor, float esperado) {
+        Matricula a = new Matricula();
+        assertEquals(esperado, a.calculaTasaMatricula(edad, familiaNumerosa, repetidor));
+    }
+	
+    private static Stream<Arguments> datos(){
+        return Stream.of(
+                Arguments.of(19, false, true, 2000.00f),
+                Arguments.of(68, false, true, 250.00f),
+                Arguments.of(19, true, true, 250.00f),
+                Arguments.of(19, false, false, 500.00f),
+                Arguments.of(61, false, false, 400.00f)
+        );
+    }
+	
+-assert con mensaje de error:
+	assertEquals(expected, transp.canAccessTransporter(user),
+				() -> generateFailureMessage("transporter", expected, user, alertStatus));
+	
+	private String generateFailureMessage(String system, boolean expected, Person user, Alert alertStatus) {
+		String message = user.getFirstName() + " should";
+		if (!expected) {
+			message += " not";
+		}
+		message += " be able to access the " + system + " when alert status is " + alertStatus;
+		return message;
+	}
+	
+-Testable/Stub:
+	public class GestorPedidosTestable extends/implements GestorPedidos {
+		@Override
+		public IService getBuscador() {
+			return busca;
+		}
+	}
+	
+-Mock:
+	Dependencia1 dep1 = EasyMock.createMock(Dependencia1.class);
+	Dependencia2 dep2 = EasyMock.createStrictMock(Dependencia2.class);
+	Dependencia2 dep3 = EasyMock.createNiceMock(Dependencia2.class);
+	ToMock mock = partialMockBuilder(ToMock.class)
+				.addMockedMethod("mockedMethod").createMock();
+	EasyMock.expect(dep1.metodo1("xxx",7)).andReturn(9).times(3);
+	EasyMock.expect(dep1.metodo1("yy",4)).andThrow(new MyException("message"), 2);
+	EasyMock.expect(dep.servicio4(12)).andStubReturn(25);
+	EasyMock.expect(dep.servicio4(EasyMock.not(EasyMock.eq(12)))).andStubReturn(30);
+	EasyMock.replay(dep0,dep1,dep2,dep3);
+	dep0.mockedMethod();
+	EasyMock.verify(dep0,dep1,dep2);

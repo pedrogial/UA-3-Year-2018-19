@@ -1,0 +1,4 @@
+temperatura=50
+humedad=85
+luminosidad=50
+display=estacion 1

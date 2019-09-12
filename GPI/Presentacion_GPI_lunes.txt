@@ -1,0 +1,19 @@
+Hola, buenas, me llamo Pedro y vamos a realizar la presentacion de nuestro proyecto de gestion de autónomos AutoGest
+somos el grupo L114 y los componentes del grupo somo Alvaro Garcerán, Rafa, Juan, Alvaro Prieto, Melanie y yo.
+
+Este es el inicide y bueno ahora explicaré como introducción los objetivos de la práctica y sus restricciones.
+
+El objetivo del proyecto es realizar una aplicacion de escritorio para la gestion de autónomos, donde el usuario pueda gestionar
+los datos de su negocio.
+
+La aplicación podrá realizar todas estas cosas y como algo adicional generar modelos 300,130 y 115 de Hacienda.
+Además se le entregará al cliente un manual de usuario en pdf y el soporte de instalación
+
+Las principales restricciones a la hora de realizar el proyecto serian el coste y el tiempo ya que si se limita el coste
+supondría reducir su alcance o aumentar el tiempo empleado. 
+
+Y el personal y los recusos disponibles, el quipo de desarrollo serían 6 personas y contamos con los los ordenadores
+de la universidad y los recursos que nos proporcionen dichos  ordenadores.
+
+
+Ahora os paso con Juan y Mel que van a explicar el analisis de riesgos.

@@ -1,0 +1,44 @@
+Registro:
+Al registrarse el usuario pone su usuario y la contraseña.
+La contraseña se pasa a hash con sha512 y esa contraseña hash se
+divide una mitad para el login (keyLogin) y la otra para los datos (KeyData).
+(El servidor no quiere nuestra contraseña por eso la hasheas para que no sepa cual es)
+Metemos en una estructura la contraseña a base64 (KeyLogin) y el usuario y se lo pasamos al 
+servidor. arrayde bites a string
+
+El uso de transporte de red seguro entre cliente y servidor que utilizamos es HTTPS 
+generando un certificado no firmado con openssl y añadiendolo a la conexion para que sea segura.
+
+El servidor deberá tener un archivo json con los usuarios registrados para utilizarlo.
+Si el archivo no se ha generado, lo genera y añade el nuevo usuario.
+Si ya existe lo añade.
+
+Para este proceso generamos una sal aleatoria y decodificamos la contraseña pasada del cliente 
+y la "hasheamos" con script, añadiendo la sal junto a la contraseña. Parte del conocimiento cero.
+
+Los datos que guardamos en el json de los usuarios son el nombre, el hash y la sal.
+
+Login:
+Pedimos nombre de usuario y la contraseña.
+La contraseña se pasa a hash con sha512 y esa contraseña hash se
+divide una mitad para el login (keyLogin) y la otra para los datos (KeyData).
+
+Se envian estas dos cosas al servidor por HTTPS.
+
+El servidor mira si en el archivo existe el usuario, si existe devuelve al cliente que el
+usuario no se ha registrado, si se encuentra en el archivo entonces  realiza otra vez el hash con
+la contraseña pasada y la sal guardada en el archivo y mira si los hashes coinciden. Si es así,
+puede utilizar el generador.
+
+
+Cosas para hacer:
+Busqueda de contraseñas.
+Añadir una contraseña.
+Cifrado de la base de datos de contraseñas en el servidor.
+Generación   de   contraseñas   aleatorias   y   por   perfiles. Un usuario se registre 
+(longitud,   grupos   de   caracteres, pronunciabilidad, etc.)
+Incorporación  de  datos  adicionales  (notas,  números  de  tarjeta  de  crédito,  etc.)  
+en  cada entrada. Guardar listas de notas.
+Optimización de la privacidad (conocimiento cero: el servidor sólo recibe datos cifrados por 
+el cliente).
+

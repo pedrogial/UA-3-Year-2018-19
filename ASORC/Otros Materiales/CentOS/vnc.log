@@ -1,0 +1,138 @@
+audit/audit.log:type=SERVICE_START msg=audit(1543087707.734:58): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543087937.321:172): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543091417.572:55): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543093901.291:233): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543093901.291:234): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543093951.119:59): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543094707.869:328): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543094892.655:64): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543095393.327:369): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543095505.893:70): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543098273.559:390): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543098383.753:58): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543098938.386:225): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543162606.942:61): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543164416.376:746): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543164416.376:747): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543164461.626:59): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543179632.477:791): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543179632.477:792): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543179685.034:72): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543179718.178:155): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543240861.008:62): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543241072.860:156): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543747747.707:62): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543749451.017:457): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543749451.017:458): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543749502.832:60): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543749825.670:168): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543749885.223:60): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543751025.608:249): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543751028.696:254): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543759845.975:1070): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543760556.869:71): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543760663.842:159): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543765433.886:61): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543765942.856:164): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543839027.287:62): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543840655.689:214): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543840655.689:215): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543842283.085:64): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543843981.021:263): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543848692.424:63): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543852430.896:241): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543953655.996:65): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543957925.634:248): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543959421.666:61): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vncserver@:1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+anaconda/packaging.log:17:02:54,971 DEBUG yum.verbose.YumBase: TSINFO: Marking gvnc-0.7.0-3.el7.x86_64 as install for gnome-boxes-3.22.4-4.el7.x86_64
+anaconda/packaging.log:17:02:54,972 DEBUG yum.verbose.YumBase: TSINFO: Marking gtk-vnc2-0.7.0-3.el7.x86_64 as install for gnome-boxes-3.22.4-4.el7.x86_64
+anaconda/packaging.log:17:02:57,926 DEBUG yum.verbose.YumBase: TSINFO: Marking tigervnc-server-minimal-1.8.0-5.el7.x86_64 as install for anaconda-gui-21.48.22.134-1.el7.centos.x86_64
+anaconda/packaging.log:17:03:00,273 DEBUG yum.verbose.YumBase: TSINFO: Marking tigervnc-license-1.8.0-5.el7.noarch as install for tigervnc-server-minimal-1.8.0-5.el7.x86_64
+anaconda/packaging.log:17:03:36,880 DEBUG yum.verbose.YumBase: TSINFO: Marking gvnc-0.7.0-3.el7.x86_64 as install for gnome-boxes-3.22.4-4.el7.x86_64
+anaconda/packaging.log:17:03:36,881 DEBUG yum.verbose.YumBase: TSINFO: Marking gtk-vnc2-0.7.0-3.el7.x86_64 as install for gnome-boxes-3.22.4-4.el7.x86_64
+anaconda/packaging.log:17:03:39,463 DEBUG yum.verbose.YumBase: TSINFO: Marking tigervnc-server-minimal-1.8.0-5.el7.x86_64 as install for anaconda-gui-21.48.22.134-1.el7.centos.x86_64
+anaconda/packaging.log:17:03:41,336 DEBUG yum.verbose.YumBase: TSINFO: Marking tigervnc-license-1.8.0-5.el7.noarch as install for tigervnc-server-minimal-1.8.0-5.el7.x86_64
+anaconda/packaging.log:17:44:39,685 INFO packaging: gvnc-0.7.0-3.el7.x86_64 (923/1365)
+anaconda/packaging.log:17:44:39,737 INFO packaging: gtk-vnc2-0.7.0-3.el7.x86_64 (1049/1365)
+anaconda/packaging.log:17:44:39,741 INFO packaging: tigervnc-license-1.8.0-5.el7.noarch (1119/1365)
+anaconda/packaging.log:17:44:39,742 INFO packaging: tigervnc-server-minimal-1.8.0-5.el7.x86_64 (1120/1365)
+anaconda/journal.log:Oct 07 15:02:54 localhost yum[1293]: TSINFO: Marking gvnc-0.7.0-3.el7.x86_64 as install for gnome-boxes-3.22.4-4.el7.x86_64
+anaconda/journal.log:Oct 07 15:02:54 localhost yum[1293]: TSINFO: Marking gtk-vnc2-0.7.0-3.el7.x86_64 as install for gnome-boxes-3.22.4-4.el7.x86_64
+anaconda/journal.log:Oct 07 15:02:57 localhost yum[1293]: TSINFO: Marking tigervnc-server-minimal-1.8.0-5.el7.x86_64 as install for anaconda-gui-21.48.22.134-1.el7.centos.x86_64
+anaconda/journal.log:Oct 07 15:03:00 localhost yum[1293]: TSINFO: Marking tigervnc-license-1.8.0-5.el7.noarch as install for tigervnc-server-minimal-1.8.0-5.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:36 localhost yum[1293]: TSINFO: Marking gvnc-0.7.0-3.el7.x86_64 as install for gnome-boxes-3.22.4-4.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:36 localhost yum[1293]: TSINFO: Marking gtk-vnc2-0.7.0-3.el7.x86_64 as install for gnome-boxes-3.22.4-4.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:39 localhost yum[1293]: TSINFO: Marking tigervnc-server-minimal-1.8.0-5.el7.x86_64 as install for anaconda-gui-21.48.22.134-1.el7.centos.x86_64
+anaconda/journal.log:Oct 07 15:03:59 localhost packaging[1293]: Member: tigervnc-license.noarch 0:1.8.0-5.el7 - u
+anaconda/journal.log:Oct 07 15:03:59 localhost packaging[1293]: Adding Package tigervnc-license-1.8.0-5.el7.noarch in mode u
+anaconda/journal.log:Oct 07 15:04:01 localhost packaging[1293]: Member: tigervnc-server-minimal.x86_64 0:1.8.0-5.el7 - u
+anaconda/journal.log:Oct 07 15:04:01 localhost packaging[1293]: Adding Package tigervnc-server-minimal-1.8.0-5.el7.x86_64 in mode u
+anaconda/journal.log:Oct 07 15:12:14 localhost packaging[1293]: Instalando gvnc (923/1365)
+anaconda/journal.log:Oct 07 15:14:34 localhost packaging[1293]: Instalando gtk-vnc2 (1049/1365)
+anaconda/journal.log:Oct 07 15:15:55 localhost packaging[1293]: Instalando tigervnc-license (1119/1365)
+anaconda/journal.log:Oct 07 15:15:55 localhost packaging[1293]: Instalando tigervnc-server-minimal (1120/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: gvnc-0.7.0-3.el7.x86_64 (923/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: gtk-vnc2-0.7.0-3.el7.x86_64 (1049/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: tigervnc-license-1.8.0-5.el7.noarch (1119/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: tigervnc-server-minimal-1.8.0-5.el7.x86_64 (1120/1365)
+boot.log:[[32m  OK  [0m] Created slice system-vncserver.slice.
+yum.log:Nov 24 20:24:35 Installed: tigervnc-server-1.8.0-5.el7.x86_64
+messages:Dec  2 15:22:36 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages:Dec  2 15:22:36 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages:Dec  2 16:43:53 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages:Dec  2 16:43:53 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages:Dec  3 13:10:27 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages:Dec  3 13:10:27 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages:Dec  3 14:04:43 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages:Dec  3 14:04:43 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages:Dec  3 15:51:32 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages:Dec  3 15:51:32 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages:Dec  4 21:00:55 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages:Dec  4 21:00:55 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages:Dec  4 22:36:52 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/vncserver_40_3a1_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=40 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:52 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/vncserver_40_3a1_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=41 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:52 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/vncserver_40_3a1_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=57 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:52 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/vncserver_40_3a1_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=58 reply_cookie=0 error=n/a
+messages:Dec  4 22:37:01 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages:Dec  4 22:37:01 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+Coincidencia en el fichero binario boot.log-20181125
+messages-20181125:Nov 24 20:24:35 localhost yum[3655]: Installed: tigervnc-server-1.8.0-5.el7.x86_64
+messages-20181125:Nov 24 20:28:27 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181125:Nov 24 20:28:27 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages-20181125:Nov 24 21:30:17 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181125:Nov 24 21:30:17 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages-20181125:Nov 24 22:12:31 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181125:Nov 24 22:12:31 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages-20181125:Nov 24 22:28:12 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181125:Nov 24 22:28:12 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages-20181125:Nov 24 22:38:25 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181125:Nov 24 22:38:25 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages-20181125:Nov 24 23:26:23 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181125:Nov 24 23:26:23 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages-20181125:Nov 25 17:16:46 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181125:Nov 25 17:16:46 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages-20181125:Nov 25 17:47:41 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181125:Nov 25 17:47:41 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+boot.log-20181202:[[32m  OK  [0m] Created slice system-vncserver.slice.
+boot.log-20181202:[[32m  OK  [0m] Created slice system-vncserver.slice.
+boot.log-20181202:[[32m  OK  [0m] Created slice system-vncserver.slice.
+boot.log-20181202:[[32m  OK  [0m] Created slice system-vncserver.slice.
+boot.log-20181202:[[32m  OK  [0m] Created slice system-vncserver.slice.
+messages-20181202:Nov 25 22:01:25 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181202:Nov 25 22:01:25 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages-20181202:Nov 26 15:01:01 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181202:Nov 26 15:01:01 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages-20181202:Dec  2 11:49:07 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181202:Dec  2 11:49:07 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages-20181202:Dec  2 12:18:22 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181202:Dec  2 12:18:22 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages-20181202:Dec  2 12:24:45 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181202:Dec  2 12:24:45 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+messages-20181202:Dec  2 12:43:48 localhost runuser: Starting applications specified in /home/pedro/.vnc/xstartup
+messages-20181202:Dec  2 12:43:48 localhost runuser: Log file is /home/pedro/.vnc/localhost.localdomain:1.log
+boot.log-20181203:[[32m  OK  [0m] Created slice system-vncserver.slice.
+boot.log-20181203:[[32m  OK  [0m] Created slice system-vncserver.slice.
+boot.log-20181203:[[32m  OK  [0m] Created slice system-vncserver.slice.
+boot.log-20181203:[[32m  OK  [0m] Created slice system-vncserver.slice.
+boot.log-20181203:[[32m  OK  [0m] Created slice system-vncserver.slice.
+boot.log-20181204:[[32m  OK  [0m] Created slice system-vncserver.slice.

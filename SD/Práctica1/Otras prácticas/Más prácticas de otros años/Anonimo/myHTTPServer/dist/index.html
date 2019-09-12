@@ -1,0 +1,185 @@
+<!doctype html>
+<style>
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+/* Menu CSS */#cssmenu,
+#cssmenu > ul {
+  background: url(images/highlight-bg.png) repeat;
+  padding-bottom: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+#cssmenu:before,
+#cssmenu:after,
+#cssmenu > ul:before,
+#cssmenu > ul:after {
+  content: "";
+  display: table;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  clear: both;
+}
+#cssmenu {
+  width: auto;
+  zoom: 1;
+}
+#cssmenu > ul {
+  background: url(images/menu-bg.png) repeat;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#cssmenu > ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#cssmenu > ul > li {
+  float: left;
+  position: relative;
+}
+#cssmenu > ul > li > a {
+  padding: 23px 26px;
+  display: block;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 0 -1px 0 #9e3825;
+  text-shadow: 0 -1px 0 rgba(116, 37, 2, 0.7);
+  line-height: 18px;
+}
+#cssmenu > ul > li:hover > a {
+  background: url(images/hover.png) repeat;
+  text-shadow: 0 -1px 0 #97321f;
+  text-shadow: 0 -1px 0 rgba(122, 42, 26, 0.64);
+}
+#cssmenu > ul > li > a > span {
+  line-height: 18px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li > a:active {
+  background: url(images/active.png) repeat;
+}
+/* Childs */
+#cssmenu > ul ul {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 120px;
+  background: url(images/highlight-bg.png) repeat;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+}
+#cssmenu > ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  margin: 0;
+  color: #000;
+  z-index: 2;
+  top: 64px;
+  left: 0;
+}
+#cssmenu > ul ul:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 20px;
+  background: transparent;
+}
+#cssmenu > ul ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+#cssmenu > ul ul li a {
+  padding: 18px 26px;
+  display: block;
+  color: #393939;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 150px;
+  border-left: 4px solid transparent;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  text-shadow: 0 1px 0 white;
+}
+#cssmenu > ul ul li a:hover {
+  border-left: 4px solid #de553b;
+  background: url(images/hover.png) repeat;
+  color: white;
+  text-shadow: 0 1px 0 black;
+}
+#cssmenu > ul ul li a:active {
+  background: url(images/menu-bg.png) repeat;
+
+/* LIST #4 */
+#list4 { width:320px; font-family:Georgia, Times, serif; font-size:15px; }
+#list4 ul { list-style: none; }
+#list4 ul li { }
+#list4 ul li a { display:block; text-decoration:none; color:#000000; background-color:#FFFFFF; line-height:30px;
+  border-bottom-style:solid; border-bottom-width:1px; border-bottom-color:#CCCCCC; padding-left:10px; cursor:pointer; }
+#list4 ul li a:hover { color:#FFFFFF; background-image:url(../images/hover.png); background-repeat:repeat-x; }
+#list4 ul li a strong { margin-right:10px; }  
+}
+</style>
+
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
+   <title>MyHTTPServer</title>
+</head>
+<body style="text-align:center;">
+<div>
+    <div><img src="images/banner.jpg" /></div>
+</div>
+<div  style="margin: 20px 15%;">
+        <form action="#" method="post">
+            <fieldset style="margin: 20px;">
+                <input style="display: inline-block; width: 80%;" class="form-control" type="text" value="Prueba metodo post(No admitido):&hellip;" onFocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;">
+                <input style="display: inline-block;" class="btn btn-danger" type="submit" id="sf_submit" value="Buscar">
+            </fieldset>
+        </form>
+        <div id='cssmenu'>
+            <ul>
+                <li class='active'><a href='../index.html'><span>Home</span></a></li>
+                <li class='has-sub'>
+                    <a href='#'><span>Estacion 1</span></a>
+                    <ul>
+                        <li><a href='/controladorSD/temperatura?Station=1'><span>Temperatura</span></a></li>
+                        <li><a href='/controladorSD/humedad?Station=1'><span>Humedad</span></a></li>
+                        <li><a href='/controladorSD/luminosidad?Station=1'><span>Luminosidad</span></a></li>
+                        <li class='last'><a href='/controladorSD/display?Station=1'><span>Display</span></a></li>
+                    </ul>
+                </li>
+                <li class='has-sub'>
+                    <a href='#'><span>Estacion 2</span></a>
+                    <ul>
+                        <li><a href='/controladorSD/temperatura?Station=2'><span>Temperatura</span></a></li>
+                        <li><a href='/controladorSD/humedad?Station=2'><span>Humedad</span></a></li>
+                        <li><a href='/controladorSD/luminosidad?Station=2'><span>Luminosidad</span></a></li>
+                        <li class='last'><a href='/controladorSD/display?Station=2'><span>display</span></a></li>
+                    </ul>
+                    <li class='last'><a href='/controladorSD/all?Station=0'><span>Todas las estaciones</span></a></li>
+                </li>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+<html>
+

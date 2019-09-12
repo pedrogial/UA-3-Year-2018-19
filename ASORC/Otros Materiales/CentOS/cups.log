@@ -1,0 +1,273 @@
+audit/audit.log:type=SERVICE_START msg=audit(1538927450.549:89): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1538932673.478:602): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1538932673.478:603): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1539105661.307:102): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1539119463.441:571): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1539119463.441:572): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1539119602.687:104): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1539119654.560:209): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1539119705.506:100): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1539120159.617:217): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1539183627.906:103): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1539183701.366:207): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1539211364.282:102): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1539274979.671:100): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543085137.055:102): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543085314.381:213): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543085682.988:100): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543086859.486:328): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543086859.486:329): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543086893.241:38): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543087143.946:220): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543087180.849:38): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543087660.819:229): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543087660.819:230): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543087699.177:38): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543087937.865:185): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543091406.979:38): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543093901.761:260): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543093901.761:261): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543093942.270:39): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543094708.459:341): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543094885.867:43): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543095393.499:385): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543095498.137:39): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543098275.173:403): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543098376.620:39): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543098939.687:241): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543162599.525:41): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543164417.073:776): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543164417.073:777): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543164453.881:40): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543177258.500:643): pid=1140 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=file:///dev/null banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost.localdomain addr=::1 terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543177278.609:645): pid=1140 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost.localdomain addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543178017.957:659): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543178017.957:660): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543178017.960:661): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543178017.975:662): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543178199.808:663): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543178199.808:664): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543178199.809:665): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543178222.920:666): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543178222.920:667): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543178222.920:668): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543178252.960:669): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543178252.960:670): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543178252.960:671): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543179193.645:698): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543179193.645:699): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543179193.645:700): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543179218.920:701): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543179218.920:702): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543179218.920:703): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543179283.420:704): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543179283.420:705): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543179283.420:706): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543179297.132:707): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543179297.132:708): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543179297.132:709): pid=27790 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="pedro" exe="/usr/sbin/cupsd" hostname=192.168.56.103 addr=192.168.56.103 terminal=cups res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543179633.670:824): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543179676.047:40): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543179679.127:52): pid=1141 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543179720.302:171): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543240853.035:42): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543240855.461:54): pid=1145 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543241074.275:170): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543747739.847:42): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543747742.148:54): pid=1138 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543749452.294:497): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543749452.294:498): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543749493.299:40): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543749496.266:52): pid=1139 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543749826.291:182): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543749876.583:40): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543749879.395:52): pid=1137 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543757397.943:912): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543757397.953:913): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543757397.979:914): pid=2118 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543758162.141:948): pid=2118 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_unix acct="root" exe="/usr/sbin/cupsd" hostname=192.168.56.1 addr=192.168.56.1 terminal=cups res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543758162.141:949): pid=2118 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/sbin/cupsd" hostname=192.168.56.1 addr=192.168.56.1 terminal=cups res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543758162.141:950): pid=2118 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="root" exe="/usr/sbin/cupsd" hostname=192.168.56.1 addr=192.168.56.1 terminal=cups res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543758317.053:953): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543758317.064:954): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543758317.088:955): pid=6094 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543758528.152:957): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543758528.166:958): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543758528.183:959): pid=6933 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543758947.013:970): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543758947.023:971): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543758947.044:972): pid=8850 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543759358.516:1010): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543759358.528:1011): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543759358.554:1012): pid=10901 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543759420.663:1013): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543759420.669:1014): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543759420.693:1015): pid=11145 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543759847.269:1089): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543760548.960:45): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543760552.007:64): pid=1174 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543760666.448:180): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543765418.806:40): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543765427.575:52): pid=1159 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543765946.095:183): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543839019.173:42): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543839021.735:54): pid=1146 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543840656.369:245): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543840656.369:246): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543842275.278:43): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543842277.669:57): pid=1200 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543843981.337:275): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543848684.486:40): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543848686.909:55): pid=1089 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543852431.180:254): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543953647.904:42): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543953650.496:57): pid=1092 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543957926.737:262): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543959411.857:40): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=LABEL_LEVEL_CHANGE msg=audit(1543959415.001:55): pid=1104 uid=0 auid=4294967295 ses=4294967295 msg='printer=Cups-PDF uri=cups-pdf:/ banners=none,none range=unknown exe="/usr/sbin/cupsd" hostname=localhost addr=::1 terminal=? res=success'
+cups/cups-pdf_log:Sun Nov 25 21:48:04 2018  [STATUS] directory created (/var/spool/cups-pdf/ANONYMOUS)
+cups/cups-pdf_log:Sun Nov 25 21:48:04 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Nov 25 21:48:28 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Nov 25 21:48:55 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Nov 25 21:49:58 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Nov 25 21:50:12 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Nov 25 21:53:01 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Nov 25 21:55:20 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Dec  2 14:34:58 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Dec  2 14:40:37 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Dec  2 14:45:42 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Dec  2 14:48:53 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Dec  2 14:56:28 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Dec  2 15:02:47 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Dec  2 15:04:06 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/cups-pdf_log.pdf)
+cups/cups-pdf_log:Sun Dec  2 15:06:44 2018  [STATUS] PDF creation successfully finished (/var/spool/cups-pdf/ANONYMOUS/hola_txt__Bloc_de_notas.pdf)
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] File of type application/vnd.cups-command queued by "anonymous".
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] commandtops (application/vnd.cups-command to printer/Cups-PDF/application/postscript, cost 100)
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] argv[6]="/var/spool/cups/d00008-001"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[0]="CUPS_CACHEDIR=/var/cache/cups"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[1]="CUPS_DATADIR=/usr/share/cups"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[2]="CUPS_DOCROOT=/usr/share/cups/www"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[3]="CUPS_FONTPATH=/usr/share/cups/fonts"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[4]="CUPS_REQUESTROOT=/var/spool/cups"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[5]="CUPS_SERVERBIN=/usr/lib/cups"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[6]="CUPS_SERVERROOT=/etc/cups"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[7]="CUPS_STATEDIR=/var/run/cups"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[8]="HOME=/var/spool/cups/tmp"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[9]="PATH=/usr/lib/cups/filter:/usr/lib64/cups/filter:/usr/bin:/usr/sbin:/bin:/usr/bin"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[12]="TMPDIR=/var/spool/cups/tmp"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[15]="CUPS_SERVER=/var/run/cups/cups.sock"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[20]="PPD=/etc/cups/ppd/Cups-PDF.ppd"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[22]="CONTENT_TYPE=application/vnd.cups-command"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] envp[23]="DEVICE_URI=cups-pdf:/"
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] Started filter /usr/lib/cups/filter/commandtops (PID 860)
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] Started backend /usr/lib/cups/backend/cups-pdf (PID 861)
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] PID 860 (/usr/lib/cups/filter/commandtops) stopped with status 1.
+cups/error_log-20181202:D [25/Nov/2018:21:55:20 +0100] [Job 8] PID 861 (/usr/lib/cups/backend/cups-pdf) exited with no errors.
+anaconda/packaging.log:17:02:54,657 DEBUG yum.verbose.YumBase: TSINFO: Marking 1:cups-libs-1.6.3-35.el7.x86_64 as install for 1:control-center-3.26.2-8.el7.x86_64
+anaconda/packaging.log:17:02:54,686 DEBUG yum.verbose.YumBase: TSINFO: Marking 1:cups-filesystem-1.6.3-35.el7.noarch as install for 1:cups-1.6.3-35.el7.x86_64
+anaconda/packaging.log:17:02:54,686 DEBUG yum.verbose.YumBase: TSINFO: Marking 1:cups-client-1.6.3-35.el7.x86_64 as install for 1:cups-1.6.3-35.el7.x86_64
+anaconda/packaging.log:17:02:54,688 DEBUG yum.verbose.YumBase: TSINFO: Marking libstdc++-4.8.5-28.el7.x86_64 as install for 1:cups-1.6.3-35.el7.x86_64
+anaconda/packaging.log:17:02:54,897 DEBUG yum.verbose.YumBase: TSINFO: Marking ghostscript-9.07-28.el7_4.2.x86_64 as install for ghostscript-cups-9.07-28.el7_4.2.x86_64
+anaconda/packaging.log:17:02:58,051 DEBUG yum.verbose.YumBase: TSINFO: Marking cups-filters-1.0.35-22.el7.x86_64 as install for 1:cups-filesystem-1.6.3-35.el7.noarch
+anaconda/packaging.log:17:02:59,337 DEBUG yum.verbose.YumBase: TSINFO: Marking python-cups-1.9.63-6.el7.x86_64 as install for system-config-printer-libs-1.4.1-21.el7.noarch
+anaconda/packaging.log:17:02:59,644 DEBUG yum.verbose.YumBase: TSINFO: Marking cups-filters-libs-1.0.35-22.el7.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/packaging.log:17:02:59,646 DEBUG yum.verbose.YumBase: TSINFO: Marking poppler-utils-0.26.5-17.el7_4.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/packaging.log:17:02:59,648 DEBUG yum.verbose.YumBase: TSINFO: Marking qpdf-libs-5.0.1-3.el7.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/packaging.log:17:02:59,650 DEBUG yum.verbose.YumBase: TSINFO: Marking poppler-0.26.5-17.el7_4.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/packaging.log:17:02:59,651 DEBUG yum.verbose.YumBase: Quick matched cups-filters-libs-1.0.35-22.el7.x86_64 to require for libcupsfilters.so.1()(64bit)
+anaconda/packaging.log:17:03:36,599 DEBUG yum.verbose.YumBase: TSINFO: Marking 1:cups-libs-1.6.3-35.el7.x86_64 as install for 1:control-center-3.26.2-8.el7.x86_64
+anaconda/packaging.log:17:03:36,632 DEBUG yum.verbose.YumBase: TSINFO: Marking 1:cups-filesystem-1.6.3-35.el7.noarch as install for 1:cups-1.6.3-35.el7.x86_64
+anaconda/packaging.log:17:03:36,633 DEBUG yum.verbose.YumBase: TSINFO: Marking 1:cups-client-1.6.3-35.el7.x86_64 as install for 1:cups-1.6.3-35.el7.x86_64
+anaconda/packaging.log:17:03:36,635 DEBUG yum.verbose.YumBase: TSINFO: Marking libstdc++-4.8.5-28.el7.x86_64 as install for 1:cups-1.6.3-35.el7.x86_64
+anaconda/packaging.log:17:03:36,824 DEBUG yum.verbose.YumBase: TSINFO: Marking ghostscript-9.07-28.el7_4.2.x86_64 as install for ghostscript-cups-9.07-28.el7_4.2.x86_64
+anaconda/packaging.log:17:03:39,537 DEBUG yum.verbose.YumBase: TSINFO: Marking cups-filters-1.0.35-22.el7.x86_64 as install for 1:cups-filesystem-1.6.3-35.el7.noarch
+anaconda/packaging.log:17:03:40,741 DEBUG yum.verbose.YumBase: TSINFO: Marking python-cups-1.9.63-6.el7.x86_64 as install for system-config-printer-libs-1.4.1-21.el7.noarch
+anaconda/packaging.log:17:03:40,961 DEBUG yum.verbose.YumBase: TSINFO: Marking cups-filters-libs-1.0.35-22.el7.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/packaging.log:17:03:40,962 DEBUG yum.verbose.YumBase: TSINFO: Marking poppler-utils-0.26.5-17.el7_4.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/packaging.log:17:03:40,963 DEBUG yum.verbose.YumBase: TSINFO: Marking qpdf-libs-5.0.1-3.el7.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/packaging.log:17:03:40,965 DEBUG yum.verbose.YumBase: TSINFO: Marking poppler-0.26.5-17.el7_4.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/packaging.log:17:03:40,966 DEBUG yum.verbose.YumBase: Quick matched cups-filters-libs-1.0.35-22.el7.x86_64 to require for libcupsfilters.so.1()(64bit)
+anaconda/packaging.log:17:44:39,606 INFO packaging: 1:cups-libs-1.6.3-35.el7.x86_64 (620/1365)
+anaconda/packaging.log:17:44:39,678 INFO packaging: python-cups-1.9.63-6.el7.x86_64 (822/1365)
+anaconda/packaging.log:17:44:39,678 INFO packaging: cups-pk-helper-0.2.6-2.el7.x86_64 (823/1365)
+anaconda/packaging.log:17:44:39,679 INFO packaging: 1:cups-client-1.6.3-35.el7.x86_64 (824/1365)
+anaconda/packaging.log:17:44:39,686 INFO packaging: cups-filters-libs-1.0.35-22.el7.x86_64 (932/1365)
+anaconda/packaging.log:17:44:39,691 INFO packaging: 1:cups-filesystem-1.6.3-35.el7.noarch (1007/1365)
+anaconda/packaging.log:17:44:39,691 INFO packaging: cups-filters-1.0.35-22.el7.x86_64 (1008/1365)
+anaconda/packaging.log:17:44:39,691 INFO packaging: ghostscript-cups-9.07-28.el7_4.2.x86_64 (1009/1365)
+anaconda/packaging.log:17:44:39,691 INFO packaging: 1:cups-1.6.3-35.el7.x86_64 (1010/1365)
+anaconda/packaging.log:17:44:39,747 INFO packaging: gutenprint-cups-5.2.9-18.el7.x86_64 (1202/1365)
+anaconda/journal.log:Oct 07 15:02:54 localhost yum[1293]: TSINFO: Marking 1:cups-libs-1.6.3-35.el7.x86_64 as install for 1:control-center-3.26.2-8.el7.x86_64
+anaconda/journal.log:Oct 07 15:02:54 localhost yum[1293]: TSINFO: Marking 1:cups-filesystem-1.6.3-35.el7.noarch as install for 1:cups-1.6.3-35.el7.x86_64
+anaconda/journal.log:Oct 07 15:02:54 localhost yum[1293]: TSINFO: Marking 1:cups-client-1.6.3-35.el7.x86_64 as install for 1:cups-1.6.3-35.el7.x86_64
+anaconda/journal.log:Oct 07 15:02:54 localhost yum[1293]: TSINFO: Marking libstdc++-4.8.5-28.el7.x86_64 as install for 1:cups-1.6.3-35.el7.x86_64
+anaconda/journal.log:Oct 07 15:02:54 localhost yum[1293]: TSINFO: Marking ghostscript-9.07-28.el7_4.2.x86_64 as install for ghostscript-cups-9.07-28.el7_4.2.x86_64
+anaconda/journal.log:Oct 07 15:02:58 localhost yum[1293]: TSINFO: Marking cups-filters-1.0.35-22.el7.x86_64 as install for 1:cups-filesystem-1.6.3-35.el7.noarch
+anaconda/journal.log:Oct 07 15:02:59 localhost yum[1293]: TSINFO: Marking python-cups-1.9.63-6.el7.x86_64 as install for system-config-printer-libs-1.4.1-21.el7.noarch
+anaconda/journal.log:Oct 07 15:02:59 localhost yum[1293]: TSINFO: Marking cups-filters-libs-1.0.35-22.el7.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/journal.log:Oct 07 15:02:59 localhost yum[1293]: TSINFO: Marking poppler-utils-0.26.5-17.el7_4.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/journal.log:Oct 07 15:02:59 localhost yum[1293]: TSINFO: Marking qpdf-libs-5.0.1-3.el7.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/journal.log:Oct 07 15:02:59 localhost yum[1293]: TSINFO: Marking poppler-0.26.5-17.el7_4.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/journal.log:Oct 07 15:02:59 localhost yum[1293]: Quick matched cups-filters-libs-1.0.35-22.el7.x86_64 to require for libcupsfilters.so.1()(64bit)
+anaconda/journal.log:Oct 07 15:03:36 localhost yum[1293]: TSINFO: Marking 1:cups-libs-1.6.3-35.el7.x86_64 as install for 1:control-center-3.26.2-8.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:36 localhost yum[1293]: TSINFO: Marking 1:cups-filesystem-1.6.3-35.el7.noarch as install for 1:cups-1.6.3-35.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:36 localhost yum[1293]: TSINFO: Marking 1:cups-client-1.6.3-35.el7.x86_64 as install for 1:cups-1.6.3-35.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:36 localhost yum[1293]: TSINFO: Marking libstdc++-4.8.5-28.el7.x86_64 as install for 1:cups-1.6.3-35.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:36 localhost yum[1293]: TSINFO: Marking ghostscript-9.07-28.el7_4.2.x86_64 as install for ghostscript-cups-9.07-28.el7_4.2.x86_64
+anaconda/journal.log:Oct 07 15:03:39 localhost yum[1293]: TSINFO: Marking cups-filters-1.0.35-22.el7.x86_64 as install for 1:cups-filesystem-1.6.3-35.el7.noarch
+anaconda/journal.log:Oct 07 15:03:40 localhost yum[1293]: TSINFO: Marking python-cups-1.9.63-6.el7.x86_64 as install for system-config-printer-libs-1.4.1-21.el7.noarch
+anaconda/journal.log:Oct 07 15:03:40 localhost yum[1293]: TSINFO: Marking cups-filters-libs-1.0.35-22.el7.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:40 localhost yum[1293]: TSINFO: Marking poppler-utils-0.26.5-17.el7_4.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:40 localhost yum[1293]: TSINFO: Marking qpdf-libs-5.0.1-3.el7.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:40 localhost yum[1293]: TSINFO: Marking poppler-0.26.5-17.el7_4.x86_64 as install for cups-filters-1.0.35-22.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:40 localhost yum[1293]: Quick matched cups-filters-libs-1.0.35-22.el7.x86_64 to require for libcupsfilters.so.1()(64bit)
+anaconda/journal.log:Oct 07 15:03:57 localhost packaging[1293]: Member: cups-filters.x86_64 0:1.0.35-22.el7 - u
+anaconda/journal.log:Oct 07 15:03:57 localhost packaging[1293]: Adding Package cups-filters-1.0.35-22.el7.x86_64 in mode u
+anaconda/journal.log:Oct 07 15:03:58 localhost packaging[1293]: Member: ghostscript-cups.x86_64 0:9.07-28.el7_4.2 - u
+anaconda/journal.log:Oct 07 15:03:58 localhost packaging[1293]: Adding Package ghostscript-cups-9.07-28.el7_4.2.x86_64 in mode u
+anaconda/journal.log:Oct 07 15:04:07 localhost packaging[1293]: Member: cups.x86_64 1:1.6.3-35.el7 - u
+anaconda/journal.log:Oct 07 15:04:07 localhost packaging[1293]: Adding Package 1:cups-1.6.3-35.el7.x86_64 in mode u
+anaconda/journal.log:Oct 07 15:04:08 localhost packaging[1293]: Member: python-cups.x86_64 0:1.9.63-6.el7 - u
+anaconda/journal.log:Oct 07 15:04:08 localhost packaging[1293]: Adding Package python-cups-1.9.63-6.el7.x86_64 in mode u
+anaconda/journal.log:Oct 07 15:04:14 localhost packaging[1293]: Member: cups-pk-helper.x86_64 0:0.2.6-2.el7 - u
+anaconda/journal.log:Oct 07 15:04:15 localhost packaging[1293]: Adding Package cups-pk-helper-0.2.6-2.el7.x86_64 in mode u
+anaconda/journal.log:Oct 07 15:04:26 localhost packaging[1293]: Member: cups-client.x86_64 1:1.6.3-35.el7 - u
+anaconda/journal.log:Oct 07 15:04:26 localhost packaging[1293]: Adding Package 1:cups-client-1.6.3-35.el7.x86_64 in mode u
+anaconda/journal.log:Oct 07 15:04:31 localhost packaging[1293]: Member: cups-filesystem.noarch 1:1.6.3-35.el7 - u
+anaconda/journal.log:Oct 07 15:04:31 localhost packaging[1293]: Adding Package 1:cups-filesystem-1.6.3-35.el7.noarch in mode u
+anaconda/journal.log:Oct 07 15:04:33 localhost packaging[1293]: Member: cups-libs.x86_64 1:1.6.3-35.el7 - u
+anaconda/journal.log:Oct 07 15:04:33 localhost packaging[1293]: Adding Package 1:cups-libs-1.6.3-35.el7.x86_64 in mode u
+anaconda/journal.log:Oct 07 15:09:45 localhost packaging[1293]: Instalando cups-libs (620/1365)
+anaconda/journal.log:Oct 07 15:11:11 localhost packaging[1293]: Instalando python-cups (822/1365)
+anaconda/journal.log:Oct 07 15:11:11 localhost packaging[1293]: Instalando cups-pk-helper (823/1365)
+anaconda/journal.log:Oct 07 15:11:12 localhost packaging[1293]: Instalando cups-client (824/1365)
+anaconda/journal.log:Oct 07 15:12:17 localhost packaging[1293]: Instalando cups-filters-libs (932/1365)
+anaconda/journal.log:Oct 07 15:13:36 localhost packaging[1293]: Instalando cups-filesystem (1007/1365)
+anaconda/journal.log:Oct 07 15:13:36 localhost packaging[1293]: Instalando cups-filters (1008/1365)
+anaconda/journal.log:Oct 07 15:13:37 localhost packaging[1293]: Instalando ghostscript-cups (1009/1365)
+anaconda/journal.log:Oct 07 15:13:37 localhost packaging[1293]: Instalando cups (1010/1365)
+anaconda/journal.log:Oct 07 15:18:48 localhost packaging[1293]: Instalando gutenprint-cups (1202/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: 1:cups-libs-1.6.3-35.el7.x86_64 (620/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: python-cups-1.9.63-6.el7.x86_64 (822/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: cups-pk-helper-0.2.6-2.el7.x86_64 (823/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: 1:cups-client-1.6.3-35.el7.x86_64 (824/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: cups-filters-libs-1.0.35-22.el7.x86_64 (932/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: 1:cups-filesystem-1.6.3-35.el7.noarch (1007/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: cups-filters-1.0.35-22.el7.x86_64 (1008/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: ghostscript-cups-9.07-28.el7_4.2.x86_64 (1009/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: 1:cups-1.6.3-35.el7.x86_64 (1010/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: gutenprint-cups-5.2.9-18.el7.x86_64 (1202/1365)
+yum.log:Nov 24 19:56:27 Updated: ghostscript-cups-9.07-29.el7_5.2.x86_64
+yum.log:Nov 25 21:21:18 Installed: cups-pdf-2.6.1-7.el7.x86_64
+messages:Dec  2 14:29:57 localhost journal: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_Cups_PDF
+messages:Dec  2 14:45:17 localhost journal: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_Cups_PDF
+messages:Dec  2 14:48:48 localhost journal: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_Cups_PDF
+messages:Dec  2 14:55:47 localhost journal: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_Cups_PDF
+messages:Dec  2 15:02:38 localhost journal: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_Cups_PDF
+messages:Dec  2 15:03:40 localhost journal: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_Cups_PDF
+messages:Dec  4 22:36:52 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/cups_2esocket interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=34 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:52 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/cups_2esocket interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=35 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:52 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/cups_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=36 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:52 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/cups_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=37 reply_cookie=0 error=n/a
+messages-20181125:Nov 24 19:56:27 localhost yum[3388]: Updated: ghostscript-cups-9.07-29.el7_5.2.x86_64
+messages-20181202:Nov 25 21:21:18 localhost yum[24814]: Installed: cups-pdf-2.6.1-7.el7.x86_64

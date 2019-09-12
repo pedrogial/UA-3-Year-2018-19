@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Dec 11 01:37:14 CET 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0167-9ab2-4717-00003488a588 
+on database directory C:\Users\phado\Desktop\juddi-distro-3.3.6\juddi-tomcat-3.3.6\bin\target\juddi-derby-test-db with class loader java.net.URLClassLoader@179d3b25 
+Loaded from file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/lib/derby-10.10.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_191-b12
+user.dir=C:\Users\phado\Desktop\juddi-distro-3.3.6\juddi-tomcat-3.3.6\bin
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

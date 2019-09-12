@@ -1,0 +1,4 @@
+Temperatura=30
+Humedad=50
+Luminosidad=20
+Pantalla=Por defecto

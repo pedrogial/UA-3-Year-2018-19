@@ -1,0 +1,9 @@
+Rafa: listar usuario, listar formulario, efectuar servicio.
+
+Fran: Modificar usuario, enviar mensaje, informar al técnico.
+
+Alfonso: eliminar usuario, consultar formularios.
+
+Xavi: inicar sesion, consultar mensaje.
+
+Pedro:  Registrar usuario, crear formulario.

@@ -1,0 +1,3 @@
+puerto=2000
+iprmi=127.0.0.1
+rmiport=20000

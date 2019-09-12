@@ -1,0 +1,811 @@
+2018-12-10 10:46:58,103 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-10 10:46:58,256 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 10 10:46:58 CET 2018]; root of context hierarchy
+2018-12-10 10:46:58,410 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-10 10:46:58,562 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-10 10:46:58,589 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-10 10:46:58,610 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-10 10:46:58,867 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f714d1: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-10 10:46:59,181 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-10 10:47:04,474 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 10:47:04,933 INFO [org.apache.juddi.config.AppConfig] - The 'root' publisher was not found, loading...
+2018-12-10 10:47:04,933 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 10:47:04,936 INFO [org.apache.juddi.config.Install] - Loading the content of file: jar:file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/lib/juddi-core-openjpa-3.3.6.jar!/juddi_install_data/root_tModelKeyGen.xml
+2018-12-10 10:47:05,698 INFO [org.apache.juddi.config.Install] - Loading the content of file: jar:file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/lib/juddi-core-openjpa-3.3.6.jar!/juddi_install_data/root_BusinessEntity.xml
+2018-12-10 10:47:05,788 INFO [org.apache.juddi.config.Install] - Loading the content of file: jar:file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/lib/juddi-core-openjpa-3.3.6.jar!/juddi_install_data/root_replicationConfiguration.xml
+2018-12-10 10:47:05,923 INFO [org.apache.juddi.config.Install] - Loading the root Publisher from file root_Publisher.xml
+2018-12-10 10:47:05,925 INFO [org.apache.juddi.config.Install] - Loading the content of file: jar:file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/lib/juddi-core-openjpa-3.3.6.jar!/juddi_install_data/root_Publisher.xml
+2018-12-10 10:47:06,935 INFO [org.apache.juddi.config.Install] - replacing tokens on repl config
+2018-12-10 10:47:06,936 INFO [org.apache.juddi.config.Install] - replacing tokens on repl config, done
+2018-12-10 10:47:06,939 WARN [org.apache.juddi.validation.ValidateReplication] - Hey, you should consider encrypting your trust store password!
+2018-12-10 10:47:07,160 INFO [org.apache.juddi.config.Install] - Loading the content of file: jar:file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/lib/juddi-core-openjpa-3.3.6.jar!/juddi_install_data/UDDI_Publisher.xml
+2018-12-10 10:47:07,268 INFO [org.apache.juddi.config.Install] - Loading the content of file: jar:file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/lib/juddi-core-openjpa-3.3.6.jar!/juddi_install_data/UDDI_tModels.xml
+2018-12-10 10:47:08,670 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 10:47:10,330 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 10:47:10,605 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 10:47:10,762 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 10:47:10,972 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 10:47:11,042 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 10:47:11,119 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 10:47:11,186 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-10 10:47:11,393 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-10 10:47:11,432 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 10:47:11,996 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 13892 ms
+2018-12-10 10:47:12,027 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-10 10:47:12,032 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-10 10:47:12,033 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 10:47:12,043 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-10 10:47:14,467 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-10 10:47:14,595 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 10 10:47:14 CET 2018]; root of context hierarchy
+2018-12-10 10:47:14,676 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-10 10:47:14,712 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-10 10:47:14,730 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-10 10:47:14,741 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-10 10:47:14,959 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4dc4e03d: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-10 10:47:15,254 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-10 10:47:16,785 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 10:47:17,028 INFO [org.apache.juddi.replication.ReplicationNotifier] - Replication, Notifying nodes of new change records. 140 queued
+2018-12-10 10:47:17,081 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:1 Type:ChangeRecordNewData Key:uddi:juddi.apache.org:node1 Local id:1
+2018-12-10 10:47:17,257 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:2 Type:ChangeRecordNewData Key:uddi:uddi.org:categorization:types Local id:2
+2018-12-10 10:47:17,269 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:3 Type:ChangeRecordNewData Key:uddi:uddi.org:categorization:general_keywords Local id:3
+2018-12-10 10:47:17,281 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:4 Type:ChangeRecordNewData Key:uddi:uddi.org:v3_inquiry Local id:4
+2018-12-10 10:47:17,290 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 10:47:17,292 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:5 Type:ChangeRecordNewData Key:uddi:uddi.org:categorization:nodes Local id:5
+2018-12-10 10:47:17,294 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 10:47:17,304 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:6 Type:ChangeRecordNewData Key:uddi:uddi.org:v3_publication Local id:6
+2018-12-10 10:47:17,319 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:7 Type:ChangeRecordNewData Key:uddi:uddi.org:v3_security Local id:7
+2018-12-10 10:47:17,331 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:8 Type:ChangeRecordNewData Key:uddi:uddi.org:relationships Local id:8
+2018-12-10 10:47:17,343 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:9 Type:ChangeRecordNewData Key:uddi:uddi.org:categorization:owningbusiness Local id:9
+2018-12-10 10:47:17,353 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:10 Type:ChangeRecordNewData Key:uddi:uddi.org:identifier:isreplacedby Local id:10
+2018-12-10 10:47:17,361 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:11 Type:ChangeRecordNewData Key:uddi:uddi.org:identifier:taxid Local id:11
+2018-12-10 10:47:17,369 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:12 Type:ChangeRecordNewData Key:uddi:uddi.org:categorization:validatedby Local id:12
+2018-12-10 10:47:17,377 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:13 Type:ChangeRecordNewData Key:uddi:uddi.org:categorization:derivedfrom Local id:13
+2018-12-10 10:47:17,387 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:14 Type:ChangeRecordNewData Key:uuid:5678dd4f-f95d-35f9-9ea6-f79a7dd64656 Local id:14
+2018-12-10 10:47:17,395 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:15 Type:ChangeRecordNewData Key:uddi:uddi.org:categorization:entitykeyvalues Local id:15
+2018-12-10 10:47:17,404 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:16 Type:ChangeRecordNewData Key:uuid:916b87bf-0756-3919-8eae-97dfa325e5a4 Local id:16
+2018-12-10 10:47:17,415 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:17 Type:ChangeRecordNewData Key:uddi:uddi.org:protocol:serverauthenticatedssl3 Local id:17
+2018-12-10 10:47:17,426 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:18 Type:ChangeRecordNewData Key:uddi:uddi.org:protocol:mutualauthenticatedssl3 Local id:18
+2018-12-10 10:47:17,432 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:19 Type:ChangeRecordNewData Key:uuid:9555b5b6-55d4-3b0e-bb17-e084fed4e33f Local id:19
+2018-12-10 10:47:17,437 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:20 Type:ChangeRecordNewData Key:uddi:uddi.org:transport:http Local id:20
+2018-12-10 10:47:17,444 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:21 Type:ChangeRecordNewData Key:uuid:68de9e80-ad09-469d-8a37-088422bfbc36 Local id:21
+2018-12-10 10:47:17,451 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:22 Type:ChangeRecordNewData Key:uddi:uddi.org:transport:smtp Local id:22
+2018-12-10 10:47:17,457 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:23 Type:ChangeRecordNewData Key:uuid:93335d49-3efb-48a0-acea-ea102b60ddc6 Local id:23
+2018-12-10 10:47:17,467 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:24 Type:ChangeRecordNewData Key:uddi:uddi.org:transport:userfriendlysmtp Local id:24
+2018-12-10 10:47:17,476 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:25 Type:ChangeRecordNewData Key:uddi:uddi.org:transport:ftp Local id:25
+2018-12-10 10:47:17,482 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:26 Type:ChangeRecordNewData Key:uuid:5fcf5cd0-629a-4c50-8b16-f94e9cf2a674 Local id:26
+2018-12-10 10:47:17,490 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:27 Type:ChangeRecordNewData Key:uddi:uddi.org:transport:fax Local id:27
+2018-12-10 10:47:17,498 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:28 Type:ChangeRecordNewData Key:uddi:uddi.org:transport:telephone Local id:28
+2018-12-10 10:47:17,507 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:29 Type:ChangeRecordNewData Key:uddi:uddi.org:transport:rmi Local id:29
+2018-12-10 10:47:17,516 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:30 Type:ChangeRecordNewData Key:uddi:uddi.org:transport:jndi-rmi Local id:30
+2018-12-10 10:47:17,525 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:31 Type:ChangeRecordNewData Key:uddi:uddi.org:transport:amqp Local id:31
+2018-12-10 10:47:17,535 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:32 Type:ChangeRecordNewData Key:uddi:uddi.org:transport:omgdds Local id:32
+2018-12-10 10:47:17,544 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:33 Type:ChangeRecordNewData Key:uddi:uddi.org:transport:udp Local id:33
+2018-12-10 10:47:17,553 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:34 Type:ChangeRecordNewData Key:uddi:uddi.org:transport:jms Local id:34
+2018-12-10 10:47:17,563 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:35 Type:ChangeRecordNewData Key:uddi:uddi.org:protocol:rest Local id:35
+2018-12-10 10:47:17,573 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:36 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:approximatematch Local id:36
+2018-12-10 10:47:17,582 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:37 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:exactmatch Local id:37
+2018-12-10 10:47:17,590 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:38 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:caseinsensitivematch Local id:38
+2018-12-10 10:47:17,601 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:39 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:casesensitivematch Local id:39
+2018-12-10 10:47:17,613 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:40 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:diacriticsinsensitivematch Local id:40
+2018-12-10 10:47:17,621 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:41 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:diacriticssensitivematch Local id:41
+2018-12-10 10:47:17,629 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:42 Type:ChangeRecordNewData Key:uddi:uddi.org:sortorder:binarysort Local id:42
+2018-12-10 10:47:17,635 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:43 Type:ChangeRecordNewData Key:uddi:uddi.org:sortorder:uts-10 Local id:43
+2018-12-10 10:47:17,643 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:44 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:caseinsensitivesort Local id:44
+2018-12-10 10:47:17,650 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:45 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:casesensitivesort Local id:45
+2018-12-10 10:47:17,657 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:46 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:sortbynameasc Local id:46
+2018-12-10 10:47:17,664 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:47 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:sortbynamedesc Local id:47
+2018-12-10 10:47:17,672 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:48 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:sortbydateasc Local id:48
+2018-12-10 10:47:17,679 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:49 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:sortbydatedesc Local id:49
+2018-12-10 10:47:17,686 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:50 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:andallkeys Local id:50
+2018-12-10 10:47:17,693 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:51 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:orallkeys Local id:51
+2018-12-10 10:47:17,700 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:52 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:orlikekeys Local id:52
+2018-12-10 10:47:17,706 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:53 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:combinecategorybags Local id:53
+2018-12-10 10:47:17,712 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:54 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:servicesubset Local id:54
+2018-12-10 10:47:17,719 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:55 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:bindingsubset Local id:55
+2018-12-10 10:47:17,725 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:56 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:suppressprojectedservices Local id:56
+2018-12-10 10:47:17,732 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:57 Type:ChangeRecordNewData Key:uddi:uddi.org:findqualifier:signaturepresent Local id:57
+2018-12-10 10:47:17,739 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:58 Type:ChangeRecordNewData Key:uddi:uddi.org:specification:hostingredirector Local id:58
+2018-12-10 10:47:17,744 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:59 Type:ChangeRecordNewData Key:uddi:uddi.org:specification:v3_policy Local id:59
+2018-12-10 10:47:17,749 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:60 Type:ChangeRecordNewData Key:uddi:uddi.org:v3_ownership_transfer Local id:60
+2018-12-10 10:47:17,755 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:61 Type:ChangeRecordNewData Key:uddi:uddi.org:v3_subscription Local id:61
+2018-12-10 10:47:17,762 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:62 Type:ChangeRecordNewData Key:uddi:uddi.org:v3_subscriptionlistener Local id:62
+2018-12-10 10:47:17,769 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:63 Type:ChangeRecordNewData Key:uddi:uddi.org:wsdl:types Local id:63
+2018-12-10 10:47:17,776 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:64 Type:ChangeRecordNewData Key:uddi:uddi.org:wadl:types Local id:64
+2018-12-10 10:47:17,784 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:65 Type:ChangeRecordNewData Key:uddi:uddi.org:xml:namespace Local id:65
+2018-12-10 10:47:17,791 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:66 Type:ChangeRecordNewData Key:uddi:uddi.org:xml:localname Local id:66
+2018-12-10 10:47:17,796 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:67 Type:ChangeRecordNewData Key:uddi:uddi.org:wsdl:porttypereference Local id:67
+2018-12-10 10:47:17,801 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:68 Type:ChangeRecordNewData Key:uddi:uddi.org:protocol:soap Local id:68
+2018-12-10 10:47:17,806 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:69 Type:ChangeRecordNewData Key:uddi:uddi.org:protocol:soap12 Local id:69
+2018-12-10 10:47:17,810 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:70 Type:ChangeRecordNewData Key:uddi:uddi.org:protocol:http Local id:70
+2018-12-10 10:47:17,817 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:71 Type:ChangeRecordNewData Key:uddi:uddi.org:wsdl:categorization:protocol Local id:71
+2018-12-10 10:47:17,823 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:72 Type:ChangeRecordNewData Key:uddi:uddi.org:wsdl:categorization:transport Local id:72
+2018-12-10 10:47:17,830 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:73 Type:ChangeRecordNewData Key:uddi:uddi.org:wsdl:address Local id:73
+2018-12-10 10:47:17,836 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:74 Type:ChangeRecordNewData Key:uddi:uddi.org:bpel:types Local id:74
+2018-12-10 10:47:17,844 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:75 Type:ChangeRecordNewData Key:uddi:tmodelkey:address Local id:75
+2018-12-10 10:47:17,883 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:76 Type:ChangeRecordNewData Key:uddi:tmodelkey:group Local id:76
+2018-12-10 10:47:17,889 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:77 Type:ChangeRecordNewData Key:uddi:tmodelkey:blank Local id:77
+2018-12-10 10:47:17,894 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:78 Type:ChangeRecordNewData Key:urn:wsdm.org:metric:requestcount Local id:78
+2018-12-10 10:47:17,899 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:79 Type:ChangeRecordNewData Key:urn:wsdm.org:metric:replycount Local id:79
+2018-12-10 10:47:17,903 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:80 Type:ChangeRecordNewData Key:urn:wsdm.org:metric:faultcount Local id:80
+2018-12-10 10:47:17,909 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:81 Type:ChangeRecordNewData Key:urn:wsdm.org:identity:resourceid Local id:81
+2018-12-10 10:47:17,915 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:82 Type:ChangeRecordNewData Key:urn:wsdm.org:metric:lastupdatetime Local id:82
+2018-12-10 10:47:17,921 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:83 Type:ChangeRecordNewData Key:urn:wsdm.org:qos:responsetime_average Local id:83
+2018-12-10 10:47:17,927 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:84 Type:ChangeRecordNewData Key:urn:wsdm.org:qos:throughput_count Local id:84
+2018-12-10 10:47:17,933 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:85 Type:ChangeRecordNewData Key:urn:wsdm.org:qos:throughput_bytes Local id:85
+2018-12-10 10:47:17,940 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:86 Type:ChangeRecordNewData Key:urn:wsdm.org:qos:reliability Local id:86
+2018-12-10 10:47:17,946 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:87 Type:ChangeRecordNewData Key:urn:wsdm.org:qos:reportingperiodstart Local id:87
+2018-12-10 10:47:17,951 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:88 Type:ChangeRecordNewData Key:urn:wsdm.org:qos:reportingperiodend Local id:88
+2018-12-10 10:47:17,956 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:89 Type:ChangeRecordNewData Key:urn:wsdm.org:qos:updateinterval Local id:89
+2018-12-10 10:47:17,961 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:90 Type:ChangeRecordNewData Key:urn:uddi:uddi.org:version Local id:90
+2018-12-10 10:47:17,965 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:91 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:categorization:iso3166 Local id:91
+2018-12-10 10:47:17,970 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:92 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:categorizationgroup:unspsc_geo3166 Local id:92
+2018-12-10 10:47:17,976 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:93 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:categorizationgroup:wgs84 Local id:93
+2018-12-10 10:47:17,983 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:94 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:categorizationgroup:wgs84:latitude Local id:94
+2018-12-10 10:47:17,989 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:95 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:categorizationgroup:wgs84:longitude Local id:95
+2018-12-10 10:47:17,995 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:96 Type:ChangeRecordNewData Key:org:ubr:categorization:geo_precision Local id:96
+2018-12-10 10:47:18,001 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:97 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:postaladdress Local id:97
+2018-12-10 10:47:18,005 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:98 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:relationships Local id:98
+2018-12-10 10:47:18,010 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:99 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:identifier:owningbusiness Local id:99
+2018-12-10 10:47:18,017 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:100 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:categorization:unspsc Local id:100
+2018-12-10 10:47:18,022 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:101 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:categorization:naics:1997 Local id:101
+2018-12-10 10:47:18,027 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:102 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:categorization:naics:2012 Local id:102
+2018-12-10 10:47:18,032 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:103 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:categorization:naics:2002 Local id:103
+2018-12-10 10:47:18,038 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:104 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:categorization:naics:2007 Local id:104
+2018-12-10 10:47:18,045 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:105 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:taxonomy:naics Local id:105
+2018-12-10 10:47:18,051 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:106 Type:ChangeRecordNewData Key:uddi:uddi.org:sortorder:jis-x4061 Local id:106
+2018-12-10 10:47:18,057 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:107 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:identifier:dnb.com:d-u-n-s Local id:107
+2018-12-10 10:47:18,063 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:108 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:identifier:iso6523icd Local id:108
+2018-12-10 10:47:18,068 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:109 Type:ChangeRecordNewData Key:uuid:8609c81e-ee1f-4d5a-b202-3eb13ad01823 Local id:109
+2018-12-10 10:47:18,074 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:110 Type:ChangeRecordNewData Key:uuid:c0b9fe13-179f-413d-8a5b-5004db8e5bb2 Local id:110
+2018-12-10 10:47:18,080 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:111 Type:ChangeRecordNewData Key:uuid:c7536010-f786-11db-a010-e6245c4e79a1 Local id:111
+2018-12-10 10:47:18,085 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:112 Type:ChangeRecordNewData Key:uuid:b1b1baf5-2329-43e6-ae13-ba8e97195039 Local id:112
+2018-12-10 10:47:18,090 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:113 Type:ChangeRecordNewData Key:uuid:a035a07c-f362-44dd-8f95-e2b134bf43b4 Local id:113
+2018-12-10 10:47:18,094 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:114 Type:ChangeRecordNewData Key:uuid:ac104dcc-d623-452f-88a7-f8acd94d9b2b Local id:114
+2018-12-10 10:47:18,098 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:115 Type:ChangeRecordNewData Key:uuid:e59ae320-77a5-11d5-b898-0004ac49cc1e Local id:115
+2018-12-10 10:47:18,102 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:116 Type:ChangeRecordNewData Key:uuid:4e49a8d6-d5a2-4fc2-93a0-0411d8d19e88 Local id:116
+2018-12-10 10:47:18,106 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:117 Type:ChangeRecordNewData Key:uuid:327a56f0-3299-4461-bc23-5cd513e95c55 Local id:117
+2018-12-10 10:47:18,111 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:118 Type:ChangeRecordNewData Key:uuid:4064c064-6d14-4f35-8953-9652106476a9 Local id:118
+2018-12-10 10:47:18,115 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:119 Type:ChangeRecordNewData Key:uuid:6e10b91b-babc-3442-b8fc-5a3c8fde0794 Local id:119
+2018-12-10 10:47:18,120 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:120 Type:ChangeRecordNewData Key:uuid:aa254698-93de-3870-8df3-a5c075d64a0e Local id:120
+2018-12-10 10:47:18,125 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:121 Type:ChangeRecordNewData Key:uuid:807a2c6a-ee22-470d-adc7-e0424a337c03 Local id:121
+2018-12-10 10:47:18,130 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:122 Type:ChangeRecordNewData Key:uuid:1e3e9cbc-f8ce-41ab-8f99-88326bad324a Local id:122
+2018-12-10 10:47:18,134 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:123 Type:ChangeRecordNewData Key:uuid:c1acf26d-9672-4404-9d70-39b756e62ab4 Local id:123
+2018-12-10 10:47:18,139 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:124 Type:ChangeRecordNewData Key:uuid:ad61de98-4db8-31b2-a299-a2373dc97212 Local id:124
+2018-12-10 10:47:18,144 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:125 Type:ChangeRecordNewData Key:uuid:4dc74177-7806-34d9-aecd-33c57dc3a865 Local id:125
+2018-12-10 10:47:18,150 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:126 Type:ChangeRecordNewData Key:uuid:e5c43936-86e4-37bf-8196-1d04b35c0099 Local id:126
+2018-12-10 10:47:18,155 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:127 Type:ChangeRecordNewData Key:uuid:082b0851-25d8-303c-b332-f24a6d53e38e Local id:127
+2018-12-10 10:47:18,161 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:128 Type:ChangeRecordNewData Key:uuid:6e090afa-33e5-36eb-81b7-1ca18373f457 Local id:128
+2018-12-10 10:47:18,166 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:129 Type:ChangeRecordNewData Key:uuid:2ec65201-9109-3919-9bec-c9dbefcaccf6 Local id:129
+2018-12-10 10:47:18,171 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:130 Type:ChangeRecordNewData Key:uuid:d01987d1-ab2e-3013-9be2-2a66eb99d824 Local id:130
+2018-12-10 10:47:18,175 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:131 Type:ChangeRecordNewData Key:uuid:cd153257-086a-4237-b336-6bdcbdcc6634 Local id:131
+2018-12-10 10:47:18,179 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:132 Type:ChangeRecordNewData Key:uuid:db77450d-9fa8-45d4-a7bc-04411d14e384 Local id:132
+2018-12-10 10:47:18,183 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:133 Type:ChangeRecordNewData Key:uuid:f1b347da-6cbb-3a10-93e7-7cd4328b88d3 Local id:133
+2018-12-10 10:47:18,187 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:134 Type:ChangeRecordNewData Key:uuid:1ff729f2-1948-46cf-b660-31ec107f1663 Local id:134
+2018-12-10 10:47:18,190 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:135 Type:ChangeRecordNewData Key:uuid:4614c240-b483-11d7-8be8-000629dc0a53 Local id:135
+2018-12-10 10:47:18,194 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:136 Type:ChangeRecordNewData Key:uuid:48eb2518-c1bd-354f-92c9-21a53b0ff2b1 Local id:136
+2018-12-10 10:47:18,198 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:137 Type:ChangeRecordNewData Key:uddi:uddi.org:ubr:identifier:thomasregister.com:supplierid Local id:137
+2018-12-10 10:47:18,206 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:138 Type:ChangeRecordNewData Key:uddi:uddi.org:v3_valuesetvalidation Local id:138
+2018-12-10 10:47:18,223 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:139 Type:ChangeRecordNewData Key:uddi:uddi.org:v3_valuesetcaching Local id:139
+2018-12-10 10:47:18,231 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:140 Type:ChangeRecordNewData Key:uuid:25b22e3e-3dfa-3024-b02a-3438b9050b59 Local id:140
+2018-12-10 10:47:19,540 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 5073 ms
+2018-12-10 10:47:19,567 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-10 10:47:19,759 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-10 10:47:19,759 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 10:47:19,769 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 10:47:19,770 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-10 22:30:10,501 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-10 22:30:10,659 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 10 22:30:10 CET 2018]; root of context hierarchy
+2018-12-10 22:30:10,800 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-10 22:30:10,955 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-10 22:30:10,989 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-10 22:30:11,010 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-10 22:30:11,275 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f714d1: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-10 22:30:11,608 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:30:17,615 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:30:18,244 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:30:20,113 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:30:20,267 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:30:20,352 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:30:20,543 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:30:20,629 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:30:20,700 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:30:20,792 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-10 22:30:21,021 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-10 22:30:21,097 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:30:21,980 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 11479 ms
+2018-12-10 22:30:22,014 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-10 22:30:22,077 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:30:22,078 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:30:22,094 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-10 22:30:25,974 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-10 22:30:26,100 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 10 22:30:26 CET 2018]; root of context hierarchy
+2018-12-10 22:30:26,189 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-10 22:30:26,247 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-10 22:30:26,268 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-10 22:30:26,281 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-10 22:30:26,499 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@46390392: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-10 22:30:26,803 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:30:28,302 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:30:28,790 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:30:28,793 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:30:30,548 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 4573 ms
+2018-12-10 22:30:30,575 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-10 22:30:30,771 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:30:30,772 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:30:30,782 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:30:30,783 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-10 22:33:51,070 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-10 22:33:51,227 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 10 22:33:51 CET 2018]; root of context hierarchy
+2018-12-10 22:33:51,383 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-10 22:33:51,513 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-10 22:33:51,550 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-10 22:33:51,566 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-10 22:33:51,901 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f714d1: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-10 22:33:52,269 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:33:54,866 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:33:55,500 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:33:57,383 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:33:57,591 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:33:57,709 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:33:57,898 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:33:57,983 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:33:58,063 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:33:58,157 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-10 22:33:58,457 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-10 22:33:58,596 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:33:59,889 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 8818 ms
+2018-12-10 22:33:59,929 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-10 22:34:00,081 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:34:00,081 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:34:00,103 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-10 22:34:03,085 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-10 22:34:03,250 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 10 22:34:03 CET 2018]; root of context hierarchy
+2018-12-10 22:34:03,345 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-10 22:34:03,417 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-10 22:34:03,446 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-10 22:34:03,464 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-10 22:34:03,755 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@549f6b3d: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-10 22:34:04,103 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:34:05,794 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:34:06,297 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:06,300 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:08,057 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 4972 ms
+2018-12-10 22:34:08,083 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-10 22:34:08,293 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:34:08,293 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:34:08,314 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:08,315 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-10 22:34:31,413 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-10 22:34:31,574 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 10 22:34:31 CET 2018]; root of context hierarchy
+2018-12-10 22:34:31,719 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-10 22:34:31,822 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-10 22:34:31,850 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-10 22:34:31,866 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-10 22:34:32,135 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f714d1: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-10 22:34:32,494 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:34:34,796 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:34:35,340 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:37,036 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:37,193 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:37,288 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:37,457 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:37,529 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:37,600 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:37,689 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-10 22:34:37,933 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-10 22:34:38,010 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:38,763 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 7349 ms
+2018-12-10 22:34:38,794 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-10 22:34:38,859 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:34:38,860 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:34:38,873 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-10 22:34:41,448 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-10 22:34:41,571 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 10 22:34:41 CET 2018]; root of context hierarchy
+2018-12-10 22:34:41,650 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-10 22:34:41,683 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-10 22:34:41,706 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-10 22:34:41,722 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-10 22:34:41,954 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3a20e1b2: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-10 22:34:42,282 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:34:43,785 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:34:44,283 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:44,286 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:46,012 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 4564 ms
+2018-12-10 22:34:46,039 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-10 22:34:46,250 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:34:46,250 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:34:46,265 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:34:46,266 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-10 22:49:50,187 INFO [org.apache.juddi.v3.client.config.UDDIClient] - jUDDI Client version - 3.3.6
+2018-12-10 22:49:50,262 INFO [org.apache.juddi.v3.client.config.ClientConfig] - Reading UDDI Client properties file file:///C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddi-gui/WEB-INF/classes/META-INF/uddi.xml use -Duddi.client.xml to override
+2018-12-10 22:51:24,409 INFO [org.apache.juddi.v3.client.config.UDDIClient] - jUDDI Client version - 3.3.6
+2018-12-10 22:51:24,420 INFO [org.apache.juddi.v3.client.config.ClientConfig] - Reading UDDI Client properties file file:///C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddi-gui/WEB-INF/classes/META-INF/uddi.xml use -Duddi.client.xml to override
+2018-12-10 22:54:09,289 INFO [org.apache.juddi.v3.client.config.UDDIClient] - jUDDI Client version - 3.3.6
+2018-12-10 22:54:09,302 INFO [org.apache.juddi.v3.client.config.ClientConfig] - Reading UDDI Client properties file file:///C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddi-gui/WEB-INF/classes/META-INF/uddi.xml use -Duddi.client.xml to override
+2018-12-10 22:54:16,210 INFO [org.apache.juddi.v3.client.config.UDDIClient] - jUDDI Client version - 3.3.6
+2018-12-10 22:54:16,214 INFO [org.apache.juddi.v3.client.config.ClientConfig] - Reading UDDI Client properties file file:///C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddi-gui/WEB-INF/classes/META-INF/uddi.xml use -Duddi.client.xml to override
+2018-12-10 22:55:38,800 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-10 22:55:38,979 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 10 22:55:38 CET 2018]; root of context hierarchy
+2018-12-10 22:55:39,151 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-10 22:55:39,267 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-10 22:55:39,301 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-10 22:55:39,324 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-10 22:55:39,605 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f714d1: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-10 22:55:39,959 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:55:42,576 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:55:43,333 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:55:45,265 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:55:45,461 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:55:45,566 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:55:45,771 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:55:45,854 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:55:45,946 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:55:46,055 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-10 22:55:46,497 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-10 22:55:46,610 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:55:47,799 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 8999 ms
+2018-12-10 22:55:47,842 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-10 22:55:47,937 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:55:47,938 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:55:47,957 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-10 22:55:51,873 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-10 22:55:52,081 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 10 22:55:52 CET 2018]; root of context hierarchy
+2018-12-10 22:55:52,209 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-10 22:55:52,261 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-10 22:55:52,290 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-10 22:55:52,313 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-10 22:55:52,678 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5e10caa8: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-10 22:55:53,046 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:55:54,952 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:55:55,540 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:55:55,543 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:55:57,486 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 5612 ms
+2018-12-10 22:55:57,515 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-10 22:55:57,761 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-10 22:55:57,762 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-10 22:55:57,774 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-10 22:55:57,775 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-10 22:58:14,682 INFO [org.apache.juddi.v3.client.config.UDDIClient] - jUDDI Client version - 3.3.6
+2018-12-10 22:58:14,760 INFO [org.apache.juddi.v3.client.config.ClientConfig] - Reading UDDI Client properties file file:///C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddi-gui/WEB-INF/classes/META-INF/uddi.xml use -Duddi.client.xml to override
+2018-12-10 22:58:16,998 WARN [org.apache.juddi.v3.client.transport.JAXWSTransport] - You should consider using a secure protocol (https) when sending your password!
+2018-12-11 01:10:10,653 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:10:10,791 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:10:10 CET 2018]; root of context hierarchy
+2018-12-11 01:10:10,927 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:10:11,076 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:10:11,099 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:10:11,114 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:10:11,369 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a120e41: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:10:11,686 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:10:13,970 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:10:14,553 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:10:16,321 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:10:16,506 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:10:16,611 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:10:16,774 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:10:16,836 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:10:16,911 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:10:17,002 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:10:17,236 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:10:17,293 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:10:18,117 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 7463 ms
+2018-12-11 01:10:18,146 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:10:18,209 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:10:18,210 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:10:18,224 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:10:22,291 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:10:22,424 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:10:22 CET 2018]; root of context hierarchy
+2018-12-11 01:10:22,507 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:10:22,555 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:10:22,573 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:10:22,585 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:10:22,807 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@366529fd: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:10:23,130 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:10:24,714 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:10:25,224 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:10:25,227 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:10:26,849 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 4558 ms
+2018-12-11 01:10:26,875 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:10:27,061 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:10:27,061 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:10:27,071 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:10:27,071 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:10:27,333 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:10:27,333 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:10:27,333 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:10:27,337 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:10:22 CET 2018]; root of context hierarchy
+2018-12-11 01:10:27,338 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@366529fd: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:10:27,365 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:10:27,365 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:10:27,365 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:10:27,368 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:10:10 CET 2018]; root of context hierarchy
+2018-12-11 01:10:27,369 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a120e41: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:23:47,479 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:23:47,611 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:23:47 CET 2018]; root of context hierarchy
+2018-12-11 01:23:47,735 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:23:47,830 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:23:47,857 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:23:47,871 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:23:48,118 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a120e41: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:23:48,427 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:23:50,508 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:23:51,057 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:23:52,744 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:23:52,918 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:23:52,998 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:23:53,163 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:23:53,232 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:23:53,299 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:23:53,380 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:23:53,612 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:23:53,684 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:23:54,473 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 6994 ms
+2018-12-11 01:23:54,505 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:23:54,562 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:23:54,563 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:23:54,578 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:23:57,103 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:23:57,229 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:23:57 CET 2018]; root of context hierarchy
+2018-12-11 01:23:57,310 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:23:57,344 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:23:57,362 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:23:57,374 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:23:57,603 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@46390392: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:23:57,908 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:23:59,418 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:23:59,898 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:23:59,901 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:24:01,535 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 4432 ms
+2018-12-11 01:24:01,560 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:24:01,753 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:24:01,754 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:24:01,763 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:24:01,764 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:24:01,973 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:24:01,973 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:24:01,973 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:24:01,976 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:23:57 CET 2018]; root of context hierarchy
+2018-12-11 01:24:01,977 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@46390392: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:24:02,005 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:24:02,005 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:24:02,005 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:24:02,011 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:23:47 CET 2018]; root of context hierarchy
+2018-12-11 01:24:02,012 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a120e41: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:25:24,634 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:25:24,765 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:25:24 CET 2018]; root of context hierarchy
+2018-12-11 01:25:24,893 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:25:24,990 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:25:25,018 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:25:25,034 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:25:25,297 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a120e41: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:25:25,621 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:25:27,715 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:25:28,256 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:25:34,237 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:25:34,402 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:25:34,491 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:25:34,658 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:25:34,728 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:25:34,793 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:25:34,880 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:25:35,119 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:25:35,197 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:25:36,023 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 11389 ms
+2018-12-11 01:25:36,057 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:25:36,113 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:25:36,114 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:25:36,126 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:25:38,703 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:25:38,829 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:25:38 CET 2018]; root of context hierarchy
+2018-12-11 01:25:38,911 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:25:38,945 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:25:38,970 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:25:38,986 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:25:39,214 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@373fc5b7: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:25:39,517 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:25:41,018 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:25:41,481 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:25:41,484 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:25:43,103 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 4399 ms
+2018-12-11 01:25:43,128 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:25:43,326 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:25:43,327 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:25:43,337 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:25:43,338 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:25:43,557 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:25:43,557 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:25:43,557 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:25:43,560 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:25:38 CET 2018]; root of context hierarchy
+2018-12-11 01:25:43,561 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@373fc5b7: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:25:43,589 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:25:43,589 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:25:43,590 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:25:43,593 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:25:24 CET 2018]; root of context hierarchy
+2018-12-11 01:25:43,594 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a120e41: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:29:46,360 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:29:46,492 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:29:46 CET 2018]; root of context hierarchy
+2018-12-11 01:29:46,615 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:29:46,700 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:29:46,722 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:29:46,737 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:29:46,994 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7a7b6556: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:29:47,301 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:29:49,459 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:29:50,036 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:29:52,867 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:29:53,057 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:29:53,155 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:29:53,334 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:29:53,410 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:29:53,490 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:29:53,582 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:29:53,807 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:29:53,888 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:29:55,284 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 8923 ms
+2018-12-11 01:29:55,339 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:29:55,470 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:29:55,471 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:29:55,494 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:29:59,035 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:29:59,201 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:29:59 CET 2018]; root of context hierarchy
+2018-12-11 01:29:59,317 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:29:59,365 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:29:59,393 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:29:59,412 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:29:59,730 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4322f1fa: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:30:00,231 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:30:02,500 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:30:03,149 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:30:03,154 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:30:05,207 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 6172 ms
+2018-12-11 01:30:05,237 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:30:05,441 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:30:05,441 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:30:05,455 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:30:05,456 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:30:05,645 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:30:05,645 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:30:05,646 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:30:05,648 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:29:59 CET 2018]; root of context hierarchy
+2018-12-11 01:30:05,649 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4322f1fa: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:30:05,673 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:30:05,673 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:30:05,673 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:30:05,677 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:29:46 CET 2018]; root of context hierarchy
+2018-12-11 01:30:05,678 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7a7b6556: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:32:33,839 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:32:33,971 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:32:33 CET 2018]; root of context hierarchy
+2018-12-11 01:32:34,094 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:32:34,183 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:32:34,207 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:32:34,224 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:32:34,477 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f714d1: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:32:34,778 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:32:36,875 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:32:37,430 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:32:39,124 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:32:39,299 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:32:39,393 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:32:39,563 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:32:39,629 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:32:39,694 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:32:39,776 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:32:40,001 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:32:40,072 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:32:40,838 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 6998 ms
+2018-12-11 01:32:40,867 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:32:40,923 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:32:40,924 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:32:40,937 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:32:43,472 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:32:43,597 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:32:43 CET 2018]; root of context hierarchy
+2018-12-11 01:32:43,675 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:32:43,712 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:32:43,730 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:32:43,742 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:32:43,956 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@84b4c91: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:32:44,261 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:32:45,709 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:32:46,182 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:32:46,184 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:32:47,774 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 4302 ms
+2018-12-11 01:32:47,800 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:32:47,982 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:32:47,983 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:32:47,992 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:32:47,993 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:32:48,318 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:32:48,318 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:32:48,318 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:32:48,320 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:32:43 CET 2018]; root of context hierarchy
+2018-12-11 01:32:48,321 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@84b4c91: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:32:48,349 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:32:48,349 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:32:48,350 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:32:48,353 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:32:33 CET 2018]; root of context hierarchy
+2018-12-11 01:32:48,353 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f714d1: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:33:00,142 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:33:00,276 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:33:00 CET 2018]; root of context hierarchy
+2018-12-11 01:33:00,400 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:33:00,488 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:33:00,512 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:33:00,529 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:33:00,787 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f714d1: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:33:01,119 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:33:03,251 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:33:03,830 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:05,571 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:05,741 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:05,836 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:05,998 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:06,074 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:06,146 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:06,237 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:33:06,467 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:33:06,538 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:07,339 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 7197 ms
+2018-12-11 01:33:07,374 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:33:07,433 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:33:07,434 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:33:07,445 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:33:10,065 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:33:10,195 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:33:10 CET 2018]; root of context hierarchy
+2018-12-11 01:33:10,285 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:33:10,319 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:33:10,339 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:33:10,351 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:33:10,571 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@605058c5: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:33:10,870 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:33:12,374 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:33:12,809 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:12,812 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:14,419 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 4353 ms
+2018-12-11 01:33:14,443 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:33:14,639 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:33:14,640 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:33:14,653 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:14,653 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:33:14,960 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:33:14,960 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:33:14,961 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:33:14,963 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:33:10 CET 2018]; root of context hierarchy
+2018-12-11 01:33:14,964 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@605058c5: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:33:14,988 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:33:14,988 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:33:14,989 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:33:14,992 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:33:00 CET 2018]; root of context hierarchy
+2018-12-11 01:33:14,993 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f714d1: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:33:45,032 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:33:45,168 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:33:45 CET 2018]; root of context hierarchy
+2018-12-11 01:33:45,295 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:33:45,375 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:33:45,398 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:33:45,415 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:33:45,665 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f714d1: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:33:45,968 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:33:48,053 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:33:48,647 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:50,359 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:50,520 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:50,612 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:50,784 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:50,851 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:50,928 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:51,015 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:33:51,240 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:33:51,293 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:52,070 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 7037 ms
+2018-12-11 01:33:52,100 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:33:52,159 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:33:52,159 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:33:52,172 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:33:54,684 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:33:54,813 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:33:54 CET 2018]; root of context hierarchy
+2018-12-11 01:33:54,895 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:33:54,927 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:33:54,944 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:33:54,956 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:33:55,181 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4b7c1779: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:33:55,480 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:33:56,973 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:33:57,444 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:57,448 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:59,064 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 4380 ms
+2018-12-11 01:33:59,089 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:33:59,281 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:33:59,282 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:33:59,293 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:33:59,293 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:33:59,631 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:33:59,631 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:33:59,631 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:33:59,633 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:33:54 CET 2018]; root of context hierarchy
+2018-12-11 01:33:59,634 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4b7c1779: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:33:59,659 INFO [org.apache.juddi.Registry] - Stopping jUDDI registry...
+2018-12-11 01:33:59,659 INFO [org.apache.juddi.Registry] - Shutting down SubscriptionNotifier
+2018-12-11 01:33:59,660 INFO [org.apache.juddi.Registry] - jUDDI shutdown completed.
+2018-12-11 01:33:59,663 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Tue Dec 11 01:33:45 CET 2018]; root of context hierarchy
+2018-12-11 01:33:59,664 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f714d1: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:34:59,037 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:34:59,170 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:34:59 CET 2018]; root of context hierarchy
+2018-12-11 01:34:59,296 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:34:59,384 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:34:59,413 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:34:59,430 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:34:59,680 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f714d1: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:34:59,980 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:35:02,099 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:35:02,666 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:35:04,361 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:35:04,501 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:35:04,587 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:35:04,754 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:35:04,818 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:35:04,888 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:35:04,974 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:35:05,208 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:35:05,284 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:35:06,065 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 7028 ms
+2018-12-11 01:35:06,095 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:35:06,166 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:35:06,167 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:35:06,181 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:35:08,648 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:35:08,772 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:35:08 CET 2018]; root of context hierarchy
+2018-12-11 01:35:08,851 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:35:08,884 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:35:08,902 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:35:08,917 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:35:09,148 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@76762af0: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:35:09,447 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:35:10,936 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:35:11,403 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:35:11,406 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:35:13,023 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 4375 ms
+2018-12-11 01:35:13,049 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:35:13,239 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:35:13,240 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:35:13,249 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:35:13,250 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:35:27,695 INFO [org.apache.juddi.v3.client.config.UDDIClient] - jUDDI Client version - 3.3.6
+2018-12-11 01:35:27,777 INFO [org.apache.juddi.v3.client.config.ClientConfig] - Reading UDDI Client properties file file:///C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddi-gui/WEB-INF/classes/META-INF/uddi.xml use -Duddi.client.xml to override
+2018-12-11 01:35:29,681 WARN [org.apache.juddi.v3.client.transport.JAXWSTransport] - You should consider using a secure protocol (https) when sending your password!
+2018-12-11 01:37:12,381 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:37:12,520 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:37:12 CET 2018]; root of context hierarchy
+2018-12-11 01:37:12,659 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:37:12,760 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:37:12,791 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:37:12,812 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:37:13,082 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f714d1: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,inquiry,publish,security,subscription,subscription-listener,custody-transfer,valueset-validation,valueset-caching,inquiryv2,publishv2,juddi-api,jsonNamespaceMap,inquiryRestService,inquiryRest,jsonProvider,jaxbProvider]; root of factory hierarchy
+2018-12-11 01:37:13,400 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:37:15,552 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:37:16,109 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:37:17,871 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:37:18,051 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:37:18,133 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:37:18,312 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:37:18,399 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:37:18,474 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:37:18,558 WARN [org.apache.juddi.api.impl.UDDIv2InquiryImpl] - This implementation of UDDIv2 Inquire service org.apache.juddi.api.impl.UDDIv2InquiryImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:37:18,790 WARN [org.apache.juddi.api.impl.UDDIv2PublishImpl] - This implementation of UDDIv2 Publish service org.apache.juddi.api.impl.UDDIv2PublishImpl is considered BETA. Please report any issues to https://issues.apache.org/jira/browse/JUDDI
+2018-12-11 01:37:18,850 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:37:19,635 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 7253 ms
+2018-12-11 01:37:19,665 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:37:19,732 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:37:19,733 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:37:19,745 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
+2018-12-11 01:37:22,330 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-11 01:37:22,456 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Dec 11 01:37:22 CET 2018]; root of context hierarchy
+2018-12-11 01:37:22,537 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2018-12-11 01:37:22,571 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-12-11 01:37:22,589 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2018-12-11 01:37:22,601 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2018-12-11 01:37:22,822 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@63fe1fc0: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.binding.soap.SoapBindingFactory,org.apache.cxf.binding.soap.SoapTransportFactory,org.apache.cxf.binding.soap.customEditorConfigurer,replication]; root of factory hierarchy
+2018-12-11 01:37:23,122 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:37:24,610 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:37:25,070 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:37:25,073 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:37:26,716 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 4386 ms
+2018-12-11 01:37:26,742 INFO [org.apache.juddi.Registry] - Starting jUDDI registry...This is node uddi:juddi.apache.org:node1
+2018-12-11 01:37:26,940 INFO [org.apache.juddi.config.AppConfig] - Reading from jUDDI config file from:  file:/C:/Users/phado/Desktop/juddi-distro-3.3.6/juddi-tomcat-3.3.6/webapps/juddiv3replication/WEB-INF/classes/juddiv3.xml
+2018-12-11 01:37:26,940 INFO [org.apache.juddi.config.Install] - Checking if jUDDI is seeded by searching for root publisher root
+2018-12-11 01:37:26,951 INFO [org.apache.juddi.api.impl.UDDIServiceCounter] - Found MBean server
+2018-12-11 01:37:26,952 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.

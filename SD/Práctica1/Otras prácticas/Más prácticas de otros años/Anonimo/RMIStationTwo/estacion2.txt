@@ -1,0 +1,4 @@
+temperatura=30
+humedad=80
+luminosidad=50
+display=estacion2

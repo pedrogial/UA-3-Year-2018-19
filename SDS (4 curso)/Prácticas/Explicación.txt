@@ -1,0 +1,41 @@
+Client.go
+
+Te has registrado?
+
+Si -> Inicia Sesion (SingIn.go)
+
+No -> Registro	    (SingOut.go)
+
+
+
+
+SingIn.go
+
+Inicio Sesion ->
+	
+
+
+
+
+
+
+
+SingOut.go
+
+Registrarse -> 
+	Cliente:
+		Añadir usuario y contraseña
+		Codificar la contraseña
+		Enviarselo al servidor
+	
+	Servidor:
+		Recoger los datos
+		Generar un json
+		Almacenar en la base de datos del servidor (Ni idea)
+
+
+
+
+Interfaz:
+	HTML -> Con boostrap
+	Enlazar los botones al código.

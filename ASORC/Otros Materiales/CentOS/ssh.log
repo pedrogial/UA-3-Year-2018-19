@@ -1,0 +1,48 @@
+Dec  2 13:31:15 localhost sshd[9108]: Received signal 15; terminating.
+Dec  2 13:31:15 localhost sshd[20016]: Server listening on 0.0.0.0 port 22.
+Dec  2 13:31:15 localhost sshd[20016]: Server listening on :: port 22.
+Dec  2 13:31:39 localhost sshd[20144]: Address 192.168.56.103 maps to localhost.localdomain, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Dec  2 13:31:39 localhost sshd[20144]: Connection closed by 192.168.56.103 port 33336 [preauth]
+Dec  2 13:32:05 localhost sshd[20256]: Address 192.168.56.103 maps to localhost.localdomain, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Dec  2 13:32:05 localhost sshd[20256]: Connection closed by 192.168.56.103 port 33338 [preauth]
+Dec  2 13:32:40 localhost sshd[20419]: Address 192.168.56.103 maps to localhost.localdomain, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Dec  2 13:32:40 localhost sshd[20419]: Connection closed by 192.168.56.103 port 33340 [preauth]
+Dec  2 13:32:45 localhost sshd[20444]: Address 192.168.56.103 maps to localhost.localdomain, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Dec  2 13:32:45 localhost sshd[20444]: Accepted publickey for pedro from 192.168.56.103 port 33342 ssh2: RSA SHA256:zS+qWsi+Cb9qy3ONZUzuyrDEdr92ZFioRmZrtwskhiM
+Dec  2 13:32:45 localhost sshd[20444]: pam_unix(sshd:session): session opened for user pedro by (uid=0)
+Dec  2 13:34:01 localhost sshd[20768]: Accepted publickey for pedro from 192.168.56.1 port 52514 ssh2: RSA SHA256:VbvQh1vokIqfrsxi3DNnKh7a3gk0xR5R7blpKnx1Ghc
+Dec  2 13:34:01 localhost sshd[20768]: pam_unix(sshd:session): session opened for user pedro by (uid=0)
+Dec  2 13:34:19 localhost sshd[20770]: Received disconnect from 192.168.56.1 port 52514:11: Bye Bye
+Dec  2 13:34:19 localhost sshd[20770]: Disconnected from 192.168.56.1 port 52514
+Dec  2 13:34:19 localhost sshd[20768]: pam_unix(sshd:session): session closed for user pedro
+Dec  2 14:09:09 localhost sshd[29562]: User ftp from 192.168.56.1 not allowed because not listed in AllowUsers
+Dec  2 14:09:09 localhost sshd[29562]: input_userauth_request: invalid user ftp [preauth]
+Dec  2 14:09:09 localhost sshd[29562]: error: Received disconnect from 192.168.56.1 port 56566:14: No supported authentication methods available [preauth]
+Dec  2 14:09:09 localhost sshd[29562]: Disconnected from 192.168.56.1 port 56566 [preauth]
+Dec  2 14:09:14 localhost sshd[29585]: User ftp from 192.168.56.1 not allowed because not listed in AllowUsers
+Dec  2 14:09:14 localhost sshd[29585]: input_userauth_request: invalid user ftp [preauth]
+Dec  2 14:09:14 localhost sshd[29585]: error: Received disconnect from 192.168.56.1 port 56580:14: No supported authentication methods available [preauth]
+Dec  2 14:09:14 localhost sshd[29585]: Disconnected from 192.168.56.1 port 56580 [preauth]
+Dec  2 14:30:51 localhost sshd[9140]: Received disconnect from 192.168.56.103 port 33288:11: disconnected by user
+Dec  2 14:30:51 localhost sshd[9140]: Disconnected from 192.168.56.103 port 33288
+Dec  2 14:30:51 localhost sshd[9131]: pam_unix(sshd:session): session closed for user pedro
+Dec  2 15:10:37 localhost sshd[20446]: Received disconnect from 192.168.56.103 port 33342:11: disconnected by user
+Dec  2 15:10:37 localhost sshd[20446]: Disconnected from 192.168.56.103 port 33342
+Dec  2 15:10:37 localhost sshd[20444]: pam_unix(sshd:session): session closed for user pedro
+Dec  2 15:22:30 localhost sshd[1177]: Server listening on 0.0.0.0 port 22.
+Dec  2 15:22:30 localhost sshd[1177]: Server listening on :: port 22.
+Dec  2 16:43:45 localhost sshd[1161]: Server listening on 0.0.0.0 port 22.
+Dec  2 16:43:45 localhost sshd[1161]: Server listening on :: port 22.
+Dec  3 13:10:20 localhost sshd[1157]: Server listening on 0.0.0.0 port 22.
+Dec  3 13:10:20 localhost sshd[1157]: Server listening on :: port 22.
+Dec  3 14:04:36 localhost sshd[1198]: Server listening on 0.0.0.0 port 22.
+Dec  3 14:04:36 localhost sshd[1198]: Server listening on :: port 22.
+Dec  3 14:23:36 localhost sshd[6731]: Connection closed by 192.168.56.51 port 56932 [preauth]
+Dec  3 14:23:49 localhost sshd[6766]: Connection closed by 192.168.56.51 port 56934 [preauth]
+Dec  3 14:24:32 localhost sshd[6862]: User programador from 192.168.56.51 not allowed because not listed in AllowUsers
+Dec  3 14:24:32 localhost sshd[6862]: input_userauth_request: invalid user programador [preauth]
+Dec  3 14:24:32 localhost sshd[6862]: Connection closed by 192.168.56.51 port 56936 [preauth]
+Dec  3 15:51:25 localhost sshd[1086]: Server listening on 0.0.0.0 port 22.
+Dec  3 15:51:25 localhost sshd[1086]: Server listening on :: port 22.
+Dec  4 21:00:49 localhost sshd[1090]: Server listening on 0.0.0.0 port 22.
+Dec  4 21:00:49 localhost sshd[1090]: Server listening on :: port 22.

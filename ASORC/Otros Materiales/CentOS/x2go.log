@@ -1,0 +1,126 @@
+audit/audit.log:type=SERVICE_START msg=audit(1543093939.562:32): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543094368.087:128): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543094368.193:129): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543094707.859:325): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543094867.265:31): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543095393.282:358): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543095495.640:34): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543098273.515:381): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543098373.236:32): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543098938.369:215): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543162598.860:39): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543164416.368:730): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543164416.368:731): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543164451.347:35): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543179632.466:764): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543179632.466:765): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543179674.865:37): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543179718.170:141): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543240849.327:34): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543241072.840:144): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543747737.042:37): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543749450.976:423): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543749450.976:424): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543749488.704:32): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543749825.656:160): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543749875.523:37): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543759845.964:1060): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543760527.152:32): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543760663.816:139): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543765412.949:33): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543765942.852:156): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543839015.628:35): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543840655.664:193): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543840655.664:194): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543842243.849:33): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543843981.013:256): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543848680.705:33): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543852430.876:229): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543953644.976:34): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543957925.618:232): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543959406.689:35): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=x2gocleansessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+yum.log:Nov 24 21:38:45 Installed: x2goserver-common-4.1.0.0-1.el7.noarch
+yum.log:Nov 24 21:38:47 Installed: x2goagent-4.1.0.0-1.el7.x86_64
+yum.log:Nov 24 21:38:52 Installed: x2goserver-xsession-4.1.0.0-1.el7.noarch
+yum.log:Nov 24 21:38:52 Installed: x2goserver-4.1.0.0-1.el7.x86_64
+messages:Dec  2 13:34:03 localhost /usr/bin/x2goresume-session: client 192.168.56.1 has successfully resumed session with ID pedro-50-1543751598_stDXFCE_dp32
+messages:Dec  2 13:34:10 localhost /usr/bin/x2gosetkeyboard: Setting X keyboard according to /home/pedro/.x2go/C-pedro-50-1543751598_stDXFCE_dp32/keyboard
+messages:Dec  2 13:34:10 localhost /usr/bin/x2gomountdirs[21150]: successfully mounted phado@127.0.0.1:54078/cygdrive/C/Users/phado/X2GO~1/S-0A17~1/spool to /tmp/.x2go-pedro/spool/C-pedro-50-1543751598_stDXFCE_dp32
+messages:Dec  2 13:34:18 localhost /usr/bin/x2goumount-session[21296]: successfully unmounted "/tmp/.x2go-pedro/spool/C-pedro-50-1543751598_stDXFCE_dp32"
+messages:Dec  2 13:34:19 localhost /usr/bin/x2gosuspend-session: session with ID pedro-50-1543751598_stDXFCE_dp32 has been suspended successfully
+messages-20181125:Nov 24 21:38:45 localhost yum[5024]: Installed: x2goserver-common-4.1.0.0-1.el7.noarch
+messages-20181125:Nov 24 21:38:47 localhost yum[5024]: Installed: x2goagent-4.1.0.0-1.el7.x86_64
+messages-20181125:Nov 24 21:38:52 localhost yum[5024]: Installed: x2goserver-xsession-4.1.0.0-1.el7.noarch
+messages-20181125:Nov 24 21:38:52 localhost yum[5024]: Installed: x2goserver-4.1.0.0-1.el7.x86_64
+messages-20181125:Nov 24 22:21:09 localhost /usr/bin/x2gostartagent: successfully started X2Go Agent session with ID pedro-50-1543094468_stDGNOME_dp32
+messages-20181125:Nov 24 22:21:14 localhost /usr/bin/x2gosetkeyboard: Setting X keyboard according to /home/pedro/.x2go/C-pedro-50-1543094468_stDGNOME_dp32/keyboard
+messages-20181125:Nov 24 22:21:14 localhost /usr/bin/x2gomountdirs[5869]: successfully mounted phado@127.0.0.1:59027/cygdrive/C/Users/phado/X2GO~1/S-PEDR~1/spool to /tmp/.x2go-pedro/spool/C-pedro-50-1543094468_stDGNOME_dp32
+messages-20181125:Nov 24 22:21:14 localhost /usr/bin/x2goruncommand: launching session with Xsession-x2go mechanism, using STARTUP="/usr/bin/gnome-session"
+messages-20181125:Nov 24 22:21:14 localhost /usr/bin/x2goruncommand: dbus wrapper available as /usr/bin/dbus-run-session
+messages-20181125:Nov 24 22:22:29 localhost /usr/bin/x2goumount-session[6993]: successfully unmounted "/tmp/.x2go-pedro/spool/C-pedro-50-1543094468_stDGNOME_dp32"
+messages-20181125:Nov 24 22:22:30 localhost /usr/bin/x2gosuspend-session: session with ID pedro-50-1543094468_stDGNOME_dp32 has been suspended successfully
+messages-20181125:Nov 24 22:23:10 localhost /usr/bin/x2goresume-session: client 192.168.56.1 has successfully resumed session with ID pedro-50-1543094468_stDGNOME_dp32
+messages-20181125:Nov 24 22:23:14 localhost /usr/bin/x2gomountdirs[7599]: successfully mounted phado@127.0.0.1:59027/cygdrive/C/Users/phado/X2GO~1/S-PEDR~1/spool to /tmp/.x2go-pedro/spool/C-pedro-50-1543094468_stDGNOME_dp32
+messages-20181125:Nov 24 22:23:16 localhost /usr/bin/x2gosetkeyboard: Setting X keyboard according to /home/pedro/.x2go/C-pedro-50-1543094468_stDGNOME_dp32/keyboard
+messages-20181125:Nov 24 22:23:37 localhost /usr/bin/x2goterminate-session: session with ID pedro-50-1543094468_stDGNOME_dp32 has been terminated successfully
+messages-20181125:Nov 24 22:29:44 localhost /usr/sbin/x2gocleansessions[831]: pedro-50-1543094982_stDGNOME_dp32: state file for this session does not exist: /tmp/.x2go-pedro/C-pedro-50-1543094982_stDGNOME_dp32/state (this can be ignored during session startups)
+messages-20181125:Nov 24 22:29:44 localhost /usr/bin/x2gostartagent: successfully started X2Go Agent session with ID pedro-50-1543094982_stDGNOME_dp32
+messages-20181125:Nov 24 22:29:49 localhost /usr/bin/x2gosetkeyboard: Setting X keyboard according to /home/pedro/.x2go/C-pedro-50-1543094982_stDGNOME_dp32/keyboard
+messages-20181125:Nov 24 22:29:49 localhost /usr/bin/x2goruncommand: launching session with Xsession-x2go mechanism, using STARTUP="/usr/bin/gnome-session"
+messages-20181125:Nov 24 22:29:49 localhost /usr/bin/x2goruncommand: dbus wrapper available as /usr/bin/dbus-run-session
+messages-20181125:Nov 24 22:29:49 localhost /usr/bin/x2gomountdirs[4585]: successfully mounted phado@127.0.0.1:30266/cygdrive/C/Users/phado/X2GO~1/S-PEDR~2/spool to /tmp/.x2go-pedro/spool/C-pedro-50-1543094982_stDGNOME_dp32
+messages-20181125:Nov 24 22:31:06 localhost /usr/bin/x2goumount-session[5817]: successfully unmounted "/tmp/.x2go-pedro/spool/C-pedro-50-1543094982_stDGNOME_dp32"
+messages-20181125:Nov 24 22:31:07 localhost /usr/bin/x2goumount-session[5817]: ERROR: failed to unmount "/tmp/.x2go-pedro/media/disk/_cygdrive_"
+messages-20181125:Nov 24 22:31:07 localhost /usr/bin/x2gomountdirs[5745]: successfully mounted phado@127.0.0.1:30266/cygdrive/ to /tmp/.x2go-pedro/media/disk/_cygdrive_
+messages-20181125:Nov 24 22:31:07 localhost /usr/bin/x2gosuspend-session: session with ID pedro-50-1543094982_stDGNOME_dp32 has been suspended successfully
+messages-20181125:Nov 24 22:31:16 localhost /usr/bin/x2goresume-session: client 192.168.56.1 has successfully resumed session with ID pedro-50-1543094982_stDGNOME_dp32
+messages-20181125:Nov 24 22:31:23 localhost /usr/bin/x2gomountdirs[6419]: successfully mounted phado@127.0.0.1:30266/cygdrive/C/Users/phado/X2GO~1/S-PEDR~2/spool to /tmp/.x2go-pedro/spool/C-pedro-50-1543094982_stDGNOME_dp32
+messages-20181125:Nov 24 22:31:23 localhost /usr/bin/x2gosetkeyboard: Setting X keyboard according to /home/pedro/.x2go/C-pedro-50-1543094982_stDGNOME_dp32/keyboard
+messages-20181125:Nov 24 22:31:29 localhost /usr/bin/x2goumount-session[6532]: successfully unmounted "/tmp/.x2go-pedro/spool/C-pedro-50-1543094982_stDGNOME_dp32"
+messages-20181125:Nov 24 22:31:29 localhost /usr/bin/x2gosuspend-session: session with ID pedro-50-1543094982_stDGNOME_dp32 has been suspended successfully
+messages-20181125:Nov 24 22:32:44 localhost /usr/sbin/x2gocleansessions[831]: pedro-51-1543095163_stS1XSHADpedroXSHADPP0_dp32: state file for this session does not exist: /tmp/.x2go-pedro/C-pedro-51-1543095163_stS1XSHADpedroXSHADPP0_dp32/state (this can be ignored during session startups)
+messages-20181125:Nov 24 22:32:44 localhost /usr/bin/x2gostartagent: successfully started X2Go Agent session with ID pedro-51-1543095163_stS1XSHADpedroXSHADPP0_dp32
+messages-20181125:Nov 25 17:19:14 localhost /usr/bin/x2gostartagent: successfully started X2Go Agent session with ID pedro-50-1543162752_stS1XSHADpedroXSHADPP0_dp32
+messages-20181125:Nov 25 17:19:59 localhost /usr/sbin/x2gocleansessions[975]: pedro-50-1543162797_stS1XSHADpedroXSHADPP1_dp32: state file for this session does not exist: /tmp/.x2go-pedro/C-pedro-50-1543162797_stS1XSHADpedroXSHADPP1_dp32/state (this can be ignored during session startups)
+messages-20181125:Nov 25 17:19:59 localhost /usr/bin/x2gostartagent: successfully started X2Go Agent session with ID pedro-50-1543162797_stS1XSHADpedroXSHADPP1_dp32
+messages-20181125:Nov 25 17:21:04 localhost /usr/bin/x2gostartagent: successfully started X2Go Agent session with ID pedro-50-1543162863_stDXDMCP_dp32
+messages-20181125:Nov 25 17:21:10 localhost /usr/bin/x2gomountdirs[5979]: successfully mounted phado@127.0.0.1:39585/cygdrive/C/Users/phado/X2GO~1/S-EDC7~1/spool to /tmp/.x2go-pedro/spool/C-pedro-50-1543162863_stDXDMCP_dp32
+messages-20181125:Nov 25 17:22:57 localhost /usr/bin/x2gostartagent: successfully started X2Go Agent session with ID pedro-50-1543162976_stDGNOME_dp32
+messages-20181125:Nov 25 17:23:01 localhost /usr/bin/x2gosetkeyboard: Setting X keyboard according to /home/pedro/.x2go/C-pedro-50-1543162976_stDGNOME_dp32/keyboard
+messages-20181125:Nov 25 17:23:01 localhost /usr/bin/x2goruncommand: launching session with Xsession-x2go mechanism, using STARTUP="/usr/bin/gnome-session"
+messages-20181125:Nov 25 17:23:01 localhost /usr/bin/x2goruncommand: dbus wrapper available as /usr/bin/dbus-run-session
+messages-20181125:Nov 25 17:23:01 localhost /usr/bin/x2gomountdirs[6783]: successfully mounted phado@127.0.0.1:38232/cygdrive/C/Users/phado/X2GO~1/S-4A92~1/spool to /tmp/.x2go-pedro/spool/C-pedro-50-1543162976_stDGNOME_dp32
+messages-20181125:Nov 25 17:27:14 localhost /usr/bin/x2goumount-session[8586]: successfully unmounted "/tmp/.x2go-pedro/spool/C-pedro-50-1543162976_stDGNOME_dp32"
+messages-20181125:Nov 25 17:27:14 localhost /usr/bin/x2gosuspend-session: session with ID pedro-50-1543162976_stDGNOME_dp32 has been suspended successfully
+messages-20181125:Nov 25 17:27:38 localhost /usr/sbin/x2gocleansessions[975]: pedro-51-1543163257_stS1XSHADpedroXSHADPP1_dp32: state file for this session does not exist: /tmp/.x2go-pedro/C-pedro-51-1543163257_stS1XSHADpedroXSHADPP1_dp32/state (this can be ignored during session startups)
+messages-20181125:Nov 25 17:27:39 localhost /usr/bin/x2gostartagent: successfully started X2Go Agent session with ID pedro-51-1543163257_stS1XSHADpedroXSHADPP1_dp32
+messages-20181125:Nov 25 17:28:59 localhost /usr/bin/x2goresume-session: client 192.168.56.1 has successfully resumed session with ID pedro-50-1543162976_stDGNOME_dp32
+messages-20181125:Nov 25 17:29:05 localhost /usr/bin/x2gosetkeyboard: Setting X keyboard according to /home/pedro/.x2go/C-pedro-50-1543162976_stDGNOME_dp32/keyboard
+messages-20181125:Nov 25 17:29:05 localhost /usr/bin/x2gomountdirs[9887]: successfully mounted phado@127.0.0.1:38232/cygdrive/C/Users/phado/X2GO~1/S-4A92~1/spool to /tmp/.x2go-pedro/spool/C-pedro-50-1543162976_stDGNOME_dp32
+messages-20181125:Nov 25 17:29:44 localhost /usr/bin/x2goumount-session[10112]: successfully unmounted "/tmp/.x2go-pedro/spool/C-pedro-50-1543162976_stDGNOME_dp32"
+messages-20181125:Nov 25 17:29:44 localhost /usr/bin/x2gosuspend-session: session with ID pedro-50-1543162976_stDGNOME_dp32 has been suspended successfully
+messages-20181125:Nov 25 17:38:42 localhost /usr/bin/x2goterminate-session: session with ID pedro-50-1543162976_stDGNOME_dp32 has been terminated successfully
+messages-20181125:Nov 25 17:38:48 localhost /usr/bin/x2gostartagent: successfully started X2Go Agent session with ID pedro-50-1543163926_stDXDMCP_dp32
+messages-20181125:Nov 25 17:38:52 localhost /usr/bin/x2gomountdirs[14185]: successfully mounted phado@127.0.0.1:30905/cygdrive/C/Users/phado/X2GO~1/S-A50B~1/spool to /tmp/.x2go-pedro/spool/C-pedro-50-1543163926_stDXDMCP_dp32
+messages-20181125:Nov 25 17:49:56 localhost /usr/sbin/x2gocleansessions[851]: pedro-50-1543164596_stDXFCE_dp32: state file for this session does not exist: /tmp/.x2go-pedro/C-pedro-50-1543164596_stDXFCE_dp32/state (this can be ignored during session startups)
+messages-20181125:Nov 25 17:49:58 localhost /usr/bin/x2gostartagent: successfully started X2Go Agent session with ID pedro-50-1543164596_stDXFCE_dp32
+messages-20181125:Nov 25 17:50:02 localhost /usr/bin/x2gosetkeyboard: Setting X keyboard according to /home/pedro/.x2go/C-pedro-50-1543164596_stDXFCE_dp32/keyboard
+messages-20181125:Nov 25 17:50:02 localhost /usr/bin/x2goruncommand: launching session with Xsession-x2go mechanism, using STARTUP="xfce4-session"
+messages-20181125:Nov 25 17:50:02 localhost /usr/bin/x2goruncommand: dbus wrapper available as /usr/bin/dbus-run-session
+messages-20181125:Nov 25 17:50:02 localhost /usr/bin/x2gomountdirs[4346]: successfully mounted phado@127.0.0.1:35364/cygdrive/C/Users/phado/X2GO~1/S-123F~1/spool to /tmp/.x2go-pedro/spool/C-pedro-50-1543164596_stDXFCE_dp32
+messages-20181125:Nov 25 17:50:25 localhost /usr/bin/x2goumount-session[5166]: successfully unmounted "/tmp/.x2go-pedro/spool/C-pedro-50-1543164596_stDXFCE_dp32"
+messages-20181125:Nov 25 17:50:26 localhost /usr/bin/x2gosuspend-session: session with ID pedro-50-1543164596_stDXFCE_dp32 has been suspended successfully
+messages-20181125:Nov 25 17:52:10 localhost /usr/bin/x2gostartagent: successfully started X2Go Agent session with ID pedro-51-1543164729_stDXDMCP_dp32
+messages-20181125:Nov 25 17:52:14 localhost /usr/bin/x2gomountdirs[6212]: successfully mounted phado@127.0.0.1:42471/cygdrive/C/Users/phado/X2GO~1/S-2596~1/spool to /tmp/.x2go-pedro/spool/C-pedro-51-1543164729_stDXDMCP_dp32
+secure-20181125:Nov 24 21:38:45 localhost groupadd[5137]: group added to /etc/group: name=x2gouser, GID=981
+secure-20181125:Nov 24 21:38:45 localhost groupadd[5137]: group added to /etc/gshadow: name=x2gouser
+secure-20181125:Nov 24 21:38:45 localhost groupadd[5137]: new group: name=x2gouser, GID=981
+secure-20181125:Nov 24 21:38:45 localhost useradd[5142]: new user: name=x2gouser, UID=987, GID=981, home=/var/lib/x2go, shell=/sbin/nologin
+messages-20181202:Dec  2 12:53:20 localhost /usr/sbin/x2gocleansessions[896]: pedro-50-1543751598_stDXFCE_dp32: state file for this session does not exist: /tmp/.x2go-pedro/C-pedro-50-1543751598_stDXFCE_dp32/state (this can be ignored during session startups)
+messages-20181202:Dec  2 12:53:20 localhost /usr/bin/x2gostartagent: successfully started X2Go Agent session with ID pedro-50-1543751598_stDXFCE_dp32
+messages-20181202:Dec  2 12:53:25 localhost /usr/bin/x2gosetkeyboard: Setting X keyboard according to /home/pedro/.x2go/C-pedro-50-1543751598_stDXFCE_dp32/keyboard
+messages-20181202:Dec  2 12:53:25 localhost /usr/bin/x2goruncommand: launching session with Xsession-x2go mechanism, using STARTUP="xfce4-session"
+messages-20181202:Dec  2 12:53:25 localhost /usr/bin/x2goruncommand: dbus wrapper available as /usr/bin/dbus-run-session
+messages-20181202:Dec  2 12:53:25 localhost /usr/bin/x2gomountdirs[9583]: successfully mounted phado@127.0.0.1:54078/cygdrive/C/Users/phado/X2GO~1/S-0A17~1/spool to /tmp/.x2go-pedro/spool/C-pedro-50-1543751598_stDXFCE_dp32
+messages-20181202:Dec  2 12:53:44 localhost /usr/bin/x2goumount-session[10389]: successfully unmounted "/tmp/.x2go-pedro/spool/C-pedro-50-1543751598_stDXFCE_dp32"
+messages-20181202:Dec  2 12:53:44 localhost /usr/bin/x2gosuspend-session: session with ID pedro-50-1543751598_stDXFCE_dp32 has been suspended successfully

@@ -1,0 +1,17 @@
+Tue Nov 27 18:39:30 2018  [STATUS] directory created (/var/spool/cups-pdf)
+Tue Nov 27 18:39:30 2018  [STATUS] spool directory created (/var/spool/cups-pdf)
+Tue Nov 27 18:39:30 2018  [STATUS] identification string sent
+Tue Nov 27 18:43:38 2018  [STATUS] PDF creation successfully finished (Pedro)
+Tue Nov 27 18:53:58 2018  [STATUS] directory created (/var/spool/cups-pdf/ANONYMOUS)
+Tue Nov 27 18:53:59 2018  [STATUS] PDF creation successfully finished (nobody)
+Tue Nov 27 18:55:00 2018  [STATUS] PDF creation successfully finished (nobody)
+Tue Dec  4 13:36:23 2018  [STATUS] identification string sent
+Tue Dec  4 14:33:45 2018  [STATUS] PDF creation successfully finished (nobody)
+Tue Dec  4 14:36:55 2018  [ERROR] failed to set file mode for PDF file (non fatal) (/home/Pedro//_hola_txt__Bloc_de_notas____.pdf)
+Tue Dec  4 14:36:55 2018  [STATUS] PDF creation successfully finished (nobody)
+Tue Dec  4 14:37:37 2018  [ERROR] failed to set file mode for PDF file (non fatal) (/home/Pedro//_hola_txt__Bloc_de_notas____.pdf)
+Tue Dec  4 14:37:37 2018  [STATUS] PDF creation successfully finished (nobody)
+Tue Dec  4 14:42:30 2018  [ERROR] failed to set file mode for PDF file (non fatal) (/var/spool//_hola_txt__Bloc_de_notas____.pdf)
+Tue Dec  4 14:42:30 2018  [STATUS] PDF creation successfully finished (nobody)
+Tue Dec  4 14:47:43 2018  [STATUS] PDF creation successfully finished (nobody)
+Tue Dec  4 14:48:06 2018  [STATUS] PDF creation successfully finished (nobody)

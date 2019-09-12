@@ -1,0 +1,10 @@
+C:\Users\phado\Desktop\Practica4\Practica4\bin\Debug\Practica4.exe.config
+C:\Users\phado\Desktop\Practica4\Practica4\bin\Debug\Practica4.exe
+C:\Users\phado\Desktop\Practica4\Practica4\bin\Debug\Practica4.pdb
+C:\Users\phado\Desktop\Practica4\Practica4\obj\Debug\Practica4.csprojAssemblyReference.cache
+C:\Users\phado\Desktop\Practica4\Practica4\obj\Debug\Practica4.Form1.resources
+C:\Users\phado\Desktop\Practica4\Practica4\obj\Debug\Practica4.Properties.Resources.resources
+C:\Users\phado\Desktop\Practica4\Practica4\obj\Debug\Practica4.csproj.GenerateResource.cache
+C:\Users\phado\Desktop\Practica4\Practica4\obj\Debug\Practica4.csproj.CoreCompileInputs.cache
+C:\Users\phado\Desktop\Practica4\Practica4\obj\Debug\Practica4.exe
+C:\Users\phado\Desktop\Practica4\Practica4\obj\Debug\Practica4.pdb

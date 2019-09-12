@@ -1,0 +1,7 @@
+Tienes que aprobar la teoria con el tipo test.
+
+En temario tienes resumenes creados por mi de los test que salen teorico y práctico.
+
+Los archivos buenos son:
+	- Problemas SI
+	- Teoria de SI(Arreglado)

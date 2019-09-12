@@ -1,0 +1,11 @@
+﻿Yo me he encontrado con un enunciado del primer parcial (grupo 3):
+1. Explica el modelo arquitectónico denominado middleware orientado a mensajes (MOM). Enumera y describe sus elementos. ¿Cuáles son las principales similitudes y diferencias entre MOM y el modelo cliente-servidor convencional? [2p]
+
+2. Uno de los principales problmeas en la comunicación entre entidades de un sistema distribuido es la representación de la información. Enumera y describe el funcionamiento de las tres posibles técnicas que tratan de resolver esta problemática. [2p]
+
+3. Comenta brevemente el modelo CGI indicando sus ventajas y desventajas. Justifica su aparición partiendo del modelo Web básico. [2p]
+
+4. Explica brevemente la funcionalidad dentro de la tecnología de Servicios Web de UDDI y WSDL. ¿Qué relación existe entre WSDL y UDDI? [2p]
+
+5. Justifica la gestión distribuida de LDAP, define las ventajas sobre otros sistemas de información tradicionales y enumera y describe los motivos que pueden llevar a esta gestión distribuida. ¿Qué técnica es utilizada para relacionar las diferentes partes del espacio de nombres cuando es distribuido? [2p]
+

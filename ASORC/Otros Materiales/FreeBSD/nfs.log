@@ -1,0 +1,35 @@
+DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+Dec  3 16:21:27 Pedro mountd[626]: bad exports list line '/ada2/nfs': symbolic link in export path or statfs failed
+Dec  3 16:27:36 Pedro mountd[627]: mount request denied from 192.168.56.1 for /ada2/nfs
+Dec  3 16:27:36 Pedro mountd[627]: mount request denied from 192.168.56.1 for /ada2/nfs
+Dec  3 16:27:40 Pedro mountd[627]: mount request denied from 192.168.56.1 for /ada2/nfs
+Dec  3 16:27:40 Pedro mountd[627]: mount request denied from 192.168.56.1 for /ada2/nfs
+Dec  3 16:28:11 Pedro mountd[627]: mount request from 192.168.56.1 for non existent path /nfs
+Dec  3 16:28:11 Pedro mountd[627]: mount request denied from 192.168.56.1 for /nfs
+Dec  3 16:28:11 Pedro mountd[627]: mount request from 192.168.56.1 for non existent path /nfs
+Dec  3 16:28:11 Pedro mountd[627]: mount request denied from 192.168.56.1 for /nfs
+Dec  3 16:30:58 Pedro mountd[627]: mount request denied from 192.168.56.1 for /ada2/nfs
+Dec  3 16:30:58 Pedro mountd[627]: mount request denied from 192.168.56.1 for /ada2/nfs

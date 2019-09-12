@@ -1,0 +1,70 @@
+Tener cuidado con las cuentas de programador que he metido en otros so.
+
+##################FEDORA####################
+Fedora hay que cambiarlo a Hora de Madrid.
+############################################
+
+##################FREEBSD##################
+FreeBSD con KDE de interfaz
+pkg update
+pkg upgrade
+pkg install xorg
+pkg install kde
+ee /etc/rc.conf
+ifconfig_em1="DHCP" (Esto mirarlo mejor)
+dbus_enable="YES"
+hald_enable="YES"
+kdm4_enable="YES"
+Arreglar el idioma y el tema
+
+
+############################################
+
+##################TRUEOS####################
+Perfecto
+############################################
+
+Clase/
+############################################
+
+Mi PC = 192.168.56.1/24
+Máquina virtual = 192.168.56.101/24
+
+Preguntas:
+	Configuracion de red (Ver que funciona todo los ping sin problemas y acceso a Internet)
+	Enseñame la Version distro
+	Enseñame la Version del Kernel
+	Las redes bien instaladas
+	G.Paqueteria enseñarle todo lo que tiene (con poner yum saldria todo)
+	Saber TODO el gestor de paquetería (yum/apt-get/pkg)
+	Los programas que has instalado
+
+(Para todas las practicas siguientes)
+	History (2 y 3)
+	Logs
+
+############################################
+Instalar:
+Servidor-> CentOS/Debian/BSD 11.2/Windows
+Escritorio-> Fedora/TrueOS
+Da igual-> SUSE
+
+Opcional: (a elegir)
+	Gentoo
+	LFS
+############################################
+Instalar la arquitectura de AMD64
+su -> Todo es de Bernardo, estas en la carpeta de Bernardo
+su - -> Te transformas en root
+
+
+
+
+
+
+
+
+
+
+
+

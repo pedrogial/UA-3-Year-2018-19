@@ -1,0 +1,17 @@
+A continuación me encargaré de describir algunos requisitos especificos mas importantes de nuestra práctica.
+
+Sobre los requisitos de interfaz cabe destacar: 
+
+Las interfaces de usuario. Relacionadas con las páginas o formularios que debe manipular el usuario para realizar una operacion determinada. 
+(Los botones menus desplegables, mensajes de advertencia o mensajes de error)
+
+Interfaces de hardware. Especifican las características lógicas para cada interfaz entre le producto y los componentes de hardware del sistema. (Pantalla, ratón y teclado basicamente)
+
+Interfaces de software. Se necesitará un navegador web para poder acceder, ademas de un producto software de base de datos.
+
+Interfaces de comunicación. Se ha utilizado una conexión entre la base de datos y el servidor WEB, ademas de un protocolo de transferencia segura de datos.
+
+Mantenimiento. Proporciona mantenimiento mensual por el desarrollador y que sea facilmente actualizable. 
+
+Portabilidad. Nuestro proyecto está desarrollado con JAVA, que proporciona una gran portabilidad ya que puede ser usado en Windows, Linux o donde tu quieras.
+

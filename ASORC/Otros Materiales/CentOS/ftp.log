@@ -1,0 +1,124 @@
+audit/audit.log:type=SERVICE_START msg=audit(1543175294.133:559): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543175458.818:567): pid=17887 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="anonymous" exe="/usr/sbin/vsftpd" hostname=::ffff:192.168.56.1 addr=::ffff:192.168.56.1 terminal=ftp res=failed'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543175561.402:568): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543175561.408:569): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=ADD_GROUP msg=audit(1543175993.390:574): pid=19949 uid=0 auid=1000 ses=1 msg='op=add-group acct="ftp" exe="/usr/sbin/groupadd" hostname=localhost.localdomain addr=? terminal=pts/1 res=failed'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543176379.139:616): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543176379.142:617): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543176403.273:618): pid=21651 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543176403.274:619): pid=21651 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543176403.274:620): pid=21651 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543177041.079:632): pid=24030 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543177041.079:633): pid=24030 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543177041.079:634): pid=24030 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543179632.475:784): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543755800.791:839): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543755870.553:840): pid=28486 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="ftp" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=failed'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543756129.043:843): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543756129.046:844): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543756137.779:845): pid=29520 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="ftp" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=failed'
+audit/audit.log:type=USER_AUTH msg=audit(1543756171.812:870): pid=29648 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="ftp" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=failed'
+audit/audit.log:type=USER_AUTH msg=audit(1543756211.341:879): pid=29843 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="ftp" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=failed'
+audit/audit.log:type=USER_AUTH msg=audit(1543756274.418:881): pid=30073 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="ftp" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=failed'
+audit/audit.log:type=USER_CHAUTHTOK msg=audit(1543756562.291:884): pid=31155 uid=0 auid=1000 ses=14 msg='op=PAM:chauthtok grantors=pam_pwquality,pam_unix acct="ftp" exe="/usr/bin/passwd" hostname=localhost.localdomain addr=? terminal=pts/3 res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543756719.125:888): pid=31806 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543756719.125:889): pid=31806 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543756719.125:890): pid=31806 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543756948.808:900): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543756948.816:901): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543756982.808:902): pid=373 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543756982.809:903): pid=373 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543756982.809:904): pid=373 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543757016.651:905): pid=523 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543757016.651:906): pid=523 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543757016.651:907): pid=523 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543757070.977:908): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543757070.982:909): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543759845.969:1066): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543843775.247:203): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543843810.439:212): pid=7705 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543843810.439:213): pid=7705 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543843810.439:214): pid=7705 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543843828.029:215): pid=7744 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543843828.029:216): pid=7744 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543843828.029:217): pid=7744 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543843833.087:218): pid=7759 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543843833.088:219): pid=7759 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543843833.088:220): pid=7759 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543843875.311:221): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543843875.327:222): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543843877.644:223): pid=7878 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543843877.644:224): pid=7878 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543843877.644:225): pid=7878 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543843981.015:261): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543849261.708:145): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543849306.600:148): pid=5265 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543849306.600:149): pid=5265 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543849306.600:150): pid=5265 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543849331.712:151): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543849331.797:152): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543849335.727:153): pid=5347 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543849335.727:154): pid=5347 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543849335.727:155): pid=5347 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_AUTH msg=audit(1543849345.467:156): pid=5378 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=USER_ACCT msg=audit(1543849345.468:157): pid=5378 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=CRED_ACQ msg=audit(1543849345.468:158): pid=5378 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_unix acct="usuario" exe="/usr/sbin/vsftpd" hostname=192.168.56.1 addr=192.168.56.1 terminal=ftp res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543852430.878:239): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+yum.log:Nov 25 20:30:11 Installed: vsftpd-3.0.2-22.el7.x86_64
+messages:Dec  2 14:03:20 localhost systemd: Starting Vsftpd ftp daemon...
+messages:Dec  2 14:03:20 localhost systemd: Started Vsftpd ftp daemon.
+messages:Dec  2 14:08:49 localhost systemd: Stopping Vsftpd ftp daemon...
+messages:Dec  2 14:08:49 localhost systemd: Starting Vsftpd ftp daemon...
+messages:Dec  2 14:08:49 localhost systemd: Started Vsftpd ftp daemon.
+messages:Dec  2 14:22:28 localhost systemd: Stopping Vsftpd ftp daemon...
+messages:Dec  2 14:22:28 localhost systemd: Starting Vsftpd ftp daemon...
+messages:Dec  2 14:22:28 localhost systemd: Started Vsftpd ftp daemon.
+messages:Dec  2 14:24:30 localhost systemd: Stopping Vsftpd ftp daemon...
+messages:Dec  2 14:24:30 localhost systemd: Starting Vsftpd ftp daemon...
+messages:Dec  2 14:24:30 localhost systemd: Started Vsftpd ftp daemon.
+messages:Dec  3 14:04:36 localhost dhcpd: on ftp.isc.org.  Features have been added and other changes
+messages:Dec  3 14:04:46 localhost dhcpd: on ftp.isc.org.  Features have been added and other changes
+messages:Dec  3 14:04:46 localhost dhcpd: on ftp.isc.org.  Features have been added and other changes
+messages:Dec  3 14:29:35 localhost systemd: Starting Vsftpd ftp daemon...
+messages:Dec  3 14:29:35 localhost systemd: Started Vsftpd ftp daemon.
+messages:Dec  3 14:31:15 localhost systemd: Stopping Vsftpd ftp daemon...
+messages:Dec  3 14:31:15 localhost systemd: Starting Vsftpd ftp daemon...
+messages:Dec  3 14:31:15 localhost systemd: Started Vsftpd ftp daemon.
+messages:Dec  3 14:33:00 localhost systemd: Stopping Vsftpd ftp daemon...
+messages:Dec  3 16:01:01 localhost systemd: Starting Vsftpd ftp daemon...
+messages:Dec  3 16:01:01 localhost systemd: Started Vsftpd ftp daemon.
+messages:Dec  3 16:02:11 localhost systemd: Stopping Vsftpd ftp daemon...
+messages:Dec  3 16:02:11 localhost systemd: Starting Vsftpd ftp daemon...
+messages:Dec  3 16:02:11 localhost systemd: Started Vsftpd ftp daemon.
+secure:Dec  2 14:04:30 localhost vsftpd[28486]: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=192.168.56.1  user=ftp
+secure:Dec  2 14:04:30 localhost vsftpd[28486]: pam_succeed_if(vsftpd:auth): requirement "uid >= 1000" not met by user "ftp"
+secure:Dec  2 14:08:57 localhost vsftpd[29520]: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=192.168.56.1  user=ftp
+secure:Dec  2 14:08:57 localhost vsftpd[29520]: pam_succeed_if(vsftpd:auth): requirement "uid >= 1000" not met by user "ftp"
+secure:Dec  2 14:09:09 localhost sshd[29562]: User ftp from 192.168.56.1 not allowed because not listed in AllowUsers
+secure:Dec  2 14:09:09 localhost sshd[29562]: input_userauth_request: invalid user ftp [preauth]
+secure:Dec  2 14:09:14 localhost sshd[29585]: User ftp from 192.168.56.1 not allowed because not listed in AllowUsers
+secure:Dec  2 14:09:14 localhost sshd[29585]: input_userauth_request: invalid user ftp [preauth]
+secure:Dec  2 14:09:31 localhost vsftpd[29648]: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=192.168.56.1  user=ftp
+secure:Dec  2 14:09:31 localhost vsftpd[29648]: pam_succeed_if(vsftpd:auth): requirement "uid >= 1000" not met by user "ftp"
+secure:Dec  2 14:10:11 localhost vsftpd[29843]: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=192.168.56.1  user=ftp
+secure:Dec  2 14:10:11 localhost vsftpd[29843]: pam_succeed_if(vsftpd:auth): requirement "uid >= 1000" not met by user "ftp"
+secure:Dec  2 14:11:14 localhost vsftpd[30073]: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=192.168.56.1  user=ftp
+secure:Dec  2 14:11:14 localhost vsftpd[30073]: pam_succeed_if(vsftpd:auth): requirement "uid >= 1000" not met by user "ftp"
+secure:Dec  2 14:16:02 localhost passwd: pam_unix(passwd:chauthtok): password changed for ftp
+xferlog:Sun Dec  2 14:23:36 2018 1 192.168.56.1 6 /hola.txt a _ i r usuario ftp 0 * c
+xferlog:Mon Dec  3 16:02:28 2018 1 192.168.56.1 6 /hola.txt a _ i r usuario ftp 0 * c
+xferlog:Mon Dec  3 16:02:34 2018 1 192.168.56.1 6 /Nuevo_directorio/hola.txt a _ i r usuario ftp 0 * c
+messages-20181202:Nov 25 20:30:11 localhost yum[13062]: Installed: vsftpd-3.0.2-22.el7.x86_64
+messages-20181202:Nov 25 20:48:14 localhost systemd: Starting Vsftpd ftp daemon...
+messages-20181202:Nov 25 20:48:14 localhost systemd: Started Vsftpd ftp daemon.
+messages-20181202:Nov 25 20:52:41 localhost systemd: Stopping Vsftpd ftp daemon...
+messages-20181202:Nov 25 20:52:41 localhost systemd: Starting Vsftpd ftp daemon...
+messages-20181202:Nov 25 20:52:41 localhost systemd: Started Vsftpd ftp daemon.
+messages-20181202:Nov 25 21:06:19 localhost systemd: Stopping Vsftpd ftp daemon...
+messages-20181202:Nov 25 21:06:19 localhost systemd: Starting Vsftpd ftp daemon...
+messages-20181202:Nov 25 21:06:19 localhost systemd: Started Vsftpd ftp daemon.
+secure-20181202:Nov 25 20:50:58 localhost vsftpd[17887]: pam_unix(vsftpd:auth): check pass; user unknown
+secure-20181202:Nov 25 20:50:58 localhost vsftpd[17887]: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=anonymous rhost=::ffff:192.168.56.1
+secure-20181202:Nov 25 21:03:25 localhost sudo:   pedro : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/sbin/useradd -g ftp -d /sdb3 -c sdb3 sdb3
+secure-20181202:Nov 25 21:03:58 localhost sudo:   pedro : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/sbin/useradd -g ftp -d /sdb3/servidor -c sdb3 sdb3
+secure-20181202:Nov 25 21:04:19 localhost sudo:   pedro : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/sbin/useradd -g ftp -d /sdb3/servidor -c usuario usuario

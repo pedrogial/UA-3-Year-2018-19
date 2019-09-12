@@ -1,0 +1,40 @@
+Buenas me llamo Pedro Giménez Aldeguer y 
+a continuación voy a explicar mi propuesta de proyecto a realizar.
+Bien, de todos es sabido, 
+que en muchas ocasiones no cotamos con el tiempo que nos gustaría 
+para poder pensar qué ropa es la ideal en función a cada ocasión. 
+
+LockerApp, hace esto posible.
+Se trata de una aplicación móvil que aparte de ayudarnos a ser más eficientes 
+a la hora de tomar esa decisión, agiliza el proceso de arreglarnos.
+
+Únicamente has de introducir todas las prendas que hay en tu armario 
+haciéndoles una foto y la aplicación se encargará de crear los 
+diferentes conjuntos para cada día o estación del año. 
+La aplicación consta de dos versiones:
+
+-Gratuita, el ususario se registrará y podrá acceder a todo su armario 
+y realizar sus combinaciones y ordenarlas a su gusto.
+
+-Premium, aparte de llevar todo lo anterior, esta versión de pago 
+la aplicación realizará combinaciones de ropa por tí. 
+
+*También cuenta con un servicio de notificaciones que te avisa
+del tiempo que hace, para que la decisión sea más acertada.*
+
+Si se paga el total de un año de versión premium, se regalará una mini Tablet 
+para situarla donde quieras, que contará con un software exclusivo de la aplicación 
+y una funcion de voz para personas con discapacidad visual.
+
+Soble el plazo de financiación, se necesitaría una contribución de unos 100.000 euros 
+en un plazo de 30 días para poder pagar al equipo de desarrollo y la fabricación de las mini tablets.
+La versión premium costaría 10 euros y el pack de 12 meses + la tablet unos 110 euros
+
+He pensado en varias recompensas para los patrocinadores:
+dependiendo de lo que contribuyan, podrán ganar x meses de la versión premiun y la tablet, 
+hasta un viaje gratuito con visita guiada por las instalaciones.
+
+Para acabar los principales desafíos sería crear el sistema inteligente que realice 
+las diferentes combinaciones de ropa y que marcas de ropa conocidas promocionen nuestra aplicación
+y algunos de los riesgos sería el presupuesto, el abandono del proyecto o problemas que pueden 
+surjir al crear el sistema inteligente.

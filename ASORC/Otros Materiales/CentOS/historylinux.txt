@@ -1,0 +1,604 @@
+    1  yum update
+    2  yum upgrade
+    3  yum update
+    4  yum upgrade
+    5  yum update kernel*
+    6  yum repolist
+    7  yum search vbox
+    8  yum search kernel
+    9  yum show
+   10  yum -h
+   11  yum list
+   12  yum -h
+   13  yum deplist firefox
+   14  yum install gcc kernel-devel kernel-headers dkms make bzip2 perl
+   15  useradd
+   16  ls
+   17  cd ..
+   18  ls
+   19  useradd -g wheel -p pr123456 -m programador
+   20  cat /etc/passwd
+   21  useradd -g wheel -p mu123456 -m  multimedia
+   22  useradd -g wheel -p mu123456 -m  oficina
+   23  oficina passwd
+   24  passwd oficina
+   25  passwd multimedia
+   26  logout
+   27  exit
+   28  yum -y install epel-release
+   29  yum update
+   30  yum upgrade
+   31  ls -a
+   32  cd ..
+   33  cd ..
+   34  nano -w /etc/yum.repos.d/epel.repo
+   35  yum update
+   36  nano -w /etc/yum.repos.d/epel.repo
+   37  yum update
+   38  yum upgrade
+   39  yum -y install tigervnc-server
+   40  cp /lib/systemd/system/vncserver@.service /etc/systemd/system/vncserver@:1.service
+   41  nano -w /etc/systemd/system/vncserver@\:1.service
+   42  su - pedro
+   43  systemctl daemon-reload
+   44  systemctl enable vncserver@:1.service
+   45  reboot
+   46  yum update
+   47  systemctl start vncserver@:1.service
+   48  systemctl status vncserver@:1.service
+   49  exit
+   50  yum install xrdp
+   51  yum install xorgxrdp-0.2.6
+   52  yum install xorgxrdp-0.2.6-1.el7.x86_64
+   53  yum install xorgxrdp-0.2.5-3.el7.x86_64
+   54  yum search xorgxrdp-0.2.5-3.el7.x86_64
+   55  yum search xorgxrdp
+   56  yum install xorgxrdp.x86_64
+   57  yum search xorg-x11
+   58  yum install xorg-x11-server-Xorg.x86_64
+   59  yum -y install x2goserver
+   60  X2godbadmin --createdb
+   61  x2goclient
+   62  x2godbadmin --createdbg
+   63  x2godbadmin --createdb
+   64  x2goclient
+   65  x2gocleanession
+   66  x2gocleansession
+   67  x2gocleansession
+   68  x2godbadmin --createdbg
+   69  x2godbadmin --createdb
+   70  x2godbadmin --adduser|rmuser pedro
+   71  x2godbadmin --adduser pedro
+   72  x2godbadmin --updatedb
+   73  yum x2goserver-xsession
+   74  yum install x2goserver-xsession
+   75  yum install fuse-sshfs
+   76  service x2goserver status
+   77  systemctl status x2goserver
+   78  systemctl status x2goserver.service
+   79  x2goserver
+   80  reboot
+   81  yum install x2goserver x2goserver-xsession
+   82  yum update
+   83  yum upgrade
+   84  x2godbadmin --createdb
+   85  x2godbadmin
+   86  x2godbadmin --listusers
+   87  x2gocleansession
+   88  systemctl status x2godbadmin
+   89  systemctl status x2gocleansessions.service 
+   90  systemctl restart x2gocleansessions.service 
+   91  systemctl status x2gocleansessions.service 
+   92  systemctl status sshd
+   93  systemctl status vncserver@\:1.servic
+   94  systemctl status x2gocleansessions.service 
+   95  exit
+   96  systemctl status x2gocleansessions.service 
+   97  yum install gdm -y
+   98  cd ..
+   99  cd ..
+  100  nano -w /etc/gdm/custom.conf 
+  101  exit
+  102  nano -w /etc/gdm/custom.conf 
+  103  systemctl status x2gocleansessions.service 
+  104  systemctl status gdm
+  105  ifconfig
+  106  systemctl restart gdm
+  107  systemctl status gdm
+  108  ifconfig
+  109  systemctl restart gdm
+  110  systemctl restart gdm
+  111  ifconfig
+  112  systemctl restart gdm
+  113  systemctl status gdm
+  114  ifconfig
+  115  systemctl status gdm
+  116  systemctl restart gdm
+  117  systemctl status gdm
+  118  systemctl restart gdm
+  119  systemctl status x2gocleansessions.service 
+  120  systemctl status gdm
+  121  systemctl status x2gocleansessions.service 
+  122  cd ..
+  123  cd ..
+  124  nano -w /etc/gfm/custom.conf
+  125  nano -w /etc/gdm/custom.conf 
+  126  systemctl status gdm
+  127  systemctl restart gdm
+  128  yum install epel-release -y
+  129  yum groupinstall "Server with GUI" -y
+  130  yum groupinstall "Xfce" -y
+  131  systemctl get-default
+  132  systemctl set-default graphical.target
+  133  systemctl isolate graphical.target
+  134  reboot
+  135  mkdir /pedro
+  136  ls -a
+  137  mkdir pedro
+  138  ls -a
+  139  yum -y install nfs-utils
+  140  mount /dev/sdb1 /sdb1
+  141  ls -a
+  142  chown nfsnobody:nfsnobody /sdb1
+  143  chmod 755 /sdb1
+  144  nano /etc/exports
+  145  exportfs -a
+  146  nano /etc/exports
+  147  exportfs -a
+  148  nano /etc/exports
+  149  exportfs -a
+  150  nano /etc/exports
+  151  exportfs -a
+  152  nano /etc/exports
+  153  chmod -R 755 /sdb1
+  154  exportfs -a
+  155  systemctl start nfs-server.service 
+  156  systemctl status nfs-server.service 
+  157  ifconfig
+  158  systemctl stop nfs-server.service 
+  159  chown nfsnobody:nfsnobody /sdb1
+  160  chmod -R 755 /sdb1
+  161  nano /etc/exports
+  162  systemctl start nfs-server.service 
+  163  systemctl status nfs-server.service 
+  164  nano /etc/exports
+  165  yum -y install samba samba-client samba-common
+  166  nano /etc/samba/smb.conf
+  167  mount /dev/sdb2 /sdb2
+  168  systemctl enable smb.service
+  169  systemctl enable nmb.service
+  170  systemctl restart smb.service
+  171  systemctl restart nmb.service
+  172  systemctl status nmb.service
+  173  systemctl status smb.service
+  174  nano /etc/samba/smb.conf
+  175  nano /etc/samba/smb.conf
+  176  chmod -R 777 /sdb2
+  177  chcon -t samba_share_t /sdb2
+  178  chmod -R 777 /sdb2/
+  179  chcon -t samba_share_t /sdb2
+  180  systemctl start smb
+  181  systemctl status smb
+  182  nano /etc/samba/smb.conf
+  183  chmod -R 777 /sdb2/
+  184  systemctl start smb
+  185  systemctl restart smb
+  186  nano /etc/samba/smb.conf
+  187  systemctl status smb
+  188  yum -y install vsftpd
+  189  nano -w /etc/vsftpd/vsftpd.conf
+  190  ls -a /etc/vsftpd/
+  191  nano -w /etc/vsftpd/user_list 
+  192  touch /etc/vsftpd/chroot_list
+  193  systemctl start vsftpd
+  194  systemctl status vsftpd
+  195  nano -w /etc/vsftpd/vsftpd.conf
+  196  systemctl restart vsftpd
+  197  systemctl status vsftpd
+  198  nano -w /etc/vsftpd/vsftpd.conf
+  199  nano -w /etc/vsftpd/vsftpd.conf
+  200  nano -w /etc/vsftpd/vsftpd.conf
+  201  echo 'allow_writeable_chroot=YES' >> /etc/vsftpd/vsftpd.conf 
+  202  groupadd ftp
+  203  mkdir /bin/ftp
+  204  nano /etc/shells
+  205  mount /dev/sdb3 /sdb3
+  206  sudo useradd -g ftp -d /sdb3 -c "sdb3" sdb3
+  207  sudo useradd -g ftp -d /sdb3/servidor -c "sdb3" sdb3
+  208  sudo useradd -g ftp -d /sdb3/servidor -c "usuario" usuario
+  209  passwd usuario
+  210  nano /etc/passwd
+  211  nano /etc/vsftpd/chroot_list
+  212  systemctl restart vsftpd.service 
+  213  systemctl status vsftpd.service 
+  214  ls -a
+  215  cd sdb3
+  216  ls -a
+  217  cd servidor/
+  218  ls -a
+  219  yum -y install cups cups-pdf
+  220  nano /etc/cups/cupsd.conf
+  221  systemctl restart cups
+  222  systemctl status cups
+  223  nano /etc/cups/cupsd.conf
+  224  systemctl status x2gocleansessions.service 
+  225  yum install bind
+  226  cd ..
+  227  cd ..
+  228  cd ..
+  229  nano -w /etc/named.conf
+  230  nslookup
+  231  nslookup google.es
+  232  nano -w /etc/named.conf
+  233  nano -w /var/named/network.zone
+  234  ls -a /var/named/
+  235  nano -w /var/named/network.zone
+  236  nano -w /var/named/reverse.zone
+  237  nano -w /var/named/network.zone
+  238  nano -w /var/named/reverse.zone
+  239  nslookup nodoA
+  240  systemctl status dnsmasq.service 
+  241  systemctl status dnsmasq.service
+  242  systemctl restart dnsmasq.service
+  243  systemctl status dnsmasq.service
+  244  nano -w /var/named/network.zone
+  245  nano -w /var/named/reverse.zone
+  246  nano -w /etc/named.conf
+  247  nslookup nodoA
+  248  cd ..
+  249  nano /etc/ssh/sshd_config 
+  250  systemctl restart sshd
+  251  ssh pedro@192.168.56.103
+  252  ifconfig
+  253  systemctl status sshd
+  254  systemctl start sshd
+  255  ssh pedro@192.168.56.103
+  256  nano /etc/ssh/sshd_config 
+  257  ssh pedro@192.168.56.103
+  258  systemctl start sshd
+  259  systemctl restart sshd
+  260  systemctl status sshd
+  261  ssh pedro@192.168.56.103
+  262  ssh-keygen
+  263  ssh pedro@192.168.56.103
+  264  exit
+  265  ssh pedro@192.168.56.103
+  266  nano /etc/ssh/sshd_config 
+  267  systemctl restart sshd
+  268  ssh pedro@192.168.56.103
+  269  mv /.ssh/id_rsa.pub /.ssh/authorized_keys
+  270  mv .ssh/id_rsa.pub .ssh/authorized_keys
+  271  systemctl restart sshd
+  272  ssh pedro@192.168.56.103
+  273  ls -a .ssh/
+  274  su - Pedro
+  275  exit
+  276  su - Pedro
+  277  su - pedro
+  278  nano /etc/ssh/sshd_config 
+  279  systemctl restart sshd
+  280  ssh pedro@192.168.56.103
+  281  cd /home/pedro/
+  282  cd .ssh/
+  283  ls -a
+  284  nano authorized_keys 
+  285  cd /home/pedro/.ssh/
+  286  nano authorized_keys
+  287  systemctl restart ssh
+  288  systemctl restart sshd
+  289  ssh -L 9091:www.ua.es:80 pedro@192.168.56.103
+  290  exit
+  291  cd ..
+  292  nano /etc/ssh/sshd_config 
+  293  exit
+  294  mkdir nfs
+  295  ls -a
+  296  cd ..
+  297  ls -a
+  298  cd sdb1
+  299  ls -a
+  300  mkdir nfs
+  301  mount /dev/sdb1 /sdb1
+  302  cd ..
+  303  nano /etc/exports
+  304  systemctl restart rpcbind nfs-server
+  305  systemctl status rpcbind nfs-server
+  306  ls -a
+  307  cd sdb1
+  308  ls -a
+  309  cd ..
+  310  cd etc/ssh/
+  311  nano ssh_config 
+  312  nano sshd_config 
+  313  systemctl restart sshd
+  314  exit
+  315  systemctl restart vncserver@:1.service
+  316  systemctl status vncserver@:1.service
+  317  systemctl status x2gocleansessions.service
+  318  cd ..
+  319  dc ..
+  320  cd ..
+  321  cd ..
+  322  nano /etc/ssh/sshd_config 
+  323  systemctl restart sshd
+  324  ssh pedro@192.168.56.103
+  325  ls -a
+  326  cd ..
+  327  ls -a
+  328  cd sdb2
+  329  ls -a
+  330  cd ..
+  331  systemctl restart ftp
+  332  systemctl restart vsftpd.service 
+  333  systemctl status vsftpd.service 
+  334  nano /etc/passwd
+  335  mount /dev/sdb3 /sdb
+  336  mount /dev/sdb3 /sdb3
+  337  systemctl restart vsftpd.service 
+  338  systemctl status vsftpd.service 
+  339  cd sdb3
+  340  ls -a
+  341  cd servidor/
+  342  ls -a
+  343  nano .bash_logout 
+  344  nano .bash_profile 
+  345  cd ..
+  346  nano /etc/shells 
+  347  ls -a
+  348  cd /bin
+  349  ls -a
+  350  cd ..
+  351  nano /etc/vsftpd/vsftpd.conf 
+  352  passwd ftp
+  353  nano /etc/passwd
+  354  nano /etc/vsftpd/chroot_list 
+  355  nano /etc/passwd
+  356  nano /etc/vsftpd/chroot_list 
+  357  nano /etc/vsftpd/vsftpd.conf 
+  358  nano /etc/passwd
+  359  nano /etc/vsftpd/vsftpd.conf 
+  360  nano /etc/vsftpd/chroot_list 
+  361  systemctl restart vsftpd.service 
+  362  cd sdb3
+  363  ls -a
+  364  cd servidor/
+  365  ls -a
+  366  systemctl restart vsftpd.service 
+  367  nano /etc/vsftpd/chroot_list 
+  368  cd ..
+  369  ls -a
+  370  cd /var/spool/cups
+  371  ls -a
+  372  cd ..
+  373  ls -a
+  374  cd cups-pdf/
+  375  ls -a
+  376  cd ANONYMOUS/
+  377  ls -a
+  378  nano cups-pdf_log.pdf 
+  379  cd ..
+  380  ls -a
+  381  cd SPOOL/
+  382  ls -a
+  383  cd --
+  384  systemctl restart cups
+  385  systemctl STAtUS cups
+  386  systemctl status cups
+  387  cd ..
+  388  cd var/
+  389  ls -a
+  390  cd spool/
+  391  ls -a
+  392  cd cups-pdf/ANONYMOUS/
+  393  ls -a
+  394  cd ..
+  395  ls -a
+  396  cd SPOOL/
+  397  ls -a
+  398  ..
+  399  cd ..
+  400  cd ,,
+  401  cd ..
+  402  cd /etc/
+  403  l-a
+  404  l -a
+  405  ls -a
+  406  cd cups
+  407  ls -a
+  408  nano client.conf 
+  409  nano cups-pdf.conf 
+  410  cd ..
+  411  cd /var/spool/
+  412  cd cups-pdf/
+  413  cd ANONYMOUS/
+  414  ls -a
+  415  cd ..
+  416  ls -a
+  417  cd SPOOL/
+  418  ls -a
+  419  cd ..
+  420  ls -a
+  421  cd ANONYMOUS/
+  422  ls 
+  423  la -a
+  424  lS -a
+  425  ls -a
+  426  CD ..
+  427  cd ..
+  428  ls -a
+  429  cd ..
+  430  ls -a
+  431  cd pedro
+  432  ls -a
+  433  cd /home/
+  434  ls -a
+  435  cd pedro/
+  436  ls -a
+  437  cd ..
+  438  systemctl restart cups
+  439  systemctl status cups
+  440  cd ..
+  441  cd var/spool/cups-pdf/ANONYMOUS/
+  442  ls -a
+  443  cd ..
+  444  ls -a
+  445  cd cups
+  446  ls -a
+  447  nano c00001
+  448  nano c00008
+  449  nano c00011
+  450  cd ..
+  451  ls -a
+  452  cd samba
+  453  ls -a
+  454  cd ..
+  455  cd /etc/cups
+  456  l -a
+  457  ls -a
+  458  nano cups-pdf.conf
+  459  systemctl restart cups
+  460  cd ..
+  461  cd var/spool/cups-pdf/
+  462  ls -a
+  463  cd ANONYMOUS/
+  464  ls -a
+  465  cd ..
+  466  cd SPOOL/
+  467  LS -A
+  468  ls -a
+  469  cd ..
+  470  cd etc/cups
+  471  ls -a
+  472  nano cups-files.conf 
+  473  cd ..c
+  474  cd ..
+  475  cd var/spool/
+  476  ls -a
+  477  cd cups/tmp/
+  478  ls -a
+  479  cd ..
+  480  nano /etc/cups/cupsd.conf
+  481  systemctl restart cups
+  482  cd var/spool/cups-pdf/
+  483  ls -a
+  484  cd Sp
+  485  cd SPOOL/
+  486  ls -a
+  487  cd ..
+  488  cd etc/cups
+  489  ls -
+  490  ls -a
+  491  nano cups-pdf.conf 
+  492  systemctl restart cups
+  493  nano cups-pdf.conf 
+  494  systemctl restart cups
+  495  cd ..
+  496  cd var/
+  497  ls -a
+  498  cd spool/
+  499  ls -a
+  500  cd cups-pdf/
+  501  ls -a
+  502  cd ANONYMOUS/
+  503  ls -a
+  504  exit
+  505  yum install dhcp
+  506  cd ..
+  507  nano /etc/dhcp/dhcpd.conf 
+  508  systemctl enable dhcpd && systemctl restart dhcpd
+  509  poweroff
+  510  cd ..
+  511  nmtui
+  512  service network restart
+  513  nano /etc/dhcp/dhcpd.conf 
+  514  ifconfig
+  515  systemctl restart dhcp
+  516  systemctl restart dhcpd
+  517  systemctl restart vsftpd
+  518  mount /dev/sdb3 /sdb3
+  519  systemctl restart vsftpd
+  520  exit
+  521  cd ..
+  522  cat /etc/shells 
+  523  cat etc/passwd
+  524  ifconfig
+  525  ls -a
+  526  systemctl restart vsftpd
+  527  mount /dev/sdb3 /sdb3
+  528  systemctl restart vsftpd
+  529  cat /var/log/secure | grep "sshd" > /CentOS/ssh.log
+  530  cat /var/log/secure | grep "sshd" > /home/pedro/
+  531  cat /var/log/secure | grep "sshd" > /home/pedro/Escritorio/CentOS/ssh.log
+  532  cat /var/log/secure | grep "tigervnc-server" > /home/pedro/Escritorio/CentOS/vnc.log
+  533  cd /var/log/
+  534  ls -a
+  535  cd secure
+  536  cat /var/log/secure | grep "vnc" > /home/pedro/Escritorio/CentOS/vnc.log
+  537  cd samba/
+  538  ls -a
+  539  cd cores/
+  540  ls -a
+  541  cd nmbd/
+  542  ls -a
+  543  cd ..
+  544  ls -a
+  545  cd ..
+  546  ls -a
+  547  cd ..
+  548  ls -a
+  549  cd log
+  550  ls -a
+  551  cat messages | grep "samba"
+  552  cat messages | grep "vnc"
+  553  ls .a
+  554  ls -a
+  555  cat cron | grep "vnc"
+  556  cat boot.log | grep "vnc"
+  557  cat maillog | grep "vnc"
+  558  cat messages-20181125 | grep "vnc"
+  559  cat messages-20181202 | grep "vnc"
+  560  ls -a
+  561  cat spooler | grep "vnc"
+  562  cat messages | grep "sshd"
+  563  cat messages | grep "ssh"
+  564  cat messages | grep "vnc"
+  565  cat messages | grep "ssh"
+  566  cat messages | grep "vnc"
+  567  cd ..
+  568  cd /home/pedro/.vnc/
+  569  ls -a
+  570  cat localhost.localdomain\:1.log | grep "vnc"
+  571  cat localhost.localdomain\:1.log
+  572  cd ..
+  573  ls -a
+  574  /var/log/
+  575  cd /var/log/
+  576  ls -a
+  577  cat /var/log/* | grep "vnc" -r
+  578  cat /var/log/* | grep "sshd" -r
+  579  cat /var/log/* | grep "samba" -r
+  580  cat /var/log/* | grep "dhcpd" -r
+  581  clear
+  582  cat /var/log/* | grep "dhcpd" -r
+  583  exit
+  584  cat /var/log/secure | grep "vnc" > /home/pedro/Escritorio/CentOS/vnc.log
+  585  cd ..
+  586  cd /var/log/secure
+  587  cd /var/log/
+  588  ls -a
+  589  cat /var/log/* | grep "vnc" > /home/pedro/Escritorio/CentOS/vnc.log
+  590  cat /var/log/* | grep "vnc" -r > /home/pedro/Escritorio/CentOS/vnc.log
+  591  cat /var/log/* | grep "x2go" -r > /home/pedro/Escritorio/CentOS/x2go.log
+  592  cat /var/log/* | grep "nfs" -r > /home/pedro/Escritorio/CentOS/nfs.log
+  593  cat /var/log/secure | grep "samba" -r > /home/pedro/Escritorio/CentOS/samba.log
+  594  cat /var/log/* | grep "samba" -r > /home/pedro/Escritorio/CentOS/samba.log
+  595  cat /var/log/* | grep "cups" -r > /home/pedro/Escritorio/CentOS/cups.log
+  596  cat /var/log/* | grep "ftp" -r > /home/pedro/Escritorio/CentOS/ftp.log
+  597  cat /var/log/* | grep "dhcpd" -r > /home/pedro/Escritorio/CentOS/dhcp.log
+  598  yum install xrdp --enablerepo=cr
+  599  systemctl start xrdp
+  600  cat /var/log/* | grep "xrdp" -r > /home/pedro/Escritorio/CentOS/rdp.log
+  601  history
+  602  clear
+  603  history
+

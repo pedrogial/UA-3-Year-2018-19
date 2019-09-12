@@ -1,0 +1,3 @@
+Volumen=30
+Led=3000
+UltimaFecha=23/10/2016 12:47:30

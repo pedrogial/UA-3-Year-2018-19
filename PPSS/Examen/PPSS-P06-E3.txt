@@ -1,0 +1,107 @@
+@BeforeEach
+Reserva mockReserva = EasyMock.createMockBuilder(Reserva.class)	// El método realizaReserva es el original de la clase Reserva,
+			.addMockedMethods(			// el resto son métodos del mock.
+				"compruebaPermisos",
+				"getFactoriaBOs"
+			)
+			.createMock();
+
+FactoriaBos mockFactBOs = EasyMock.createMock(FactoriaBOs.class);
+
+IOperacion mockIOpBO = EasyMock.creatStrictMock(IOperacionBO.class);
+
+
+@Test
+void C1_realizaReserva(){
+
+// Datos de entrada
+
+	login = "xxxx";
+	password = "xxxx";
+	idSocio = "Pepe";
+	String [] isbns = {"2222"};
+//
+
+// Crear mocks
+
+	// Se realizan en el BeforeEach
+
+//
+
+// Expectativas
+
+	EasyMock.expect(mockReserva.compruebaPermisos(login, password, TipoUsuario.BIBLIOTECARIO))
+				   .andReturn(false);
+	replay(mockReserva);
+//
+
+
+// Invocar SUT
+
+	ReservaException ex = asserThrows(ReservaException.class, 
+				()-> mockReserva.realizaReserva(...));
+	
+	assertEquals("ERROR ....", ex.getMessage());
+
+//
+
+verify(mockReserva);
+
+}
+
+@Test
+void C2_realizaReserva() throws ReservaException{
+
+// Datos de entrada
+
+	login = "ppss";
+	password = "ppss";
+	idSocio = "Pepe";
+	String [] isbns = {"2222", "3333"};
+//
+
+// Crear mocks
+
+	// Se realizan en el BeforeEach
+
+//
+
+// Expectativas
+
+	EasyMock.expect(mockReserva.compruebaPermisos(login, password, TipoUsuario.BIBLIOTECARIO))
+				   .andReturn(true);
+	EasyMock.expect(mockReserva.getFactoriaBOs())
+				   .andReturn(mockFactBOs);
+	EasyMock.expect(mockReserva.getOperacionBO())
+				   .andReturn(mockIOpBO);
+
+	for ( String isbn : isbns) {
+		// No se pone expect porque el método no devuelve nada (void)
+		mockIOpBO.operacionReserva(isSocio, isbn);
+
+	}	
+
+	replay(mockReserva);
+//
+
+
+// Invocar SUT
+
+	mockReserva.realizaReserva(...);
+	
+	// Se puede poner un try/catch o hacer que el test C2_..... lance la excepción  (throws ReservaException)
+
+//
+
+verify(mockReserva);
+
+}
+
+
+NOTA : test_c3
+
+	for ( String isbn : isbns) {
+		// No se pone expect porque el método no devuelve nada (void)
+		//La manera de lanzar la excepcion es -> expectLastCall ... throw Exception
+		mockIOpBO.operacionReserva(isSocio, isbn);
+	}	

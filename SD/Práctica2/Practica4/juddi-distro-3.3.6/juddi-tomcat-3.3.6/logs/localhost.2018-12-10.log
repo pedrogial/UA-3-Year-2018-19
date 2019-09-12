@@ -1,0 +1,35 @@
+10-Dec-2018 10:46:53.873 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Dec-2018 10:46:53.873 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Dec-2018 10:46:53.874 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@279fedbd')
+10-Dec-2018 10:46:57.988 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Dec-2018 10:46:58.103 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+10-Dec-2018 10:47:14.358 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Dec-2018 10:47:14.467 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+10-Dec-2018 22:30:04.166 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Dec-2018 22:30:04.166 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Dec-2018 22:30:04.168 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@279fedbd')
+10-Dec-2018 22:30:10.357 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Dec-2018 22:30:10.500 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+10-Dec-2018 22:30:25.859 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Dec-2018 22:30:25.974 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+10-Dec-2018 22:33:46.817 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Dec-2018 22:33:46.817 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Dec-2018 22:33:46.818 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@279fedbd')
+10-Dec-2018 22:33:50.935 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Dec-2018 22:33:51.070 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+10-Dec-2018 22:34:02.777 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Dec-2018 22:34:03.084 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+10-Dec-2018 22:34:27.123 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Dec-2018 22:34:27.123 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Dec-2018 22:34:27.124 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@279fedbd')
+10-Dec-2018 22:34:31.243 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Dec-2018 22:34:31.413 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+10-Dec-2018 22:34:41.158 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Dec-2018 22:34:41.447 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+10-Dec-2018 22:55:33.847 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Dec-2018 22:55:33.847 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Dec-2018 22:55:33.849 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@279fedbd')
+10-Dec-2018 22:55:38.664 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Dec-2018 22:55:38.800 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+10-Dec-2018 22:55:51.478 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Dec-2018 22:55:51.872 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext

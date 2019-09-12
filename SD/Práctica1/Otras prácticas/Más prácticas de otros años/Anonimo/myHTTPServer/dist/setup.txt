@@ -1,0 +1,4 @@
+puerto=8080
+maxconnections=5
+controllerip=127.0.0.1
+controllerport=2000

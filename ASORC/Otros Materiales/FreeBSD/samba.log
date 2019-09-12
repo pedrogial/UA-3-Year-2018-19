@@ -1,0 +1,2 @@
+Dec  3 17:09:04 Pedro smbd[1284]:   tdb(/var/db/samba4/gencache_notrans.tdb): pthread_mutex_unlock(chainlock) failed: Operation not permitted
+Dec  3 17:09:04 Pedro smbd[1284]:   tdb(/var/db/samba4/gencache_notrans.tdb): pthread_mutex_unlock(allrecord_mutex) failed: Operation not permitted

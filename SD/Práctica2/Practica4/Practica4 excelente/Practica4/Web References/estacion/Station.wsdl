@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://master" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://master" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>
+		Please Type your service description here
+	</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://master">
+      <xs:element name="getHum">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getHumResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="setLum">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="l" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFich">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="f" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="setFich">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="f" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getLum">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getLumResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="setPan">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="p" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="leer">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="f" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="setHum">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="h" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTem">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTemResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPan">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPanResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="setTem">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="t" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="setLumRequest">
+    <wsdl:part name="parameters" element="ns:setLum" />
+  </wsdl:message>
+  <wsdl:message name="setFichRequest">
+    <wsdl:part name="parameters" element="ns:setFich" />
+  </wsdl:message>
+  <wsdl:message name="getFichRequest">
+    <wsdl:part name="parameters" element="ns:getFich" />
+  </wsdl:message>
+  <wsdl:message name="getHumRequest">
+    <wsdl:part name="parameters" element="ns:getHum" />
+  </wsdl:message>
+  <wsdl:message name="getHumResponse">
+    <wsdl:part name="parameters" element="ns:getHumResponse" />
+  </wsdl:message>
+  <wsdl:message name="leerRequest">
+    <wsdl:part name="parameters" element="ns:leer" />
+  </wsdl:message>
+  <wsdl:message name="getLumRequest">
+    <wsdl:part name="parameters" element="ns:getLum" />
+  </wsdl:message>
+  <wsdl:message name="getLumResponse">
+    <wsdl:part name="parameters" element="ns:getLumResponse" />
+  </wsdl:message>
+  <wsdl:message name="setTemRequest">
+    <wsdl:part name="parameters" element="ns:setTem" />
+  </wsdl:message>
+  <wsdl:message name="setPanRequest">
+    <wsdl:part name="parameters" element="ns:setPan" />
+  </wsdl:message>
+  <wsdl:message name="setHumRequest">
+    <wsdl:part name="parameters" element="ns:setHum" />
+  </wsdl:message>
+  <wsdl:message name="getTemRequest">
+    <wsdl:part name="parameters" element="ns:getTem" />
+  </wsdl:message>
+  <wsdl:message name="getTemResponse">
+    <wsdl:part name="parameters" element="ns:getTemResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPanRequest">
+    <wsdl:part name="parameters" element="ns:getPan" />
+  </wsdl:message>
+  <wsdl:message name="getPanResponse">
+    <wsdl:part name="parameters" element="ns:getPanResponse" />
+  </wsdl:message>
+  <wsdl:portType name="StationPortType">
+    <wsdl:operation name="setLum">
+      <wsdl:input wsaw:Action="urn:setLum" message="ns:setLumRequest" />
+    </wsdl:operation>
+    <wsdl:operation name="setFich">
+      <wsdl:input wsaw:Action="urn:setFich" message="ns:setFichRequest" />
+    </wsdl:operation>
+    <wsdl:operation name="getFich">
+      <wsdl:input wsaw:Action="urn:getFich" message="ns:getFichRequest" />
+    </wsdl:operation>
+    <wsdl:operation name="getHum">
+      <wsdl:input wsaw:Action="urn:getHum" message="ns:getHumRequest" />
+      <wsdl:output wsaw:Action="urn:getHumResponse" message="ns:getHumResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="leer">
+      <wsdl:input wsaw:Action="urn:leer" message="ns:leerRequest" />
+    </wsdl:operation>
+    <wsdl:operation name="getLum">
+      <wsdl:input wsaw:Action="urn:getLum" message="ns:getLumRequest" />
+      <wsdl:output wsaw:Action="urn:getLumResponse" message="ns:getLumResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="setTem">
+      <wsdl:input wsaw:Action="urn:setTem" message="ns:setTemRequest" />
+    </wsdl:operation>
+    <wsdl:operation name="setPan">
+      <wsdl:input wsaw:Action="urn:setPan" message="ns:setPanRequest" />
+    </wsdl:operation>
+    <wsdl:operation name="setHum">
+      <wsdl:input wsaw:Action="urn:setHum" message="ns:setHumRequest" />
+    </wsdl:operation>
+    <wsdl:operation name="getTem">
+      <wsdl:input wsaw:Action="urn:getTem" message="ns:getTemRequest" />
+      <wsdl:output wsaw:Action="urn:getTemResponse" message="ns:getTemResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getPan">
+      <wsdl:input wsaw:Action="urn:getPan" message="ns:getPanRequest" />
+      <wsdl:output wsaw:Action="urn:getPanResponse" message="ns:getPanResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="StationSoap11Binding" type="ns:StationPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="setLum">
+      <soap:operation soapAction="urn:setLum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="setFich">
+      <soap:operation soapAction="urn:setFich" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getFich">
+      <soap:operation soapAction="urn:getFich" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getHum">
+      <soap:operation soapAction="urn:getHum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="leer">
+      <soap:operation soapAction="urn:leer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getLum">
+      <soap:operation soapAction="urn:getLum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setTem">
+      <soap:operation soapAction="urn:setTem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="setPan">
+      <soap:operation soapAction="urn:setPan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="setHum">
+      <soap:operation soapAction="urn:setHum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getTem">
+      <soap:operation soapAction="urn:getTem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPan">
+      <soap:operation soapAction="urn:getPan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="StationSoap12Binding" type="ns:StationPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="setLum">
+      <soap12:operation soapAction="urn:setLum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="setFich">
+      <soap12:operation soapAction="urn:setFich" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getFich">
+      <soap12:operation soapAction="urn:getFich" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getHum">
+      <soap12:operation soapAction="urn:getHum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="leer">
+      <soap12:operation soapAction="urn:leer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getLum">
+      <soap12:operation soapAction="urn:getLum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setTem">
+      <soap12:operation soapAction="urn:setTem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="setPan">
+      <soap12:operation soapAction="urn:setPan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="setHum">
+      <soap12:operation soapAction="urn:setHum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getTem">
+      <soap12:operation soapAction="urn:getTem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPan">
+      <soap12:operation soapAction="urn:getPan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="StationHttpBinding" type="ns:StationPortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="setLum">
+      <http:operation location="setLum" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="setFich">
+      <http:operation location="setFich" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getFich">
+      <http:operation location="getFich" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getHum">
+      <http:operation location="getHum" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="leer">
+      <http:operation location="leer" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getLum">
+      <http:operation location="getLum" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setTem">
+      <http:operation location="setTem" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="setPan">
+      <http:operation location="setPan" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="setHum">
+      <http:operation location="setHum" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getTem">
+      <http:operation location="getTem" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPan">
+      <http:operation location="getPan" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Station">
+    <wsdl:port name="StationHttpSoap11Endpoint" binding="ns:StationSoap11Binding">
+      <soap:address location="http://localhost:8080/Practica4/services/Station.StationHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="StationHttpSoap12Endpoint" binding="ns:StationSoap12Binding">
+      <soap12:address location="http://localhost:8080/Practica4/services/Station.StationHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="StationHttpEndpoint" binding="ns:StationHttpBinding">
+      <http:address location="http://localhost:8080/Practica4/services/Station.StationHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

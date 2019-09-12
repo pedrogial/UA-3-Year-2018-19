@@ -1,0 +1,27 @@
+DEBUG: variable.subr: New variable VAR_FTP_DIR -> ftpDirectory
+DEBUG: variable.subr: New variable VAR_FTP_HOST -> ftpHost
+DEBUG: variable.subr: New variable VAR_FTP_PASS -> ftpPass
+DEBUG: variable.subr: New variable VAR_FTP_PATH -> _ftpPath
+DEBUG: variable.subr: New variable VAR_FTP_PORT -> ftpPort
+DEBUG: variable.subr: New variable VAR_FTP_STATE -> ftpState
+DEBUG: variable.subr: New variable VAR_FTP_USER -> ftpUser
+DEBUG: f_getvar: var=[ftpState] value=[auto] r=0
+DEBUG: f_getvar: var=[ftpUser] value=[ftp] r=0
+DEBUG: variable.subr: New variable VAR_FTP_DIR -> ftpDirectory
+DEBUG: variable.subr: New variable VAR_FTP_HOST -> ftpHost
+DEBUG: variable.subr: New variable VAR_FTP_PASS -> ftpPass
+DEBUG: variable.subr: New variable VAR_FTP_PATH -> _ftpPath
+DEBUG: variable.subr: New variable VAR_FTP_PORT -> ftpPort
+DEBUG: variable.subr: New variable VAR_FTP_STATE -> ftpState
+DEBUG: variable.subr: New variable VAR_FTP_USER -> ftpUser
+DEBUG: f_getvar: var=[ftpState] value=[auto] r=0
+DEBUG: f_getvar: var=[ftpUser] value=[ftp] r=0
+DEBUG: variable.subr: New variable VAR_FTP_DIR -> ftpDirectory
+DEBUG: variable.subr: New variable VAR_FTP_HOST -> ftpHost
+DEBUG: variable.subr: New variable VAR_FTP_PASS -> ftpPass
+DEBUG: variable.subr: New variable VAR_FTP_PATH -> _ftpPath
+DEBUG: variable.subr: New variable VAR_FTP_PORT -> ftpPort
+DEBUG: variable.subr: New variable VAR_FTP_STATE -> ftpState
+DEBUG: variable.subr: New variable VAR_FTP_USER -> ftpUser
+DEBUG: f_getvar: var=[ftpState] value=[auto] r=0
+DEBUG: f_getvar: var=[ftpUser] value=[ftp] r=0

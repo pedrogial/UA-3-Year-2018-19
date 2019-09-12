@@ -1,0 +1,41 @@
+unset CLASSPATH
+rmiregistry -J-Djava.security.policy=registrar.policy
+
+which javac
+
+export PATH=$PATH:/opt/java/jdk/bin
+javac InterfazRemoto.java
+javac InterfazRegistra.java
+
+
+export CLASSPATH=$CLASSPATH:home/alu/Escritorio/Práctica3Pedro/RMI
+javac Station.java
+rmic Station
+jar cvf cliente.jar InterfazRemoto.class Station_Stub.class
+export CLASSPATH=$CLASSPATH:home/alu/Escritorio/Práctica3Pedro/RMI/cliente.jar
+java -Djava.security.policy=registrar.policy -Djava.rmi.server.hostname=172.20.42.14 Station localhost 1099 1
+
+
+export CLASSPATH=$CLASSPATH:home/alu/Escritorio/Práctica3Pedro/RMI
+export CLASSPATH=$CLASSPATH:home/alu/Escritorio/Práctica3Pedro/RMI/cliente.jar
+javac Registro.java
+java -Djava.security.policy=registrar.policy -Djava.rmi.server.hostname=172.20.42.14 Registro
+
+
+export PATH=$PATH:/opt/java/jdk/bin
+export CLASSPATH=$CLASSPATH:home/alu/Escritorio/Práctica3Pedro/RMI
+export CLASSPATH=$CLASSPATH:home/alu/Escritorio/Práctica3Pedro/RMI/cliente.jar
+javac Controller.java
+java -Djava.security.policy=registrar.policy -Djava.rmi.server.hostname=172.20.42.14 Controller localhost 1099 8091
+
+
+javac MyHttpServer.java
+java MyHttpServer localhost 8090 8091
+
+
+
+export CLASSPATH=$CLASSPATH:home/pedro/Escritorio/Práctica3Pedro/RMI
+export CLASSPATH=$CLASSPATH:home/pedro/Escritorio/Práctica3Pedro/RMI/cliente.jar
+
+
+

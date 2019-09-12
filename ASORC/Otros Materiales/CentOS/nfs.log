@@ -1,0 +1,81 @@
+audit/audit.log:type=SERVICE_START msg=audit(1543164405.889:676): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-config comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543164405.889:677): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-config comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543170484.290:427): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-config comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543170484.290:428): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-config comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543170484.963:430): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543170485.027:431): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543170485.059:432): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543170797.790:444): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543170797.793:445): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543170797.793:446): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543170896.784:448): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-config comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543170896.784:449): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-config comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543170896.791:450): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543170896.818:451): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543170896.840:452): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543179632.485:795): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543179632.485:796): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543179632.495:797): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543179632.495:798): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543179632.495:799): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543179632.495:800): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543751703.384:542): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-config comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543751703.384:543): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-config comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543751704.133:545): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543751704.194:546): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543751704.254:547): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543752765.400:593): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543752765.401:594): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543752765.405:595): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543752765.411:596): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-config comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543752765.411:597): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-config comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543752765.417:598): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543752765.444:599): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543752765.463:600): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543759845.979:1072): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543759845.989:1074): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543759845.989:1076): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+anaconda/syslog:15:01:10,323 WARNING rpc.statd:Running as root.  chown /var/lib/nfs/statd to choose different user
+anaconda/packaging.log:17:02:55,352 DEBUG yum.verbose.YumBase: TSINFO: Marking libnfsidmap-0.25-19.el7.x86_64 as install for ipa-client-4.5.4-10.el7.centos.x86_64
+anaconda/packaging.log:17:02:57,348 DEBUG yum.verbose.YumBase: TSINFO: Marking rpcbind-0.2.0-44.el7.x86_64 as install for 1:nfs-utils-1.3.0-0.54.el7.x86_64
+anaconda/packaging.log:17:02:57,350 DEBUG yum.verbose.YumBase: TSINFO: Marking libevent-2.0.21-4.el7.x86_64 as install for 1:nfs-utils-1.3.0-0.54.el7.x86_64
+anaconda/packaging.log:17:03:37,223 DEBUG yum.verbose.YumBase: TSINFO: Marking libnfsidmap-0.25-19.el7.x86_64 as install for ipa-client-4.5.4-10.el7.centos.x86_64
+anaconda/packaging.log:17:03:38,972 DEBUG yum.verbose.YumBase: TSINFO: Marking rpcbind-0.2.0-44.el7.x86_64 as install for 1:nfs-utils-1.3.0-0.54.el7.x86_64
+anaconda/packaging.log:17:03:38,973 DEBUG yum.verbose.YumBase: TSINFO: Marking libevent-2.0.21-4.el7.x86_64 as install for 1:nfs-utils-1.3.0-0.54.el7.x86_64
+anaconda/packaging.log:17:44:39,540 INFO packaging: libnfsidmap-0.25-19.el7.x86_64 (490/1365)
+anaconda/packaging.log:17:44:39,679 INFO packaging: 1:nfs-utils-1.3.0-0.54.el7.x86_64 (839/1365)
+anaconda/packaging.log:17:44:39,753 INFO packaging: nfs4-acl-tools-0.3.3-17.el7.x86_64 (1292/1365)
+anaconda/journal.log:Oct 07 15:01:10 localhost rpc.statd[531]: Running as root.  chown /var/lib/nfs/statd to choose different user
+anaconda/journal.log:Oct 07 15:02:55 localhost yum[1293]: TSINFO: Marking libnfsidmap-0.25-19.el7.x86_64 as install for ipa-client-4.5.4-10.el7.centos.x86_64
+anaconda/journal.log:Oct 07 15:02:57 localhost yum[1293]: TSINFO: Marking rpcbind-0.2.0-44.el7.x86_64 as install for 1:nfs-utils-1.3.0-0.54.el7.x86_64
+anaconda/journal.log:Oct 07 15:02:57 localhost yum[1293]: TSINFO: Marking libevent-2.0.21-4.el7.x86_64 as install for 1:nfs-utils-1.3.0-0.54.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:37 localhost yum[1293]: TSINFO: Marking libnfsidmap-0.25-19.el7.x86_64 as install for ipa-client-4.5.4-10.el7.centos.x86_64
+anaconda/journal.log:Oct 07 15:03:38 localhost yum[1293]: TSINFO: Marking rpcbind-0.2.0-44.el7.x86_64 as install for 1:nfs-utils-1.3.0-0.54.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:38 localhost yum[1293]: TSINFO: Marking libevent-2.0.21-4.el7.x86_64 as install for 1:nfs-utils-1.3.0-0.54.el7.x86_64
+anaconda/journal.log:Oct 07 15:03:57 localhost packaging[1293]: Member: nfs-utils.x86_64 1:1.3.0-0.54.el7 - u
+anaconda/journal.log:Oct 07 15:03:57 localhost packaging[1293]: Adding Package 1:nfs-utils-1.3.0-0.54.el7.x86_64 in mode u
+anaconda/journal.log:Oct 07 15:04:15 localhost packaging[1293]: Member: nfs4-acl-tools.x86_64 0:0.3.3-17.el7 - u
+anaconda/journal.log:Oct 07 15:04:15 localhost packaging[1293]: Adding Package nfs4-acl-tools-0.3.3-17.el7.x86_64 in mode u
+anaconda/journal.log:Oct 07 15:08:29 localhost packaging[1293]: Instalando libnfsidmap (490/1365)
+anaconda/journal.log:Oct 07 15:11:20 localhost packaging[1293]: Instalando nfs-utils (839/1365)
+anaconda/journal.log:Oct 07 15:11:21 localhost useradd[2943]: new user: name=rpcuser, UID=29, GID=29, home=/var/lib/nfs, shell=/sbin/nologin
+anaconda/journal.log:Oct 07 15:11:21 localhost groupadd[2951]: group added to /etc/group: name=nfsnobody, GID=65534
+anaconda/journal.log:Oct 07 15:11:21 localhost groupadd[2951]: group added to /etc/gshadow: name=nfsnobody
+anaconda/journal.log:Oct 07 15:11:21 localhost groupadd[2951]: new group: name=nfsnobody, GID=65534
+anaconda/journal.log:Oct 07 15:11:21 localhost useradd[2958]: new user: name=nfsnobody, UID=65534, GID=65534, home=/var/lib/nfs, shell=/sbin/nologin
+anaconda/journal.log:Oct 07 15:21:11 localhost packaging[1293]: Instalando nfs4-acl-tools (1292/1365)
+anaconda/journal.log:Oct 07 15:32:56 localhost dracut[18566]: *** Including module: nfs ***
+anaconda/journal.log:Oct 07 15:34:40 localhost dracut[18566]: nfs
+anaconda/journal.log:Oct 07 15:34:43 localhost dracut[18566]: -rw-r--r--   1 root     root           15 Oct  7 15:33 etc/modprobe.d/nfs.conf
+anaconda/journal.log:Oct 07 15:34:43 localhost dracut[18566]: -rwxr-xr-x   1 root     root          955 Sep 12  2013 usr/lib/dracut/hooks/cleanup/99-nfsroot-cleanup.sh
+anaconda/journal.log:Oct 07 15:34:43 localhost dracut[18566]: -rwxr-xr-x   1 root     root         3358 Apr 11 07:30 usr/lib/dracut/hooks/cmdline/90-parse-nfsroot.sh
+anaconda/journal.log:Oct 07 15:34:43 localhost dracut[18566]: -rwxr-xr-x   1 root     root          929 Sep 12  2013 usr/lib/dracut/hooks/pre-udev/99-nfs-start-rpc.sh
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: libnfsidmap-0.25-19.el7.x86_64 (490/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: 1:nfs-utils-1.3.0-0.54.el7.x86_64 (839/1365)
+anaconda/journal.log:Oct 07 15:44:39 localhost packaging[1293]: nfs4-acl-tools-0.3.3-17.el7.x86_64 (1292/1365)
+messages-20181202:Nov 25 19:28:04 localhost kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+messages-20181202:Nov 25 19:33:17 localhost kernel: nfsd: last server has exited, flushing export cache
+messages-20181202:Dec  2 12:55:04 localhost kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+messages-20181202:Dec  2 13:12:45 localhost kernel: nfsd: last server has exited, flushing export cache
+secure-20181202:Dec  2 12:55:03 localhost sudo:   pedro : TTY=pts/1 ; PWD=/home/pedro ; USER=root ; COMMAND=/bin/systemctl start nfs-server.service
+secure-20181202:Dec  2 12:55:12 localhost sudo:   pedro : TTY=pts/1 ; PWD=/home/pedro ; USER=root ; COMMAND=/bin/systemctl status nfs-server.service

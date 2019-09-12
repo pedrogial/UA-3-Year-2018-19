@@ -1,0 +1,530 @@
+audit/audit.log:type=SERVICE_START msg=audit(1543839935.537:144): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543840655.682:211): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543842276.646:52): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+audit/audit.log:type=SERVICE_START msg=audit(1543842286.499:95): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+audit/audit.log:type=SERVICE_START msg=audit(1543842286.576:96): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+audit/audit.log:type=SERVICE_START msg=audit(1543843060.357:137): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543843094.708:141): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543843094.761:142): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543843094.835:144): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543843094.853:145): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543843186.876:149): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543843187.011:150): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543843981.015:260): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543848685.864:49): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543848686.347:52): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543848686.537:54): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543848694.621:87): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543848694.715:88): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543848694.806:89): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543848694.883:90): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543852430.878:235): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543953649.328:51): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543953649.845:54): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543953649.945:55): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543953657.934:89): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543953658.020:90): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543953658.069:91): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543953658.133:92): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543957925.634:247): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543959413.864:49): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543959414.436:52): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543959414.816:54): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_STOP msg=audit(1543959428.670:89): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+audit/audit.log:type=SERVICE_START msg=audit(1543959428.720:90): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+messages:Dec  3 13:25:35 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  3 13:25:35 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  3 13:25:35 localhost dhcpd: All rights reserved.
+messages:Dec  3 13:25:35 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  3 13:25:35 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  3 13:25:35 localhost dhcpd: Wrote 0 leases to leases file.
+messages:Dec  3 13:25:35 localhost dhcpd: 
+messages:Dec  3 13:25:35 localhost dhcpd: No subnet declaration for virbr0 (192.168.122.1).
+messages:Dec  3 13:25:35 localhost dhcpd: ** Ignoring requests on virbr0.  If this is not what
+messages:Dec  3 13:25:35 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 13:25:35 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 13:25:35 localhost dhcpd:   to which interface virbr0 is attached. **
+messages:Dec  3 13:25:35 localhost dhcpd: 
+messages:Dec  3 13:25:35 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 13:25:35 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 13:25:35 localhost dhcpd: 
+messages:Dec  3 13:25:35 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  3 13:25:35 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  3 13:25:35 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 13:25:35 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 13:25:35 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  3 13:25:35 localhost dhcpd: 
+messages:Dec  3 13:25:35 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  3 13:27:58 localhost dhcpd: DHCPREQUEST for 192.168.56.103 from 08:00:27:fe:42:e9 via enp0s8: unknown lease 192.168.56.103.
+messages:Dec  3 13:28:44 localhost dhcpd: DHCPDISCOVER from 08:00:27:c3:d9:e8 via enp0s8
+messages:Dec  3 13:28:44 localhost dhcpd: DHCPREQUEST for 192.168.56.104 (192.168.56.100) from 08:00:27:c3:d9:e8 via enp0s8: unknown lease 192.168.56.104.
+messages:Dec  3 13:28:45 localhost dhcpd: DHCPOFFER on 192.168.56.51 to 08:00:27:c3:d9:e8 (WIN-JGH0DQ5KECL) via enp0s8
+messages:Dec  3 13:37:17 localhost dhcpd: DHCPREQUEST for 192.168.56.103 from 08:00:27:fe:42:e9 via enp0s8: unknown lease 192.168.56.103.
+messages:Dec  3 14:04:35 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  3 14:04:35 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  3 14:04:35 localhost dhcpd: All rights reserved.
+messages:Dec  3 14:04:35 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  3 14:04:36 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  3 14:04:36 localhost dhcpd: Wrote 0 leases to leases file.
+messages:Dec  3 14:04:36 localhost dhcpd: 
+messages:Dec  3 14:04:36 localhost dhcpd: No subnet declaration for enp0s8 (no IPv4 addresses).
+messages:Dec  3 14:04:36 localhost systemd: dhcpd.service: main process exited, code=exited, status=1/FAILURE
+messages:Dec  3 14:04:36 localhost dhcpd: ** Ignoring requests on enp0s8.  If this is not what
+messages:Dec  3 14:04:36 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:04:36 localhost systemd: Unit dhcpd.service entered failed state.
+messages:Dec  3 14:04:36 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:04:36 localhost systemd: dhcpd.service failed.
+messages:Dec  3 14:04:36 localhost nm-dispatcher: Job for dhcpd.service failed because the control process exited with error code. See "systemctl status dhcpd.service" and "journalctl -xe" for details.
+messages:Dec  3 14:04:36 localhost dhcpd:   to which interface enp0s8 is attached. **
+messages:Dec  3 14:04:36 localhost dhcpd: 
+messages:Dec  3 14:04:36 localhost dhcpd: 
+messages:Dec  3 14:04:36 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  3 14:04:36 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  3 14:04:36 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:04:36 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:04:36 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  3 14:04:36 localhost dhcpd: 
+messages:Dec  3 14:04:36 localhost dhcpd: 
+messages:Dec  3 14:04:36 localhost dhcpd: Not configured to listen on any interfaces!
+messages:Dec  3 14:04:36 localhost dhcpd: 
+messages:Dec  3 14:04:36 localhost dhcpd: This version of ISC DHCP is based on the release available
+messages:Dec  3 14:04:36 localhost dhcpd: on ftp.isc.org.  Features have been added and other changes
+messages:Dec  3 14:04:36 localhost dhcpd: have been made to the base software release in order to make
+messages:Dec  3 14:04:36 localhost dhcpd: it work better with this distribution.
+messages:Dec  3 14:04:36 localhost dhcpd: 
+messages:Dec  3 14:04:36 localhost dhcpd: Please report for this software via the CentOS Bugs Database:
+messages:Dec  3 14:04:36 localhost dhcpd:    http://bugs.centos.org/
+messages:Dec  3 14:04:36 localhost dhcpd: 
+messages:Dec  3 14:04:36 localhost dhcpd: exiting.
+messages:Dec  3 14:04:46 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  3 14:04:46 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  3 14:04:46 localhost dhcpd: All rights reserved.
+messages:Dec  3 14:04:46 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  3 14:04:46 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  3 14:04:46 localhost dhcpd: Wrote 0 leases to leases file.
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: No subnet declaration for virbr0 (192.168.122.1).
+messages:Dec  3 14:04:46 localhost dhcpd: ** Ignoring requests on virbr0.  If this is not what
+messages:Dec  3 14:04:46 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:04:46 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:04:46 localhost dhcpd:   to which interface virbr0 is attached. **
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost systemd: dhcpd.service: main process exited, code=exited, status=1/FAILURE
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: No subnet declaration for enp0s8 (no IPv4 addresses).
+messages:Dec  3 14:04:46 localhost systemd: Unit dhcpd.service entered failed state.
+messages:Dec  3 14:04:46 localhost dhcpd: ** Ignoring requests on enp0s8.  If this is not what
+messages:Dec  3 14:04:46 localhost systemd: dhcpd.service failed.
+messages:Dec  3 14:04:46 localhost nm-dispatcher: Job for dhcpd.service failed because the control process exited with error code. See "systemctl status dhcpd.service" and "journalctl -xe" for details.
+messages:Dec  3 14:04:46 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:04:46 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:04:46 localhost dhcpd:   to which interface enp0s8 is attached. **
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  3 14:04:46 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  3 14:04:46 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:04:46 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:04:46 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: Not configured to listen on any interfaces!
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: This version of ISC DHCP is based on the release available
+messages:Dec  3 14:04:46 localhost dhcpd: on ftp.isc.org.  Features have been added and other changes
+messages:Dec  3 14:04:46 localhost dhcpd: have been made to the base software release in order to make
+messages:Dec  3 14:04:46 localhost dhcpd: it work better with this distribution.
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: Please report for this software via the CentOS Bugs Database:
+messages:Dec  3 14:04:46 localhost dhcpd:    http://bugs.centos.org/
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: exiting.
+messages:Dec  3 14:04:46 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  3 14:04:46 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  3 14:04:46 localhost dhcpd: All rights reserved.
+messages:Dec  3 14:04:46 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  3 14:04:46 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  3 14:04:46 localhost dhcpd: Wrote 0 leases to leases file.
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: No subnet declaration for virbr0 (192.168.122.1).
+messages:Dec  3 14:04:46 localhost dhcpd: ** Ignoring requests on virbr0.  If this is not what
+messages:Dec  3 14:04:46 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:04:46 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:04:46 localhost dhcpd:   to which interface virbr0 is attached. **
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost systemd: dhcpd.service: main process exited, code=exited, status=1/FAILURE
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: No subnet declaration for enp0s8 (no IPv4 addresses).
+messages:Dec  3 14:04:46 localhost systemd: Unit dhcpd.service entered failed state.
+messages:Dec  3 14:04:46 localhost nm-dispatcher: Job for dhcpd.service failed because the control process exited with error code. See "systemctl status dhcpd.service" and "journalctl -xe" for details.
+messages:Dec  3 14:04:46 localhost dhcpd: ** Ignoring requests on enp0s8.  If this is not what
+messages:Dec  3 14:04:46 localhost systemd: dhcpd.service failed.
+messages:Dec  3 14:04:46 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:04:46 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:04:46 localhost dhcpd:   to which interface enp0s8 is attached. **
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  3 14:04:46 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  3 14:04:46 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:04:46 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:04:46 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: Not configured to listen on any interfaces!
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: This version of ISC DHCP is based on the release available
+messages:Dec  3 14:04:46 localhost dhcpd: on ftp.isc.org.  Features have been added and other changes
+messages:Dec  3 14:04:46 localhost dhcpd: have been made to the base software release in order to make
+messages:Dec  3 14:04:46 localhost dhcpd: it work better with this distribution.
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: Please report for this software via the CentOS Bugs Database:
+messages:Dec  3 14:04:46 localhost dhcpd:    http://bugs.centos.org/
+messages:Dec  3 14:04:46 localhost dhcpd: 
+messages:Dec  3 14:04:46 localhost dhcpd: exiting.
+messages:Dec  3 14:17:40 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  3 14:17:40 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  3 14:17:40 localhost dhcpd: All rights reserved.
+messages:Dec  3 14:17:40 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  3 14:17:40 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  3 14:17:40 localhost dhcpd: Wrote 0 leases to leases file.
+messages:Dec  3 14:17:40 localhost dhcpd: 
+messages:Dec  3 14:17:40 localhost dhcpd: No subnet declaration for virbr0 (192.168.122.1).
+messages:Dec  3 14:17:40 localhost dhcpd: ** Ignoring requests on virbr0.  If this is not what
+messages:Dec  3 14:17:40 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:17:40 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:17:40 localhost dhcpd:   to which interface virbr0 is attached. **
+messages:Dec  3 14:17:40 localhost dhcpd: 
+messages:Dec  3 14:17:40 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 14:17:40 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 14:17:40 localhost dhcpd: 
+messages:Dec  3 14:17:40 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  3 14:17:40 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  3 14:17:40 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:17:40 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:17:40 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  3 14:17:40 localhost dhcpd: 
+messages:Dec  3 14:17:40 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  3 14:18:14 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  3 14:18:14 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  3 14:18:14 localhost dhcpd: All rights reserved.
+messages:Dec  3 14:18:14 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  3 14:18:14 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  3 14:18:14 localhost dhcpd: Wrote 0 leases to leases file.
+messages:Dec  3 14:18:14 localhost dhcpd: 
+messages:Dec  3 14:18:14 localhost dhcpd: No subnet declaration for virbr0 (192.168.122.1).
+messages:Dec  3 14:18:14 localhost dhcpd: ** Ignoring requests on virbr0.  If this is not what
+messages:Dec  3 14:18:14 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:18:14 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:18:14 localhost dhcpd:   to which interface virbr0 is attached. **
+messages:Dec  3 14:18:14 localhost dhcpd: 
+messages:Dec  3 14:18:14 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 14:18:14 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 14:18:14 localhost dhcpd: 
+messages:Dec  3 14:18:14 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  3 14:18:14 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  3 14:18:14 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:18:14 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:18:14 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  3 14:18:14 localhost dhcpd: 
+messages:Dec  3 14:18:14 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  3 14:18:14 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  3 14:18:14 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  3 14:18:14 localhost dhcpd: All rights reserved.
+messages:Dec  3 14:18:14 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  3 14:18:14 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  3 14:18:14 localhost dhcpd: Wrote 0 leases to leases file.
+messages:Dec  3 14:18:14 localhost dhcpd: 
+messages:Dec  3 14:18:14 localhost dhcpd: No subnet declaration for virbr0 (192.168.122.1).
+messages:Dec  3 14:18:14 localhost dhcpd: ** Ignoring requests on virbr0.  If this is not what
+messages:Dec  3 14:18:14 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:18:14 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:18:14 localhost dhcpd:   to which interface virbr0 is attached. **
+messages:Dec  3 14:18:14 localhost dhcpd: 
+messages:Dec  3 14:18:14 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 14:18:14 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 14:18:14 localhost dhcpd: 
+messages:Dec  3 14:18:14 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  3 14:18:14 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  3 14:18:14 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:18:14 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:18:14 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  3 14:18:14 localhost dhcpd: 
+messages:Dec  3 14:18:14 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  3 14:19:46 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  3 14:19:46 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  3 14:19:46 localhost dhcpd: All rights reserved.
+messages:Dec  3 14:19:46 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  3 14:19:46 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  3 14:19:46 localhost dhcpd: Wrote 0 leases to leases file.
+messages:Dec  3 14:19:46 localhost dhcpd: 
+messages:Dec  3 14:19:47 localhost dhcpd: No subnet declaration for virbr0 (192.168.122.1).
+messages:Dec  3 14:19:47 localhost dhcpd: ** Ignoring requests on virbr0.  If this is not what
+messages:Dec  3 14:19:47 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:19:47 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:19:47 localhost dhcpd:   to which interface virbr0 is attached. **
+messages:Dec  3 14:19:47 localhost dhcpd: 
+messages:Dec  3 14:19:47 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 14:19:47 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 14:19:47 localhost dhcpd: 
+messages:Dec  3 14:19:47 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  3 14:19:47 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  3 14:19:47 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 14:19:47 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 14:19:47 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  3 14:19:47 localhost dhcpd: 
+messages:Dec  3 14:19:47 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  3 14:20:05 localhost dhcpd: DHCPDISCOVER from 08:00:27:af:85:d1 via enp0s8
+messages:Dec  3 14:20:06 localhost dhcpd: DHCPOFFER on 192.168.56.51 to 08:00:27:af:85:d1 via enp0s8
+messages:Dec  3 14:20:06 localhost dhcpd: DHCPREQUEST for 192.168.56.51 (192.168.56.103) from 08:00:27:af:85:d1 via enp0s8
+messages:Dec  3 14:20:06 localhost dhcpd: DHCPACK on 192.168.56.51 to 08:00:27:af:85:d1 via enp0s8
+messages:Dec  3 14:24:46 localhost dhcpd: DHCPREQUEST for 192.168.56.51 from 08:00:27:af:85:d1 via enp0s8
+messages:Dec  3 14:24:46 localhost dhcpd: DHCPACK on 192.168.56.51 to 08:00:27:af:85:d1 via enp0s8
+messages:Dec  3 15:51:24 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  3 15:51:24 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  3 15:51:24 localhost dhcpd: All rights reserved.
+messages:Dec  3 15:51:24 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  3 15:51:25 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  3 15:51:25 localhost dhcpd: Wrote 1 leases to leases file.
+messages:Dec  3 15:51:25 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 15:51:25 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 15:51:25 localhost dhcpd: 
+messages:Dec  3 15:51:25 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  3 15:51:25 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  3 15:51:25 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 15:51:25 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 15:51:25 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  3 15:51:25 localhost dhcpd: 
+messages:Dec  3 15:51:25 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  3 15:51:26 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  3 15:51:26 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  3 15:51:26 localhost dhcpd: All rights reserved.
+messages:Dec  3 15:51:26 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  3 15:51:26 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  3 15:51:26 localhost dhcpd: Wrote 1 leases to leases file.
+messages:Dec  3 15:51:26 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 15:51:26 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 15:51:26 localhost dhcpd: 
+messages:Dec  3 15:51:26 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  3 15:51:26 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  3 15:51:26 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 15:51:26 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 15:51:26 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  3 15:51:26 localhost dhcpd: 
+messages:Dec  3 15:51:26 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  3 15:51:34 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  3 15:51:34 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  3 15:51:34 localhost dhcpd: All rights reserved.
+messages:Dec  3 15:51:34 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  3 15:51:34 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  3 15:51:34 localhost dhcpd: Wrote 1 leases to leases file.
+messages:Dec  3 15:51:34 localhost dhcpd: 
+messages:Dec  3 15:51:34 localhost dhcpd: No subnet declaration for virbr0 (192.168.122.1).
+messages:Dec  3 15:51:34 localhost dhcpd: ** Ignoring requests on virbr0.  If this is not what
+messages:Dec  3 15:51:34 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 15:51:34 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 15:51:34 localhost dhcpd:   to which interface virbr0 is attached. **
+messages:Dec  3 15:51:34 localhost dhcpd: 
+messages:Dec  3 15:51:34 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 15:51:34 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 15:51:34 localhost dhcpd: 
+messages:Dec  3 15:51:34 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  3 15:51:34 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  3 15:51:34 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 15:51:34 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 15:51:34 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  3 15:51:34 localhost dhcpd: 
+messages:Dec  3 15:51:34 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  3 15:51:34 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  3 15:51:34 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  3 15:51:34 localhost dhcpd: All rights reserved.
+messages:Dec  3 15:51:34 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  3 15:51:34 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  3 15:51:34 localhost dhcpd: Wrote 1 leases to leases file.
+messages:Dec  3 15:51:34 localhost dhcpd: 
+messages:Dec  3 15:51:34 localhost dhcpd: No subnet declaration for virbr0 (192.168.122.1).
+messages:Dec  3 15:51:34 localhost dhcpd: ** Ignoring requests on virbr0.  If this is not what
+messages:Dec  3 15:51:34 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 15:51:34 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 15:51:34 localhost dhcpd:   to which interface virbr0 is attached. **
+messages:Dec  3 15:51:34 localhost dhcpd: 
+messages:Dec  3 15:51:34 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 15:51:34 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  3 15:51:34 localhost dhcpd: 
+messages:Dec  3 15:51:34 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  3 15:51:34 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  3 15:51:34 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  3 15:51:34 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  3 15:51:34 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  3 15:51:34 localhost dhcpd: 
+messages:Dec  3 15:51:34 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  3 16:31:43 localhost dhcpd: DHCPDISCOVER from 08:00:27:af:85:d1 via enp0s8
+messages:Dec  3 16:31:44 localhost dhcpd: DHCPOFFER on 192.168.56.51 to 08:00:27:af:85:d1 via enp0s8
+messages:Dec  3 16:31:44 localhost dhcpd: DHCPREQUEST for 192.168.56.51 (192.168.56.103) from 08:00:27:af:85:d1 via enp0s8
+messages:Dec  3 16:31:44 localhost dhcpd: DHCPACK on 192.168.56.51 to 08:00:27:af:85:d1 via enp0s8
+messages:Dec  3 16:52:18 localhost dhcpd: DHCPDISCOVER from 08:00:27:af:85:d1 via enp0s8
+messages:Dec  3 16:52:19 localhost dhcpd: DHCPOFFER on 192.168.56.51 to 08:00:27:af:85:d1 via enp0s8
+messages:Dec  3 16:52:19 localhost dhcpd: Wrote 1 leases to leases file.
+messages:Dec  3 16:52:19 localhost dhcpd: DHCPREQUEST for 192.168.56.51 (192.168.56.103) from 08:00:27:af:85:d1 via enp0s8
+messages:Dec  3 16:52:19 localhost dhcpd: DHCPACK on 192.168.56.51 to 08:00:27:af:85:d1 via enp0s8
+messages:Dec  4 21:00:48 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  4 21:00:48 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  4 21:00:48 localhost dhcpd: All rights reserved.
+messages:Dec  4 21:00:48 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  4 21:00:48 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  4 21:00:48 localhost dhcpd: Wrote 1 leases to leases file.
+messages:Dec  4 21:00:49 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 21:00:49 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 21:00:49 localhost dhcpd: 
+messages:Dec  4 21:00:49 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  4 21:00:49 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  4 21:00:49 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  4 21:00:49 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  4 21:00:49 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  4 21:00:49 localhost dhcpd: 
+messages:Dec  4 21:00:49 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  4 21:00:49 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  4 21:00:49 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  4 21:00:49 localhost dhcpd: All rights reserved.
+messages:Dec  4 21:00:49 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  4 21:00:49 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  4 21:00:49 localhost dhcpd: Wrote 1 leases to leases file.
+messages:Dec  4 21:00:49 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 21:00:49 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 21:00:49 localhost dhcpd: 
+messages:Dec  4 21:00:49 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  4 21:00:49 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  4 21:00:49 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  4 21:00:49 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  4 21:00:49 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  4 21:00:49 localhost dhcpd: 
+messages:Dec  4 21:00:49 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  4 21:00:57 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  4 21:00:57 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  4 21:00:57 localhost dhcpd: All rights reserved.
+messages:Dec  4 21:00:57 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  4 21:00:57 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  4 21:00:57 localhost dhcpd: Wrote 1 leases to leases file.
+messages:Dec  4 21:00:58 localhost dhcpd: 
+messages:Dec  4 21:00:58 localhost dhcpd: No subnet declaration for virbr0 (192.168.122.1).
+messages:Dec  4 21:00:58 localhost dhcpd: ** Ignoring requests on virbr0.  If this is not what
+messages:Dec  4 21:00:58 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  4 21:00:58 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  4 21:00:58 localhost dhcpd:   to which interface virbr0 is attached. **
+messages:Dec  4 21:00:58 localhost dhcpd: 
+messages:Dec  4 21:00:58 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 21:00:58 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 21:00:58 localhost dhcpd: 
+messages:Dec  4 21:00:58 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  4 21:00:58 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  4 21:00:58 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  4 21:00:58 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  4 21:00:58 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  4 21:00:58 localhost dhcpd: 
+messages:Dec  4 21:00:58 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  4 21:00:58 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  4 21:00:58 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  4 21:00:58 localhost dhcpd: All rights reserved.
+messages:Dec  4 21:00:58 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  4 21:00:58 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  4 21:00:58 localhost dhcpd: Wrote 1 leases to leases file.
+messages:Dec  4 21:00:58 localhost dhcpd: 
+messages:Dec  4 21:00:58 localhost dhcpd: No subnet declaration for virbr0 (192.168.122.1).
+messages:Dec  4 21:00:58 localhost dhcpd: ** Ignoring requests on virbr0.  If this is not what
+messages:Dec  4 21:00:58 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  4 21:00:58 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  4 21:00:58 localhost dhcpd:   to which interface virbr0 is attached. **
+messages:Dec  4 21:00:58 localhost dhcpd: 
+messages:Dec  4 21:00:58 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 21:00:58 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 21:00:58 localhost dhcpd: 
+messages:Dec  4 21:00:58 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  4 21:00:58 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  4 21:00:58 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  4 21:00:58 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  4 21:00:58 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  4 21:00:58 localhost dhcpd: 
+messages:Dec  4 21:00:58 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  4 22:36:48 localhost nm-dispatcher: Calling manager for RestartUnit on dhcpd.service, replace
+messages:Dec  4 22:36:48 localhost nm-dispatcher: Sent message type=method_call sender=n/a destination=org.freedesktop.systemd1 object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=Get cookie=3 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:52 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=21 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:52 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=22 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:53 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  4 22:36:53 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  4 22:36:53 localhost dhcpd: All rights reserved.
+messages:Dec  4 22:36:53 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  4 22:36:53 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  4 22:36:53 localhost dhcpd: Wrote 1 leases to leases file.
+messages:Dec  4 22:36:53 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 22:36:53 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 22:36:53 localhost dhcpd: 
+messages:Dec  4 22:36:53 localhost nm-dispatcher: Got result done/Success for job dhcpd.service
+messages:Dec  4 22:36:53 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  4 22:36:53 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  4 22:36:53 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  4 22:36:53 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  4 22:36:53 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  4 22:36:53 localhost dhcpd: 
+messages:Dec  4 22:36:53 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  4 22:36:54 localhost nm-dispatcher: Calling manager for RestartUnit on dhcpd.service, replace
+messages:Dec  4 22:36:54 localhost nm-dispatcher: Sent message type=method_call sender=n/a destination=org.freedesktop.systemd1 object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=Get cookie=3 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:54 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=3 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:54 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=4 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:54 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=8 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:54 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=9 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:54 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=11 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:54 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=12 reply_cookie=0 error=n/a
+messages:Dec  4 22:36:54 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  4 22:36:54 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  4 22:36:54 localhost dhcpd: All rights reserved.
+messages:Dec  4 22:36:54 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  4 22:36:54 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  4 22:36:54 localhost dhcpd: Wrote 1 leases to leases file.
+messages:Dec  4 22:36:54 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 22:36:54 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 22:36:54 localhost dhcpd: 
+messages:Dec  4 22:36:54 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  4 22:36:54 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  4 22:36:54 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  4 22:36:54 localhost nm-dispatcher: Got result done/Success for job dhcpd.service
+messages:Dec  4 22:36:54 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  4 22:36:54 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  4 22:36:54 localhost dhcpd: 
+messages:Dec  4 22:36:54 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+messages:Dec  4 22:37:08 localhost nm-dispatcher: Calling manager for RestartUnit on dhcpd.service, replace
+messages:Dec  4 22:37:08 localhost nm-dispatcher: Sent message type=method_call sender=n/a destination=org.freedesktop.systemd1 object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=Get cookie=3 reply_cookie=0 error=n/a
+messages:Dec  4 22:37:08 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=3 reply_cookie=0 error=n/a
+messages:Dec  4 22:37:08 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=4 reply_cookie=0 error=n/a
+messages:Dec  4 22:37:08 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=8 reply_cookie=0 error=n/a
+messages:Dec  4 22:37:08 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=9 reply_cookie=0 error=n/a
+messages:Dec  4 22:37:08 localhost dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+messages:Dec  4 22:37:08 localhost dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+messages:Dec  4 22:37:08 localhost dhcpd: All rights reserved.
+messages:Dec  4 22:37:08 localhost dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+messages:Dec  4 22:37:08 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=11 reply_cookie=0 error=n/a
+messages:Dec  4 22:37:08 localhost nm-dispatcher: Got message type=signal sender=n/a destination=n/a object=/org/freedesktop/systemd1/unit/dhcpd_2eservice interface=org.freedesktop.DBus.Properties member=PropertiesChanged cookie=12 reply_cookie=0 error=n/a
+messages:Dec  4 22:37:08 localhost dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Dec  4 22:37:08 localhost dhcpd: Wrote 1 leases to leases file.
+messages:Dec  4 22:37:08 localhost dhcpd: 
+messages:Dec  4 22:37:08 localhost dhcpd: No subnet declaration for virbr0 (192.168.122.1).
+messages:Dec  4 22:37:08 localhost dhcpd: ** Ignoring requests on virbr0.  If this is not what
+messages:Dec  4 22:37:08 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  4 22:37:08 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  4 22:37:08 localhost dhcpd:   to which interface virbr0 is attached. **
+messages:Dec  4 22:37:08 localhost dhcpd: 
+messages:Dec  4 22:37:08 localhost dhcpd: Listening on LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 22:37:08 localhost dhcpd: Sending on   LPF/enp0s8/08:00:27:fe:42:e9/192.168.56.0/24
+messages:Dec  4 22:37:08 localhost dhcpd: 
+messages:Dec  4 22:37:08 localhost dhcpd: No subnet declaration for enp0s3 (10.0.2.18).
+messages:Dec  4 22:37:08 localhost nm-dispatcher: Got result done/Success for job dhcpd.service
+messages:Dec  4 22:37:08 localhost dhcpd: ** Ignoring requests on enp0s3.  If this is not what
+messages:Dec  4 22:37:08 localhost dhcpd:   you want, please write a subnet declaration
+messages:Dec  4 22:37:08 localhost dhcpd:   in your dhcpd.conf file for the network segment
+messages:Dec  4 22:37:08 localhost dhcpd:   to which interface enp0s3 is attached. **
+messages:Dec  4 22:37:08 localhost dhcpd: 
+messages:Dec  4 22:37:08 localhost dhcpd: Sending on   Socket/fallback/fallback-net
+secure:Dec  3 13:13:34 localhost groupadd[4160]: group added to /etc/group: name=dhcpd, GID=177
+secure:Dec  3 13:13:34 localhost groupadd[4160]: group added to /etc/gshadow: name=dhcpd
+secure:Dec  3 13:13:34 localhost groupadd[4160]: new group: name=dhcpd, GID=177
+secure:Dec  3 13:13:35 localhost useradd[4166]: new user: name=dhcpd, UID=177, GID=177, home=/, shell=/sbin/nologin
+boot.log-20181203:See 'systemctl status dhcpd.service' for details.

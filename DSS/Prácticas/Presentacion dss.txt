@@ -1,0 +1,15 @@
+Hemos añadido el ordenar listado por algun campo, aqui le han dado a fecha de nacimiento 
+y podemos ver que los dias estan ordenado 16/17/18/20
+
+Y además realizamos una búsqueda con 2 criterios distintos
+en este caso salen los Rafas con la fecha puesta
+
+Bien hemos utilizado laravel para los formularios, trello 
+para la distribución del trabajo y Github para el control de versiones.
+
+Laravel Collective nos ayuda bastante a manejar elementos HTML de manera
+limpia y sin reescribir mucho código, de manera dinámica.
+Se trata de un conjunto de elementos para Formularios HTML.
+
+
+

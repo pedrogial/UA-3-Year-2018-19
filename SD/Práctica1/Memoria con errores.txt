@@ -1,0 +1,1 @@
+A la memoria le falta explicar algunos archivos del RMI, me dieron una semana más entonces modifiqué el código para que funcionara en otras máquinas, y pudiera registrar en varias máquinas diferentes (Creé más archivos, una interfaz más y alguna otra cosa)

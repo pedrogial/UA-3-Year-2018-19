@@ -1,0 +1,31 @@
+«Datos biométricos»: Datos personales obtenidos a partir de un tratamiento técnico específico, 
+relativos a las características físicas, fisiológicas o conductuales de una persona física que permitan 
+o confirmen la identificación única de dicha persona, como imágenes faciales o datos dactiloscópicos.
+
+«Normas corporativas vinculantes»: Las políticas de protección de datos personales asumidas por un responsable 
+o encargado del tratamiento establecido en el territorio de un Estado miembro para transferencias o un conjunto 
+de transferencias de datos personales a un responsable o encargado en uno o más países terceros, dentro de un grupo 
+empresarial o una unión de empresas dedicadas a una actividad económica conjunta.
+
+«Establecimiento principal»:
+En lo que se refiere a un responsable del tratamiento con establecimientos en más de un Estado miembro, 
+el lugar de su administración central en la Unión, salvo que las decisiones sobre los fines y los medios 
+del tratamiento se tomen en otro establecimiento del responsable en la Unión y este último establecimiento tenga 
+el poder de hacer aplicar tales decisiones, en cuyo caso el establecimiento que haya adoptado tales decisiones se 
+considerará establecimiento principal.
+
+En lo que se refiere a un encargado del tratamiento con establecimientos en más de un Estado miembro,
+el lugar de su administración central en la Unión o, si careciera de esta, el establecimiento del encargado en la 
+Unión en el que se realicen las principales actividades de tratamiento en el contexto de las actividades de un 
+establecimiento del encargado en la medida en que el encargado esté sujeto a obligaciones específicas con arreglo 
+al presente Reglamento.
+
+
+Con “otros terceros” nos estamos refiriendo a aquellas personas que, por motivo de su desempeño profesional, 
+puedan potencialmente tener acceso a la información de carácter personal. 
+Como personal de empresas externas encargadas del mantenimiento de software o hardware, personal de limpieza, 
+vigilancia, consultores, etc. Estas personas podrán ser propias o ajenas a la organización, pero, en cualquier caso, 
+se deberá limitar su acceso a los datos de carácter personal. Cuando se trate de personal ajeno, 
+el contrato de prestación de servicios recogerá expresamente la prohibición de acceder a los datos personales. 
+Y la obligación de secreto respecto a los datos que el personal hubiera podido conocer con motivo de la prestación 
+del servicio.

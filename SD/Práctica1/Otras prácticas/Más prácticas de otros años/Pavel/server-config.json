@@ -1,0 +1,11 @@
+{
+  "MAX_SERVER_CONNECTIONS" : 2,
+  "SERVER_PORT" : 8081,
+  "CONTROLLER_IP" : "127.0.0.1",
+  "CONTROLLER_PORT" : 3001,
+  "REGISTRY_IP" : "127.0.0.1",
+  "REGISTRY_PORT" : 4001,
+  "DYNAMIC_CONTENT_KEYWORD" : "controladorSD",
+  "DEFAULT_INDEX_PAGE" : "index.html",
+  "SENSOR_KEYWORD" : "sensor"
+}

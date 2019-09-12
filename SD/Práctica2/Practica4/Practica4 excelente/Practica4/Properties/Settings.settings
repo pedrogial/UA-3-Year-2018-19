@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Practica4.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Practica4_estacion_Station" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:8080/Practica4/services/Station.StationHttpSoap11Endpoint/</Value>
+    </Setting>
+    <Setting Name="Practica4_juddi_UDDIInquiryService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:8081/juddiv3/services/inquiry</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

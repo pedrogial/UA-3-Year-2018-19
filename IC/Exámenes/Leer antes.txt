@@ -1,0 +1,5 @@
+Muchas cosas dentro de la Recopilación están mal.
+
+- Los superescalares estan mal.
+- Los ejercicios de grafos esta todo mal.
+- El resto es decente.

@@ -1,0 +1,18 @@
+Errores que he tenido en la corrección:
+
+- No controlo el error cuando desconecto el controlador.
+
+- No controlo el error cuando le paso 0 conexiones simultáneas.
+
+- No controlo la interrogación (?) de la url, si pones más de una controlar que salga un error de variable desconocida, no existe esa url.
+
+- No controlo las ñ para la salida por pantalla del navegador, aparece %(y un número).
+(Solo controlo los espacios, modifico los %20 por espacios en el código del controlador, dependiendo del profesor que te toque mirará esto o no, el mio era muy nazi)
+
+- Mi práctica sólo funciona en Firefox, no funciona en otro navegador, no tengo ni idea de por qué.
+(Pienso que es causa de la version HTML que le pongo en el código del ServidorHilo, que es la 1.0, como ya está corregida no me voy a calentar la cabeza pensado que era xD)
+
+- Las páginas web son muy simples, habría que decorar y ponerlo bonico.
+(Me la suda) 
+
+Exámen de nota 7.

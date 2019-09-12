@@ -1,0 +1,7 @@
+﻿Por si necesitáis más ayuda también hay prácticas de otras personas:
+(En Github buscad)
+
+
+- paveltrufi/SD
+- reyeselda/SD
+- msanpe/httpServer-RMI

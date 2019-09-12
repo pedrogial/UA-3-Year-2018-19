@@ -1,0 +1,799 @@
+[  2639.753] (++) Using config file: "/etc/X11/xrdp/xorg.conf"
+[  2639.755] (**) |-->Screen "Screen (xrdpdev)" (0)
+[  2639.756] (**) |   |-->Device "Video Card (xrdpdev)"
+[  2639.756] (**) |-->Input Device "xrdpMouse"
+[  2639.756] (**) |-->Input Device "xrdpKeyboard"
+[  2639.785] (II) LoadModule: "xorgxrdp"
+[  2639.786] (II) Loading /usr/local/lib/xorg/modules/libxorgxrdp.so
+[  2639.820] xorgxrdpSetup:
+[  2639.821] (II) LoadModule: "xrdpdev"
+[  2639.821] (II) Loading /usr/local/lib/xorg/modules/drivers/xrdpdev_drv.so
+[  2639.825] xrdpdevSetup:
+[  2639.826] (II) LoadModule: "xrdpmouse"
+[  2639.826] (II) Loading /usr/local/lib/xorg/modules/input/xrdpmouse_drv.so
+[  2639.828] rdpmousePlug:
+[  2639.828] (II) LoadModule: "xrdpkeyb"
+[  2639.828] (II) Loading /usr/local/lib/xorg/modules/input/xrdpkeyb_drv.so
+[  2639.832] rdpkeybPlug:
+[  2639.832] rdpIdentify:
+[  2639.832] (II) XRDPDEV: driver for xrdp: XRDPDEV
+[  2639.832] rdpDriverFunc: op 10
+[  2639.832] rdpProbe:
+[  2639.832] rdpPreInit:
+[  2639.832] rdpScreenInit: virtualX 800 virtualY 600 rgbBits 8 depth 24
+[  2639.832] rdpScreenInit: pfbMemory bytes 1920000
+[  2639.832] rdpScreenInit: pfbMemory 0x807200000
+[  2639.832] rdpSimdInit: assigning yuv functions
+[  2639.832] rdpSimdInit: cpuid ax 1 cx 0 return ax 0x000306c3 bx 0x00030800 cx 0x5eda2203 dx 0x178bfbff
+[  2639.832] rdpSimdInit: sse2 amd64 yuv functions assigned
+[  2639.832] rdpXvInit: depth 24
+[  2639.833] rdpClientConInit: kill disconnected [0] timeout [0] sec
+[  2639.833] rdpScreenInit: out
+[  2639.944] (II) Using input driver 'XRDPMOUSE' for 'xrdpMouse'
+[  2639.944] (**) xrdpMouse: always reports core events
+[  2639.944] rdpmousePreInit: drv 0x803c1d1c0 info 0x80da89d20, flags 0x0
+[  2639.944] (II) XINPUT: Adding extended input device "xrdpMouse" (type: Mouse, id 6)
+[  2639.944] rdpmouseControl: what 0
+[  2639.944] rdpmouseDeviceInit:
+[  2639.944] rdpmouseCtrl:
+[  2639.944] rdpRegisterInputCallback: type 1 proc 0x806d7fd20
+[  2639.944] (**) xrdpMouse: (accel) keeping acceleration scheme 1
+[  2639.944] (**) xrdpMouse: (accel) acceleration profile 0
+[  2639.944] (**) xrdpMouse: (accel) acceleration factor: 2.000
+[  2639.944] (**) xrdpMouse: (accel) acceleration threshold: 4
+[  2639.944] rdpmouseControl: what 1
+[  2639.944] rdpmouseDeviceOn:
+[  2639.944] (II) Using input driver 'XRDPKEYB' for 'xrdpKeyboard'
+[  2639.944] (**) xrdpKeyboard: always reports core events
+[  2639.944] rdpkeybPreInit: drv 0x803c1d240 info 0x80da89e60, flags 0x0
+[  2639.944] (II) XINPUT: Adding extended input device "xrdpKeyboard" (type: Keyboard, id 7)
+[  2639.944] rdpkeybControl: what 0
+[  2639.944] rdpkeybDeviceInit:
+[  2639.962] rdpkeybChangeKeyboardControl:
+[  2639.962] rdpkeybChangeKeyboardControl: autoRepeat on
+[  2639.962] rdpRegisterInputCallback: type 0 proc 0x806f821c0
+[  2639.962] rdpkeybControl: what 1
+[  2639.962] rdpkeybDeviceOn:
+[  2639.962] rdpSaveScreen:
+[  2639.962] rdpDeferredRandR:
+[  2639.962] rdpResizeSession: width 1024 height 768
+[  2639.962] rdpRRScreenSetSize: width 1024 height 768 mmWidth 271 mmHeight 203
+[  2639.962] rdpRRGetInfo:
+[  2639.963] rdpResizeSession: width 1920 height 1080
+[  2639.963] rdpRRScreenSetSize: width 1920 height 1080 mmWidth 508 mmHeight 286
+[  2639.963] rdpRRGetInfo:
+[  2640.067] rdpInDeferredUpdateCallback:
+[  2640.067] rdpkeybChangeKeyboardControl:
+[  2640.067] rdpkeybChangeKeyboardControl: autoRepeat off
+[  2640.303] rdpClientConGotConnection:
+[  2640.303] rdpClientConGotConnection: g_sck_accept ok new_sck 10
+[  2640.303] rdpAddClientConToDev: adding first clientCon 0x80dce0500
+[  2640.304] rdpClientConProcessMsgVersion: version 0 0 0 1
+[  2640.304] rdpClientConProcessScreenSizeMsg: set width 1920 height 1080 bpp 32
+[  2640.304] rdpClientConProcessScreenSizeMsg: shmemid 196612 shmemptr 0x80e600000
+[  2640.304] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1920 cy 1080
+[  2657.178] rdpClientConProcessMsgClientInfo:
+[  2657.179] rdpRRSetRdpOutputs: numCrtcs 0 monitorCount 0
+[  2657.179] rdpRRSetRdpOutputs: add output 0 left 0 top 0 width 1920 height 1080
+[  2657.179] rdpLoadLayout: keylayout 0x0000040a variant  display 10
+[  2657.234] rdpkeybChangeKeyboardControl:
+[  2657.234] rdpkeybChangeKeyboardControl: autoRepeat on
+[  2657.235] rdpkeybChangeKeyboardControl:
+[  2657.235] rdpkeybChangeKeyboardControl: autoRepeat on
+[  2657.339] rdpInDeferredUpdateCallback:
+[  2657.339] rdpkeybChangeKeyboardControl:
+[  2657.339] rdpkeybChangeKeyboardControl: autoRepeat off
+[  2657.339] rdpkeybChangeKeyboardControl:
+[  2657.339] rdpkeybChangeKeyboardControl: autoRepeat off
+[  2667.881] rdpRRGetInfo:
+[  2667.927] rdpkeybChangeKeyboardControl:
+[  2667.927] rdpkeybChangeKeyboardControl: autoRepeat on
+[  2667.927] rdpkeybChangeKeyboardControl:
+[  2667.927] rdpkeybChangeKeyboardControl: autoRepeat on
+[  2667.928] rdpkeybChangeKeyboardControl:
+[  2667.928] rdpkeybChangeKeyboardControl: autoRepeat on
+[  2667.928] rdpkeybChangeKeyboardControl:
+[  2667.928] rdpkeybChangeKeyboardControl: autoRepeat on
+[  2667.932] rdpkeybChangeKeyboardControl:
+[  2667.932] rdpkeybChangeKeyboardControl: autoRepeat on
+[  2667.932] rdpkeybChangeKeyboardControl:
+[  2667.932] rdpkeybChangeKeyboardControl: autoRepeat on
+[  2668.050] rdpInDeferredUpdateCallback:
+[  2668.050] rdpkeybChangeKeyboardControl:
+[  2668.050] rdpkeybChangeKeyboardControl: autoRepeat off
+[  2668.050] rdpkeybChangeKeyboardControl:
+[  2668.050] rdpkeybChangeKeyboardControl: autoRepeat off
+[  2686.630] rdpmouseControl: what 2
+[  2686.630] rdpmouseDeviceOff:
+[  2686.630] rdpkeybControl: what 2
+[  2686.630] rdpkeybDeviceOff:
+[  2686.630] rdpkeybControl: what 3
+[  2686.630] rdpkeybUnInit: drv 0x803c1d240 info 0x80da89e60, flags 0x0
+[  2686.630] rdpUnregisterInputCallback: proc 0x806f821c0
+[  2686.630] rdpmouseControl: what 3
+[  2686.630] rdpmouseUnInit: drv 0x803c1d1c0 info 0x80da89d20, flags 0x0
+[  2686.630] rdpUnregisterInputCallback: proc 0x806d7fd20
+[  2686.635] rdpCloseScreen:
+[  2686.635] xorgxrdpDownDown:
+[  2686.635] xorgxrdpDownDown: 1
+[  2686.635] rdpClientConDeinit:
+[  2686.635] rdpClientConDeinit: disconnecting clientCon
+[  2686.635] rdpClientConDisconnect:
+[  2686.635] rdpRemoveClientConFromDev: removing clientCon 0x80dce0500
+[  2686.635] rdpClientConDeinit: deleting file /tmp/.xrdp/xrdp_display_10
+[  2686.635] rdpClientConDeinit: deleting file /tmp/.xrdp/xrdp_disconnect_display_10
+Nov 27 16:40:28 Pedro xrdp[1244]: (1244)(34399674368)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Nov 27 16:40:28 Pedro xrdp[1244]: (1244)(34399674368)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Nov 27 16:41:08 Pedro xrdp[1245]: (1245)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 16:41:08 Pedro xrdp[1246]: (1246)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 16:41:08 Pedro xrdp[1246]: (1246)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 16:41:08 Pedro xrdp[1246]: (1246)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 16:41:09 Pedro xrdp[1246]: (1246)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 16:41:10 Pedro xrdp[1245]: (1245)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 16:41:10 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 16:41:10 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 16:41:10 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 16:41:10 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] xrdp_000004df_wm_login_mode_event_00000001
+Nov 27 16:41:24 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 16:41:28 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 27957)
+Nov 27 16:41:32 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 37452)
+Nov 27 16:41:36 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 20733)
+Nov 27 16:41:41 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 17915)
+Nov 27 16:41:41 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 16:41:41 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 16:41:45 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 53631)
+Nov 27 16:41:49 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 22618)
+Nov 27 16:41:53 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 22676)
+Nov 27 16:41:57 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 40679)
+Nov 27 16:41:57 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 16:41:57 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 16:41:57 Pedro xrdp[1247]: (1247)(34399674368)[DEBUG] xrdp_mm_module_cleanup
+Nov 27 16:41:58 Pedro xrdp[1245]: (1245)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 16:41:58 Pedro xrdp[1248]: (1248)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 16:41:58 Pedro xrdp[1248]: (1248)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 16:41:58 Pedro xrdp[1248]: (1248)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 16:41:58 Pedro xrdp[1248]: (1248)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 16:42:06 Pedro xrdp[1245]: (1245)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 16:42:06 Pedro xrdp[1249]: (1249)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 16:42:06 Pedro xrdp[1249]: (1249)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 16:42:06 Pedro xrdp[1249]: (1249)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 16:42:06 Pedro xrdp[1249]: (1249)(34399674368)[DEBUG] xrdp_000004e1_wm_login_mode_event_00000001
+Nov 27 16:42:41 Pedro xrdp[1249]: (1249)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 16:42:45 Pedro xrdp[1249]: (1249)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 26927)
+Nov 27 16:42:49 Pedro xrdp[1249]: (1249)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 15053)
+Nov 27 16:42:53 Pedro xrdp[1249]: (1249)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 58781)
+Nov 27 16:42:57 Pedro xrdp[1249]: (1249)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 28365)
+Nov 27 16:42:57 Pedro xrdp[1249]: (1249)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 16:42:57 Pedro xrdp[1249]: (1249)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 16:42:57 Pedro xrdp[1249]: (1249)(34399674368)[DEBUG] xrdp_mm_module_cleanup
+Nov 27 16:53:05 Pedro xrdp[1245]: (1245)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 16:53:05 Pedro xrdp[1297]: (1297)(34399674368)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Nov 27 16:53:05 Pedro xrdp[1297]: (1297)(34399674368)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Nov 27 16:53:24 Pedro xrdp[1298]: (1298)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 16:53:24 Pedro xrdp[1299]: (1299)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 16:53:24 Pedro xrdp[1299]: (1299)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 16:53:24 Pedro xrdp[1299]: (1299)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 16:53:24 Pedro xrdp[1299]: (1299)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 16:53:28 Pedro xrdp[1298]: (1298)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 16:53:28 Pedro xrdp[1300]: (1300)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 16:53:28 Pedro xrdp[1300]: (1300)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 16:53:28 Pedro xrdp[1300]: (1300)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 16:53:28 Pedro xrdp[1300]: (1300)(34399674368)[DEBUG] xrdp_00000514_wm_login_mode_event_00000001
+Nov 27 16:53:43 Pedro xrdp[1300]: (1300)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 16:53:47 Pedro xrdp[1300]: (1300)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 58408)
+Nov 27 16:53:51 Pedro xrdp[1300]: (1300)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 40661)
+Nov 27 16:53:55 Pedro xrdp[1300]: (1300)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 14750)
+Nov 27 16:54:00 Pedro xrdp[1300]: (1300)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 15747)
+Nov 27 16:54:00 Pedro xrdp[1300]: (1300)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:06:21 Pedro xrdp[1298]: (1298)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:06:21 Pedro xrdp[1349]: (1349)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:06:21 Pedro xrdp[1349]: (1349)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:06:21 Pedro xrdp[1349]: (1349)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:06:21 Pedro xrdp[1349]: (1349)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:06:23 Pedro xrdp[1298]: (1298)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:06:23 Pedro xrdp[1350]: (1350)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:06:23 Pedro xrdp[1350]: (1350)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:06:23 Pedro xrdp[1350]: (1350)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:06:23 Pedro xrdp[1350]: (1350)(34399674368)[DEBUG] xrdp_00000546_wm_login_mode_event_00000001
+Nov 27 17:07:00 Pedro xrdp[1350]: (1350)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 17:07:04 Pedro xrdp[1350]: (1350)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 38073)
+Nov 27 17:07:08 Pedro xrdp[1350]: (1350)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 19357)
+Nov 27 17:07:12 Pedro xrdp[1350]: (1350)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 57248)
+Nov 27 17:07:16 Pedro xrdp[1350]: (1350)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 63057)
+Nov 27 17:07:16 Pedro xrdp[1350]: (1350)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:07:31 Pedro xrdp[1350]: (1350)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:07:31 Pedro xrdp[1350]: (1350)(34399674368)[DEBUG] xrdp_mm_module_cleanup
+Nov 27 17:16:30 Pedro xrdp[1298]: (1298)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:16:30 Pedro xrdp[1300]: (1300)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:16:30 Pedro xrdp[1300]: (1300)(34399674368)[DEBUG] xrdp_mm_module_cleanup
+Nov 27 17:16:30 Pedro xrdp[1399]: (1399)(34399674368)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Nov 27 17:16:30 Pedro xrdp[1399]: (1399)(34399674368)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Nov 27 17:16:42 Pedro xrdp[1400]: (1400)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:16:42 Pedro xrdp[1401]: (1401)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:16:42 Pedro xrdp[1401]: (1401)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:16:42 Pedro xrdp[1401]: (1401)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:16:42 Pedro xrdp[1401]: (1401)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:16:43 Pedro xrdp[1400]: (1400)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:16:43 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:16:43 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:16:43 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:16:43 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] xrdp_0000057a_wm_login_mode_event_00000001
+Nov 27 17:17:04 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 17:17:08 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 24145)
+Nov 27 17:17:12 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 48335)
+Nov 27 17:17:16 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 44424)
+Nov 27 17:17:20 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 58302)
+Nov 27 17:17:20 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:17:20 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 17:17:24 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 26723)
+Nov 27 17:17:29 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 25777)
+Nov 27 17:17:33 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 10499)
+Nov 27 17:17:37 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 35598)
+Nov 27 17:17:37 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:17:37 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:17:37 Pedro xrdp[1402]: (1402)(34399674368)[DEBUG] xrdp_mm_module_cleanup
+Nov 27 17:20:45 Pedro xrdp[1400]: (1400)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:20:45 Pedro xrdp[1422]: (1422)(34399674368)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Nov 27 17:20:45 Pedro xrdp[1422]: (1422)(34399674368)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Nov 27 17:21:17 Pedro xrdp[1423]: (1423)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:21:17 Pedro xrdp[1424]: (1424)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:21:17 Pedro xrdp[1424]: (1424)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:21:17 Pedro xrdp[1424]: (1424)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:21:17 Pedro xrdp[1424]: (1424)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:21:19 Pedro xrdp[1423]: (1423)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:21:19 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:21:19 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:21:19 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:21:19 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] xrdp_00000591_wm_login_mode_event_00000001
+Nov 27 17:21:37 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 17:21:42 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 22945)
+Nov 27 17:21:46 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 20310)
+Nov 27 17:21:50 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 23119)
+Nov 27 17:21:54 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 24225)
+Nov 27 17:21:54 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:21:54 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 17:21:58 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 22153)
+Nov 27 17:22:02 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 14449)
+Nov 27 17:22:07 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 54133)
+Nov 27 17:22:11 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 14753)
+Nov 27 17:22:11 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:22:37 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 17:22:41 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 29603)
+Nov 27 17:22:45 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 52397)
+Nov 27 17:22:49 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 54822)
+Nov 27 17:22:53 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 30360)
+Nov 27 17:22:53 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:22:53 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 17:22:57 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 43930)
+Nov 27 17:23:02 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 49589)
+Nov 27 17:23:06 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 53749)
+Nov 27 17:23:10 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 19693)
+Nov 27 17:23:10 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:23:10 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 17:23:14 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 49201)
+Nov 27 17:23:18 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 34484)
+Nov 27 17:23:22 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 43485)
+Nov 27 17:23:27 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 16982)
+Nov 27 17:23:27 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:23:27 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:23:27 Pedro xrdp[1425]: (1425)(34399674368)[DEBUG] xrdp_mm_module_cleanup
+Nov 27 17:23:34 Pedro xrdp[1423]: (1423)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:23:34 Pedro xrdp[1452]: (1452)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:23:34 Pedro xrdp[1452]: (1452)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:23:34 Pedro xrdp[1452]: (1452)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:23:34 Pedro xrdp[1452]: (1452)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:23:42 Pedro xrdp[1423]: (1423)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:23:42 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:23:42 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:23:42 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:23:42 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_000005af_wm_login_mode_event_00000001
+Nov 27 17:23:51 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC started connecting
+Nov 27 17:23:51 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC connecting to 127.0.0.1 5900
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error 1 after security negotiation
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before sending share flag
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before receiving server init
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before receiving pixel format
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before receiving name length
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before receiving name
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC error - problem connecting
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 49240)
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_wm_log_msg: some problem
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_mm_module_cleanup
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC mod_exit
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC started connecting
+Nov 27 17:23:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC connecting to 127.0.0.1 5900
+Nov 27 17:23:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error 1 after security negotiation
+Nov 27 17:23:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before sending share flag
+Nov 27 17:23:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before receiving server init
+Nov 27 17:23:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before receiving pixel format
+Nov 27 17:23:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before receiving name length
+Nov 27 17:23:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before receiving name
+Nov 27 17:23:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC error - problem connecting
+Nov 27 17:23:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 64902)
+Nov 27 17:23:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_wm_log_msg: some problem
+Nov 27 17:23:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_mm_module_cleanup
+Nov 27 17:23:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC mod_exit
+Nov 27 17:23:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:24:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC started connecting
+Nov 27 17:24:54 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC connecting to 192.168.56.105 5901
+Nov 27 17:24:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error 1 after security negotiation
+Nov 27 17:24:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before sending share flag
+Nov 27 17:24:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before receiving server init
+Nov 27 17:24:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before receiving pixel format
+Nov 27 17:24:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before receiving name length
+Nov 27 17:24:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC error before receiving name
+Nov 27 17:24:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC error - problem connecting
+Nov 27 17:24:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::ffff:192.168.56.105 port 54886)
+Nov 27 17:24:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_wm_log_msg: some problem
+Nov 27 17:24:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_mm_module_cleanup
+Nov 27 17:24:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] VNC mod_exit
+Nov 27 17:24:57 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:25:31 Pedro xrdp[1423]: (1423)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:25:31 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:25:31 Pedro xrdp[1455]: (1455)(34399674368)[DEBUG] xrdp_mm_module_cleanup
+Nov 27 17:25:31 Pedro xrdp[1602]: (1602)(34399674368)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Nov 27 17:25:31 Pedro xrdp[1602]: (1602)(34399674368)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Nov 27 17:25:35 Pedro xrdp[1603]: (1603)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:25:35 Pedro xrdp[1604]: (1604)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:25:35 Pedro xrdp[1604]: (1604)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:25:35 Pedro xrdp[1604]: (1604)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:25:35 Pedro xrdp[1604]: (1604)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:25:36 Pedro xrdp[1603]: (1603)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:25:36 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:25:36 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:25:36 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:25:36 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_00000645_wm_login_mode_event_00000001
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC started connecting
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC connecting to 192.168.56.105 5901
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC tcp connected
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC security level is 2 (1 = none, 2 = standard)
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC password ok
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC sending share flag
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC receiving server init
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC receiving pixel format
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC receiving name length
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC receiving name
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC sending pixel format
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC sending encodings
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC sending framebuffer update request
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC sending cursor
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: VNC connection complete, connected ok
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] The allow channel list now initialized for this session
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_wm_log_msg: connected ok
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] return value from xrdp_mm_connect 0
+Nov 27 17:25:58 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] CLIPRDR_FORMAT_ANNOUNCE - status 0 length 144
+Nov 27 17:26:57 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:26:57 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] xrdp_mm_module_cleanup
+Nov 27 17:26:57 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] VNC mod_exit
+Nov 27 17:26:57 Pedro xrdp[1605]: (1605)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::ffff:192.168.56.105 port 39062)
+Nov 27 17:26:59 Pedro xrdp[1603]: (1603)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:26:59 Pedro xrdp[1608]: (1608)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:26:59 Pedro xrdp[1608]: (1608)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:26:59 Pedro xrdp[1608]: (1608)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:26:59 Pedro xrdp[1608]: (1608)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:27:00 Pedro xrdp[1603]: (1603)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:27:00 Pedro xrdp[1609]: (1609)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:27:00 Pedro xrdp[1609]: (1609)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:27:00 Pedro xrdp[1609]: (1609)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:27:00 Pedro xrdp[1609]: (1609)(34399674368)[DEBUG] xrdp_00000649_wm_login_mode_event_00000001
+Nov 27 17:27:17 Pedro xrdp[1609]: (1609)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 17:27:21 Pedro xrdp[1609]: (1609)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 29976)
+Nov 27 17:27:25 Pedro xrdp[1609]: (1609)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 21360)
+Nov 27 17:27:29 Pedro xrdp[1609]: (1609)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 62304)
+Nov 27 17:27:33 Pedro xrdp[1609]: (1609)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 27929)
+Nov 27 17:27:33 Pedro xrdp[1609]: (1609)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:27:36 Pedro xrdp[1609]: (1609)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:27:36 Pedro xrdp[1609]: (1609)(34399674368)[DEBUG] xrdp_mm_module_cleanup
+Nov 27 17:27:41 Pedro xrdp[1603]: (1603)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:27:41 Pedro xrdp[1610]: (1610)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:27:41 Pedro xrdp[1610]: (1610)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:27:41 Pedro xrdp[1610]: (1610)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:27:41 Pedro xrdp[1610]: (1610)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:27:42 Pedro xrdp[1603]: (1603)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:27:42 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Nov 27 17:27:42 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] TLSv1.2 enabled
+Nov 27 17:27:42 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] Security layer: requested 11, selected 1
+Nov 27 17:27:43 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] xrdp_0000064b_wm_login_mode_event_00000001
+Nov 27 17:27:50 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 17:27:54 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 38990)
+Nov 27 17:27:59 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 44332)
+Nov 27 17:28:03 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 55983)
+Nov 27 17:28:07 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 45228)
+Nov 27 17:28:07 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:28:07 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Nov 27 17:28:11 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 64539)
+Nov 27 17:28:15 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 29823)
+Nov 27 17:28:19 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 40610)
+Nov 27 17:28:23 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 10341)
+Nov 27 17:28:23 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] return value from xrdp_mm_connect 1
+Nov 27 17:28:23 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Nov 27 17:28:23 Pedro xrdp[1611]: (1611)(34399674368)[DEBUG] xrdp_mm_module_cleanup
+Nov 27 17:45:24 Pedro xrdp-sesman[684]: (684)(34393382912)[DEBUG] libscp initialized
+Nov 27 17:45:24 Pedro xrdp-sesman[684]: (684)(34393382912)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Nov 27 17:45:24 Pedro xrdp-sesman[684]: (684)(34393382912)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Nov 27 17:45:24 Pedro xrdp[689]: (689)(34399674368)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Nov 27 17:45:24 Pedro xrdp[689]: (689)(34399674368)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  1 16:28:19 Pedro xrdp-sesman[728]: (728)(34393382912)[DEBUG] libscp initialized
+Dec  1 16:28:19 Pedro xrdp-sesman[728]: (728)(34393382912)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  1 16:28:19 Pedro xrdp-sesman[728]: (728)(34393382912)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  1 16:28:20 Pedro xrdp[735]: (735)(34399674368)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  1 16:28:20 Pedro xrdp[735]: (735)(34399674368)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  1 18:27:29 Pedro xrdp-sesman[724]: (724)(34393382912)[DEBUG] libscp initialized
+Dec  1 18:27:29 Pedro xrdp-sesman[724]: (724)(34393382912)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  1 18:27:29 Pedro xrdp-sesman[724]: (724)(34393382912)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  1 18:27:29 Pedro xrdp[729]: (729)(34399674368)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  1 18:27:29 Pedro xrdp[729]: (729)(34399674368)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  1 18:49:21 Pedro xrdp-sesman[716]: (716)(34393382912)[DEBUG] libscp initialized
+Dec  1 18:49:21 Pedro xrdp-sesman[716]: (716)(34393382912)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  1 18:49:21 Pedro xrdp-sesman[716]: (716)(34393382912)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  1 18:49:22 Pedro xrdp[723]: (723)(34399674368)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  1 18:49:22 Pedro xrdp[723]: (723)(34399674368)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  2 15:22:48 Pedro xrdp-sesman[722]: (722)(34393382912)[DEBUG] libscp initialized
+Dec  2 15:22:49 Pedro xrdp-sesman[722]: (722)(34393382912)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  2 15:22:49 Pedro xrdp-sesman[722]: (722)(34393382912)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  2 15:22:52 Pedro xrdp[729]: (729)(34399674368)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  2 15:22:52 Pedro xrdp[729]: (729)(34399674368)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  2 15:28:02 Pedro xrdp-sesman[683]: (683)(34393391104)[DEBUG] libscp initialized
+Dec  2 15:28:02 Pedro xrdp-sesman[683]: (683)(34393391104)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  2 15:28:02 Pedro xrdp-sesman[683]: (683)(34393391104)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  2 15:28:02 Pedro xrdp[688]: (688)(34399682560)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  2 15:28:02 Pedro xrdp[688]: (688)(34399682560)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  2 16:53:09 Pedro xrdp-sesman[726]: (726)(34393391104)[DEBUG] libscp initialized
+Dec  2 16:53:09 Pedro xrdp-sesman[726]: (726)(34393391104)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  2 16:53:09 Pedro xrdp-sesman[726]: (726)(34393391104)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  2 16:53:09 Pedro xrdp[731]: (731)(34399682560)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  2 16:53:09 Pedro xrdp[731]: (731)(34399682560)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Dec  3 14:02:32 Pedro xrdp-sesman[703]: (703)(34393391104)[DEBUG] libscp initialized
+Dec  3 14:02:32 Pedro xrdp-sesman[703]: (703)(34393391104)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  3 14:02:32 Pedro xrdp-sesman[703]: (703)(34393391104)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  3 14:02:32 Pedro xrdp[708]: (708)(34399682560)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  3 14:02:32 Pedro xrdp[708]: (708)(34399682560)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  3 15:29:20 Pedro xrdp-sesman[709]: (709)(34393391104)[DEBUG] libscp initialized
+Dec  3 15:29:20 Pedro xrdp-sesman[709]: (709)(34393391104)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  3 15:29:20 Pedro xrdp-sesman[709]: (709)(34393391104)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  3 15:29:20 Pedro xrdp[714]: (714)(34399682560)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  3 15:29:20 Pedro xrdp[714]: (714)(34399682560)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  3 16:21:27 Pedro xrdp-sesman[701]: (701)(34393391104)[DEBUG] libscp initialized
+Dec  3 16:21:27 Pedro xrdp-sesman[701]: (701)(34393391104)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  3 16:21:27 Pedro xrdp-sesman[701]: (701)(34393391104)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  3 16:21:27 Pedro xrdp[706]: (706)(34399682560)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  3 16:21:27 Pedro xrdp[706]: (706)(34399682560)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  3 17:04:36 Pedro xrdp[707]: (707)(34399682560)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Dec  3 17:04:36 Pedro xrdp[1465]: (1465)(34399682560)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  3 17:04:36 Pedro xrdp[1465]: (1465)(34399682560)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  3 17:05:00 Pedro xrdp[1466]: (1466)(34399682560)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Dec  3 17:05:00 Pedro xrdp[1469]: (1469)(34399682560)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Dec  3 17:05:00 Pedro xrdp[1469]: (1469)(34399682560)[DEBUG] TLSv1.2 enabled
+Dec  3 17:05:00 Pedro xrdp[1469]: (1469)(34399682560)[DEBUG] Security layer: requested 11, selected 1
+Dec  3 17:05:01 Pedro xrdp[1469]: (1469)(34399682560)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Dec  3 17:05:04 Pedro xrdp[1466]: (1466)(34399682560)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Dec  3 17:05:04 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+Dec  3 17:05:04 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] TLSv1.2 enabled
+Dec  3 17:05:04 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] Security layer: requested 11, selected 1
+Dec  3 17:05:04 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] xrdp_000005be_wm_login_mode_event_00000001
+Dec  3 17:05:19 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+Dec  3 17:05:20 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+Dec  3 17:05:20 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] return value from xrdp_mm_connect 0
+Dec  3 17:05:20 Pedro xrdp-sesman[704]: (704)(34393391104)[DEBUG] Closed socket 9 (AF_INET6 :: port 5910)
+Dec  3 17:05:20 Pedro xrdp-sesman[704]: (704)(34393391104)[DEBUG] Closed socket 9 (AF_INET6 :: port 6010)
+Dec  3 17:05:20 Pedro xrdp-sesman[704]: (704)(34393391104)[DEBUG] Closed socket 9 (AF_INET6 :: port 6210)
+Dec  3 17:05:20 Pedro xrdp-sesman[704]: (704)(34393391104)[DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+Dec  3 17:05:20 Pedro xrdp-sesman[1471]: (1471)(34393391104)[DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+Dec  3 17:05:20 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] xrdp_wm_log_msg: started connecting
+Dec  3 17:05:20 Pedro xrdp-sesman[1471]: (1471)(34393391104)[DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+Dec  3 17:05:21 Pedro xrdp-sesman[1473]: (1473)(34393391104)[DEBUG] errno: 2, description: No such file or directory
+Dec  3 17:05:21 Pedro xrdp-sesman[1473]: (1473)(34393391104)[DEBUG] execlp3 parameter list:
+Dec  3 17:05:21 Pedro xrdp-sesman[1473]: (1473)(34393391104)[DEBUG]         argv[0] = startwm.sh
+Dec  3 17:05:21 Pedro xrdp-sesman[1473]: (1473)(34393391104)[DEBUG]         argv[1] = startwm.sh
+Dec  3 17:05:21 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] xrdp_wm_log_msg: connected ok
+Dec  3 17:05:25 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] Closed socket 20 (AF_UNIX)
+Dec  3 17:05:38 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] Closed socket 18 (AF_INET6 ::1 port 54196)
+Dec  3 17:06:07 Pedro xrdp-sesman[1472]: (1472)(34393391104)[DEBUG] cleanup_sockets:
+Dec  3 17:06:07 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.56.105 port 3389)
+Dec  3 17:06:07 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] xrdp_mm_module_cleanup
+Dec  3 17:06:07 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] Closed socket 19 (AF_UNIX)
+Dec  3 17:06:07 Pedro xrdp[1470]: (1470)(34399682560)[DEBUG] Closed socket 20 (AF_UNIX)
+Dec  4 10:51:11 Pedro xrdp-sesman[736]: (736)(34393391104)[DEBUG] libscp initialized
+Dec  4 10:51:12 Pedro xrdp-sesman[736]: (736)(34393391104)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  4 10:51:12 Pedro xrdp-sesman[736]: (736)(34393391104)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  4 10:51:16 Pedro xrdp[743]: (743)(34399682560)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  4 10:51:16 Pedro xrdp[743]: (743)(34399682560)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  4 13:06:06 Pedro xrdp-sesman[730]: (730)(34393391104)[DEBUG] libscp initialized
+Dec  4 13:06:06 Pedro xrdp-sesman[730]: (730)(34393391104)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  4 13:06:06 Pedro xrdp-sesman[730]: (730)(34393391104)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  4 13:06:06 Pedro xrdp[735]: (735)(34399682560)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  4 13:06:06 Pedro xrdp[735]: (735)(34399682560)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  4 14:30:57 Pedro xrdp-sesman[734]: (734)(34393391104)[DEBUG] libscp initialized
+Dec  4 14:30:57 Pedro xrdp-sesman[734]: (734)(34393391104)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  4 14:30:57 Pedro xrdp-sesman[734]: (734)(34393391104)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  4 14:30:58 Pedro xrdp[741]: (741)(34399682560)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  4 14:30:58 Pedro xrdp[741]: (741)(34399682560)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  4 23:05:10 Pedro xrdp-sesman[730]: (730)(34393391104)[DEBUG] libscp initialized
+Dec  4 23:05:10 Pedro xrdp-sesman[730]: (730)(34393391104)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  4 23:05:10 Pedro xrdp-sesman[730]: (730)(34393391104)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  4 23:05:11 Pedro xrdp[737]: (737)(34399682560)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  4 23:05:11 Pedro xrdp[737]: (737)(34399682560)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  4 23:21:59 Pedro xrdp-sesman[711]: (711)(34393391104)[DEBUG] libscp initialized
+Dec  4 23:21:59 Pedro xrdp-sesman[711]: (711)(34393391104)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  4 23:21:59 Pedro xrdp-sesman[711]: (711)(34393391104)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  4 23:21:59 Pedro xrdp[716]: (716)(34399682560)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  4 23:21:59 Pedro xrdp[716]: (716)(34399682560)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  4 23:30:05 Pedro xrdp-sesman[711]: (711)(34393391104)[DEBUG] libscp initialized
+Dec  4 23:30:05 Pedro xrdp-sesman[711]: (711)(34393391104)[DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+Dec  4 23:30:05 Pedro xrdp-sesman[711]: (711)(34393391104)[DEBUG] Closed socket 1 (AF_INET6 ::1 port 3350)
+Dec  4 23:30:05 Pedro xrdp[716]: (716)(34399682560)[DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+Dec  4 23:30:05 Pedro xrdp[716]: (716)(34399682560)[DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+Dec  3 16:21:28 Pedro xrdp-sesman[704]: (704)(34393391104)[WARN ] receiving SIGHUP 1
+Dec  3 17:05:00 Pedro xrdp[1469]: (1469)(34399682560)[WARN ] TLSv1.3 enabled by config, but not supported by system OpenSSL
+Dec  3 17:05:04 Pedro xrdp[1470]: (1470)(34399682560)[WARN ] TLSv1.3 enabled by config, but not supported by system OpenSSL
+Dec  3 17:05:05 Pedro xrdp[1470]: (1470)(34399682560)[WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+Dec  3 17:05:20 Pedro xrdp-sesman[1472]: (1472)(34393391104)[CORE ] waiting for window manager (pid 1473) to exit
+Dec  3 17:05:20 Pedro xrdp-sesman[1473]: (1473)(34393391104)[CORE ] error starting default wm for user Pedro - pid 1473
+Dec  3 17:05:25 Pedro xrdp[1470]: (1470)(34399682560)[ERROR] xrdp_mm_connect_chansrv: connect failed trying again...
+Dec  3 17:05:38 Pedro xrdp[1470]: (1470)(34399682560)[ERROR] xrdp_mm_connect_chansrv: error in trans_connect chan
+Dec  3 17:05:49 Pedro pulseaudio[1517]: [xrdp-sink] module-xrdp-sink.c: sink_process_msg: not running
+Dec  3 17:05:49 Pedro pulseaudio[1517]: [xrdp-sink] module-xrdp-sink.c: close_send:
+Dec  3 17:06:07 Pedro xrdp-sesman[1472]: (1472)(34393391104)[CORE ] window manager (pid 1473) did exit, cleaning up session
+Dec  4 10:51:37 Pedro xrdp-sesman[741]: (741)(34393391104)[WARN ] receiving SIGHUP 1
+Dec  4 13:06:07 Pedro xrdp-sesman[733]: (733)(34393391104)[WARN ] receiving SIGHUP 1
+Dec  4 14:31:01 Pedro xrdp-sesman[739]: (739)(34393391104)[WARN ] receiving SIGHUP 1
+Dec  4 23:05:14 Pedro xrdp-sesman[735]: (735)(34393391104)[WARN ] receiving SIGHUP 1
+Dec  4 23:21:59 Pedro xrdp-sesman[714]: (714)(34393391104)[WARN ] receiving SIGHUP 1
+Dec  4 23:30:06 Pedro xrdp-sesman[714]: (714)(34393391104)[WARN ] receiving SIGHUP 1
+[20181127-17:45:24] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181127-17:45:24] [INFO ] starting xrdp-sesman with pid 687
+[20181201-16:28:19] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181201-16:28:20] [INFO ] starting xrdp-sesman with pid 733
+[20181201-18:27:29] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181201-18:27:29] [INFO ] starting xrdp-sesman with pid 727
+[20181201-18:49:21] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181201-18:49:21] [INFO ] starting xrdp-sesman with pid 721
+[20181202-15:22:49] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181202-15:22:49] [INFO ] starting xrdp-sesman with pid 727
+[20181202-15:28:02] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181202-15:28:02] [INFO ] starting xrdp-sesman with pid 686
+[20181202-16:53:09] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181202-16:53:09] [INFO ] starting xrdp-sesman with pid 729
+[20181202-17:21:00] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181202-17:21:00] [INFO ] starting xrdp-sesman with pid 721
+[20181203-14:02:32] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181203-14:02:32] [INFO ] starting xrdp-sesman with pid 706
+[20181203-15:29:20] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181203-15:29:20] [INFO ] starting xrdp-sesman with pid 712
+[20181203-16:21:27] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181203-16:21:27] [INFO ] starting xrdp-sesman with pid 704
+[20181203-17:05:20] [INFO ] Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp  
+[20181204-10:51:12] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181204-10:51:12] [INFO ] starting xrdp-sesman with pid 741
+[20181204-13:06:06] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181204-13:06:06] [INFO ] starting xrdp-sesman with pid 733
+[20181204-14:30:57] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181204-14:30:57] [INFO ] starting xrdp-sesman with pid 739
+[20181204-23:05:10] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181204-23:05:10] [INFO ] starting xrdp-sesman with pid 735
+[20181204-23:21:59] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181204-23:21:59] [INFO ] starting xrdp-sesman with pid 714
+[20181204-23:30:05] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20181204-23:30:05] [INFO ] starting xrdp-sesman with pid 714
+[20181127-16:40:28] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181127-16:40:30] [INFO ] starting xrdp with pid 1245
+[20181127-16:41:08] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-16:41:08] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-16:41:10] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-16:41:10] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-16:41:10] [DEBUG] xrdp_000004df_wm_login_mode_event_00000001
+[20181127-16:41:10] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20181127-16:41:24] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-16:41:41] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-16:41:41] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-16:41:41] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-16:41:57] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-16:41:57] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-16:41:57] [DEBUG] xrdp_mm_module_cleanup
+[20181127-16:41:58] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-16:41:58] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-16:42:06] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-16:42:06] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-16:42:06] [DEBUG] xrdp_000004e1_wm_login_mode_event_00000001
+[20181127-16:42:06] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20181127-16:42:41] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-16:42:57] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-16:42:57] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-16:42:57] [DEBUG] xrdp_mm_module_cleanup
+[20181127-16:53:05] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181127-16:53:07] [INFO ] starting xrdp with pid 1298
+[20181127-16:53:24] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-16:53:24] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-16:53:28] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-16:53:28] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-16:53:28] [DEBUG] xrdp_00000514_wm_login_mode_event_00000001
+[20181127-16:53:28] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20181127-16:53:43] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-16:54:00] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-16:54:00] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:06:21] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:06:21] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:06:23] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:06:23] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:06:23] [DEBUG] xrdp_00000546_wm_login_mode_event_00000001
+[20181127-17:06:23] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20181127-17:07:00] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-17:07:16] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-17:07:16] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:07:31] [DEBUG] xrdp_mm_module_cleanup
+[20181127-17:16:30] [DEBUG] xrdp_mm_module_cleanup
+[20181127-17:16:30] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181127-17:16:32] [INFO ] starting xrdp with pid 1400
+[20181127-17:16:42] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:16:42] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:16:43] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:16:43] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:16:43] [DEBUG] xrdp_0000057a_wm_login_mode_event_00000001
+[20181127-17:16:43] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20181127-17:17:04] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-17:17:20] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-17:17:20] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:17:20] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-17:17:37] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-17:17:37] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:17:37] [DEBUG] xrdp_mm_module_cleanup
+[20181127-17:20:45] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181127-17:20:47] [INFO ] starting xrdp with pid 1423
+[20181127-17:21:17] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:21:17] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:21:19] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:21:19] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:21:19] [DEBUG] xrdp_00000591_wm_login_mode_event_00000001
+[20181127-17:21:19] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20181127-17:21:37] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-17:21:54] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-17:21:54] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:21:54] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-17:22:11] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-17:22:11] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:22:37] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-17:22:53] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-17:22:53] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:22:53] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-17:23:10] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-17:23:10] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:23:10] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-17:23:27] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-17:23:27] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:23:27] [DEBUG] xrdp_mm_module_cleanup
+[20181127-17:23:34] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:23:34] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:23:42] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:23:42] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:23:42] [DEBUG] xrdp_000005af_wm_login_mode_event_00000001
+[20181127-17:23:42] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20181127-17:23:51] [DEBUG] xrdp_wm_log_msg: VNC started connecting
+[20181127-17:23:51] [DEBUG] xrdp_wm_log_msg: VNC connecting to 127.0.0.1 5900
+[20181127-17:23:54] [DEBUG] xrdp_wm_log_msg: VNC error - problem connecting
+[20181127-17:23:54] [DEBUG] xrdp_wm_log_msg: some problem
+[20181127-17:23:54] [ERROR] xrdp_wm_log_msg: Error connecting to: 127.0.0.1
+[20181127-17:23:54] [DEBUG] xrdp_mm_module_cleanup
+[20181127-17:23:54] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:23:54] [DEBUG] xrdp_wm_log_msg: VNC started connecting
+[20181127-17:23:54] [DEBUG] xrdp_wm_log_msg: VNC connecting to 127.0.0.1 5900
+[20181127-17:23:57] [DEBUG] xrdp_wm_log_msg: VNC error - problem connecting
+[20181127-17:23:57] [DEBUG] xrdp_wm_log_msg: some problem
+[20181127-17:23:57] [ERROR] xrdp_wm_log_msg: Error connecting to: 127.0.0.1
+[20181127-17:23:57] [DEBUG] xrdp_mm_module_cleanup
+[20181127-17:23:57] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:24:54] [DEBUG] xrdp_wm_log_msg: VNC started connecting
+[20181127-17:24:54] [DEBUG] xrdp_wm_log_msg: VNC connecting to 192.168.56.105 5901
+[20181127-17:24:57] [DEBUG] xrdp_wm_log_msg: VNC error - problem connecting
+[20181127-17:24:57] [DEBUG] xrdp_wm_log_msg: some problem
+[20181127-17:24:57] [ERROR] xrdp_wm_log_msg: Error connecting to: 192.168.56.105
+[20181127-17:24:57] [DEBUG] xrdp_mm_module_cleanup
+[20181127-17:24:57] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:25:31] [DEBUG] xrdp_mm_module_cleanup
+[20181127-17:25:31] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181127-17:25:33] [INFO ] starting xrdp with pid 1603
+[20181127-17:25:35] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:25:35] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:25:36] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:25:36] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:25:36] [DEBUG] xrdp_00000645_wm_login_mode_event_00000001
+[20181127-17:25:36] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC started connecting
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC connecting to 192.168.56.105 5901
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC tcp connected
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC security level is 2 (1 = none, 2 = standard)
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC password ok
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC sending share flag
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC receiving server init
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC receiving pixel format
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC receiving name length
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC receiving name
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC sending pixel format
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC sending encodings
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC sending framebuffer update request
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC sending cursor
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: VNC connection complete, connected ok
+[20181127-17:25:58] [INFO ] The following channel is allowed: rdpdr (0)
+[20181127-17:25:58] [INFO ] The following channel is allowed: rdpsnd (1)
+[20181127-17:25:58] [DEBUG] xrdp_wm_log_msg: connected ok
+[20181127-17:25:58] [DEBUG] return value from xrdp_mm_connect 0
+[20181127-17:26:57] [DEBUG] xrdp_mm_module_cleanup
+[20181127-17:26:59] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:26:59] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:27:00] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:27:00] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:27:00] [DEBUG] xrdp_00000649_wm_login_mode_event_00000001
+[20181127-17:27:00] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20181127-17:27:17] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-17:27:33] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-17:27:33] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:27:36] [DEBUG] xrdp_mm_module_cleanup
+[20181127-17:27:41] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:27:41] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:27:42] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181127-17:27:42] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181127-17:27:43] [DEBUG] xrdp_0000064b_wm_login_mode_event_00000001
+[20181127-17:27:43] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20181127-17:27:50] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-17:28:07] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-17:28:07] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:28:07] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181127-17:28:23] [ERROR] xrdp_wm_log_msg: Error connecting to sesman: 127.0.0.1 port: 3350
+[20181127-17:28:23] [DEBUG] return value from xrdp_mm_connect 1
+[20181127-17:28:23] [DEBUG] xrdp_mm_module_cleanup
+[20181127-17:45:24] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181127-17:45:26] [INFO ] starting xrdp with pid 690
+[20181201-16:28:20] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181201-16:28:22] [INFO ] starting xrdp with pid 736
+[20181201-18:27:29] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181201-18:27:31] [INFO ] starting xrdp with pid 732
+[20181201-18:49:22] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181201-18:49:24] [INFO ] starting xrdp with pid 724
+[20181202-15:22:52] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181202-15:22:54] [INFO ] starting xrdp with pid 731
+[20181202-15:28:02] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181202-15:28:04] [INFO ] starting xrdp with pid 689
+[20181202-16:53:09] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181202-16:53:11] [INFO ] starting xrdp with pid 732
+[20181202-17:21:00] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181202-17:21:02] [INFO ] starting xrdp with pid 724
+[20181203-14:02:32] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181203-14:02:34] [INFO ] starting xrdp with pid 711
+[20181203-15:29:20] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181203-15:29:22] [INFO ] starting xrdp with pid 717
+[20181203-16:21:27] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181203-16:21:29] [INFO ] starting xrdp with pid 707
+[20181203-17:04:36] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181203-17:04:38] [INFO ] starting xrdp with pid 1466
+[20181203-17:05:00] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181203-17:05:00] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181203-17:05:04] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20181203-17:05:04] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20181203-17:05:04] [DEBUG] xrdp_000005be_wm_login_mode_event_00000001
+[20181203-17:05:05] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20181203-17:05:19] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20181203-17:05:20] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20181203-17:05:20] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20181203-17:05:20] [DEBUG] return value from xrdp_mm_connect 0
+[20181203-17:05:20] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20181203-17:05:20] [DEBUG] xrdp_wm_log_msg: started connecting
+[20181203-17:05:21] [INFO ] lib_mod_log_peer: xrdp_pid=1470 connected to X11rdp_pid=0 X11rdp_uid=8 X11rdp_gid=0 client_ip=::ffff:192.168.56.1 client_port=51508
+[20181203-17:05:21] [DEBUG] xrdp_wm_log_msg: connected ok
+[20181203-17:05:25] [ERROR] xrdp_mm_connect_chansrv: connect failed trying again...
+[20181203-17:05:29] [ERROR] xrdp_mm_connect_chansrv: connect failed trying again...
+[20181203-17:05:33] [ERROR] xrdp_mm_connect_chansrv: connect failed trying again...
+[20181203-17:05:38] [ERROR] xrdp_mm_connect_chansrv: connect failed trying again...
+[20181203-17:05:38] [ERROR] xrdp_mm_connect_chansrv: error in trans_connect chan
+[20181203-17:06:07] [DEBUG] xrdp_mm_module_cleanup
+[20181204-10:51:16] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181204-10:51:18] [INFO ] starting xrdp with pid 745
+[20181204-13:06:06] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181204-13:06:08] [INFO ] starting xrdp with pid 736
+[20181204-14:30:58] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181204-14:31:00] [INFO ] starting xrdp with pid 742
+[20181204-23:05:11] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181204-23:05:13] [INFO ] starting xrdp with pid 738
+[20181204-23:21:59] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181204-23:22:01] [INFO ] starting xrdp with pid 717
+[20181204-23:30:05] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20181204-23:30:07] [INFO ] starting xrdp with pid 717
